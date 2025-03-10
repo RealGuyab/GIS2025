@@ -23,7 +23,7 @@ Basicamente su cerebro analizó el terreno encontrando algunas referencias espac
 
 Entonces se entiende como información espacial a cualquier tipo de informacion que además de darnos datos sobre algo en especifico como los nombres de los pabellones o las clases tienen una ubicacion espacial definida que cualquier persona es capaz de encontrar. A esto se le coonoce como coordenadas.
 
-##¿Qué es una coordenada?
+### ¿Qué es una coordenada?
 
 Las coordenadas son pares de numeros, que pueden estar en multiples formatos, que en resumen nos permiten encontrar algun objeto en la tierra. Cuando enviamos nuestra ubicación por Whastapp o cuando se busca algun sitio en google en resumen lo que queremos consultar 
 son sus coordenadas. 
