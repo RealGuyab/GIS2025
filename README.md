@@ -1,4 +1,4 @@
-# <ins>Qgis Prácticas<ins>
+# <p align="center"><ins>Qgis Prácticas<ins></p>
 
 # Introducción al curso
 
