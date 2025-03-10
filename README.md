@@ -32,7 +32,9 @@ Como les habia comentado una coordenada es un par de numeros toda coordenada vie
 
 ![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png)
 
-<img src=![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png) alt="Imagen centrada" align="center">
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png" alt="Ubicaciuon cato">
+</p>
 
 
 
