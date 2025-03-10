@@ -4,9 +4,10 @@ Respositorio de trabajo para el curso de Sistemas de Información Geográfica de
 ![introduccion a GIS](https://github.com/RealGuyab/Qgis/blob/main/imagenes/geographic-information-system-vector.jpg)
 
 ## ¿Que es un Sistema de información Geográfica?
-Cuando nos referimos a un sistema de informacion geografica hacemos referencia a una serie de elementos que permiten analizar información espacial. Más adelante se detallara cada uno de los elementos.
+Los sistemas de informacion geografica  abreviado SIG o GIS en ingles son una serie de elementos que funcionan en conjunto y permiten analizar información espacial, estudiarla, representarla y generar productos utiles para la sociedad. Todos alguna vez hemos utilizado algun producto cuya fuente principal es algun GIS. El ejemplo mas común es Google street view o el sistema de compartir ubicación de WhatsApp. Todos se representan en un mapa y nos muentran ubicaciones, para poder comprender en mejor medida este termino tenemos primero que definir algunos conceptos que vienen acontinuación.
 
-### ¿Que es ***<ins>INFORMACION ESPACIAL<ins>***?
+
+### ¿Que es ***información espacial***?
 
 Cuando se habla de información espacial estamos hablando de información común y corriente pero que puede ser interpretada con coordenadas o una ubicación en el espacio. Para ilustrar ello nos pondremos en la siguiente situación. 
 Supongan que un coompañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica, lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instruccion como un camino, multiples referencias y luego
