@@ -19,6 +19,10 @@ Basicamente su cerebro analizó el terreno encontrando algunas referencias espac
 
 ![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/ubicacion_cato.png)
 
+Entonces se entiende como información espacial a cualquier tipo de informacion que además de darnos datos sobre algo en especifico como los nombres de los pabellones o las clases tienen una ubicacion espacial definida que cualquier persona es capaz de encontrar. A esto se le coonoce como coordenadas.
+
+
+
 
 
 
