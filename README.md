@@ -6,7 +6,7 @@ Respositorio de trabajo para el curso de Sistemas de Información Geográfica de
 ## ¿Que es un Sistema de información Geográfica?
 Cuando nos referimos a un sistema de informacion geografica hacemos referencia a una serie de elementos que permiten analizar información espacial. Más adelante se detallara cada uno de los elementos.
 
-###¿Que es ***<ins>INFORMACION ESPACIAL<ins>***?
+### ¿Que es ***<ins>INFORMACION ESPACIAL<ins>***?
 
 Cuando se habla de información espacial estamos hablando de información común y corriente pero que puede ser interpretada con coordenadas o una ubicación en el espacio. Para ilustrar ello nos pondremos en la siguiente situación. 
 Supongan que un coompañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica, lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instruccion como un camino, multiples referencias y luego
