@@ -30,7 +30,9 @@ son sus coordenadas.
 El formato más común de coordenadas es grados minutos y segundos. Sin embargo a travez del curso veremos que no es el unico y que existen algunos y analizaremos tambien sus ventajas y desventajas.
 Como les habia comentado una coordenada es un par de numeros toda coordenada viene en pares puesto que analiza la longitud y la latitud respecto de algunas lineas que se trazan en el mundo. No es necesario que comprendan esto aun por que mas adelante abordaremos este tema en mayor profundidad pero si es necesario que tengan siempre en mente que una coordenada son dos numeros y uno es la longitud y el otro la latitud.
 
-<img align="center">![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png)</p>
+![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png)
+
+<img src=(https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png) alt="Imagen centrada" align="center">
 
 
 
