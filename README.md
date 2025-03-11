@@ -37,10 +37,13 @@ El tipo de hardware normalmente depende de lo que querramos lograr pero podemos 
 El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretación y representación de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis, asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesdador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
 Los requisitos anteriormente descritos se dan para poder utilizar la mayoria de procesos en Qgis. Sin embargo, ello no significa que computadoras con criterios más bajos que los indicados no puedan correr el programa. Los requisitos mínimos de Qgis son realmente bajos por lo que cualquier computadora moderna los cumple sin ningún problema. 
 
+![Ejemplo de vuelo de dron](https://github.com/RealGuyab/Qgis/blob/main/imagenes/programacion_vuelo.png)
+
 ## ¿Qué software se utilizan para procesar GIS?
 
 Existen multiples programa que permiten procesas y analizar informacion GIS algunos se encuentran especializados en algunas seccioones como el analisis de imagenes de satelites. Los más conocidos y utilizados a nivel mundial son dos. 
 
+![arcgis vs qgis](https://github.com/RealGuyab/Qgis/blob/main/imagenes/arcgis_qgis.jpg)
 
 ### Arcgis
 Es un programa desarrollado por ESRI empresa pionera en temas de GIS. Arcgis es un programa que funciona mediante una licencia que se compra y que da acceso a todas las potencialidades que el programa ofrece. Existen dos plataformas actualmente vigentes en donde se pude utilizar el producto de ESRI el primero es ARCMAP y todas sus dependencias. Este programa salio en 1999 y actualmente se encuentra en proceso de migracion a la segunda plataforma cabe resaltar que el fin del soporte de este software esta programado para marzo del 2026. 
