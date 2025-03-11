@@ -48,6 +48,10 @@ Es un programa desarrollado por ESRI empresa pionera en temas de GIS. Arcgis es 
 La segunda plataforma es ARCGIS PRO tamien de licencia paga que es una evolución de ARCMAP ofrece una mejor interfaz de trabajo e integracioon mejorada comparada con su antecesor. Para poder utilizar todfos loos compoenentes que ofrecen estos programas existen requisitos más exigentes que puden consultar en la siguiente pagina. Para ARCMAP(https://desktop.arcgis.com/es/system-requirements/latest/arcgis-desktop-system-requirements.htm) y para ArcGIS PRO (https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm).
 
 ### Qgis
+Es una programa de desarrollo abierto lo que significa que no es necesario la compra de ninguna licencias. Tiene potencialidades muy similares al ArcGis manteniendo una interfaz de trabajo muy intuitiva y opciones de edición bastante completas. Cuenta con dos opcines de descarga la version LTR que presenta una mayor estabilidad y la version más actual. Qgis es una plataforma con un crecimiento constante año tras año. Su principal fortaleza es que es un software libre lo que permite expandir sus potencialidades constantemente generando nuevas herramientas de procesamiendo de acuerdo con las necesidades de los usuarios. 
+
+Ambas plataformas permiten un analisis completo de la informacion espacial. Para fines de este curso nos enfocaremos en el Qgis. 
+
 
 
 
