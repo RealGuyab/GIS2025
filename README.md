@@ -33,10 +33,19 @@ Como les habia comentado una coordenada es un par de numeros toda coordenada vie
   <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png" alt="Ubicaciuon cato">
 </p>
 
-## ¿Que harware funciona para el GIS?
+## ¿Que hardware funciona para el GIS?
 
-El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar informacion espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereologicas, satelites en sus multiples tipos, drones, etc. La funcion principal de este tipos de Hardware corresponde a recolectar la mayor cantidad de informacion GPS que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
-El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretacion y representacion de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trbajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis asi de acuerdo con los documentos oficiales los requisitos mínimos 
+El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar información espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereologicas, satelites en sus multiples tipos, drones, etc. La funcion principal de este tipos de Hardware corresponde a recolectar la mayor cantidad de informacion con coordenadas que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
+El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretacion y representacion de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesdador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
+Los requisitos anteiormente descritos se dan para poder utilizar la mayoria de procesos en Qgis. Sin embargo, ello noo significa que computadoras con criterios bajos que los indicados no puedan correr el programa. Los requisitos minimos de Qgis son realmente bajos pr lo que cualqueir computadora moderna los cumple sin ningun problema. 
+
+## ¿?
+
+
+
+
+
+
 
 
 
