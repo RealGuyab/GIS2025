@@ -5,21 +5,21 @@
 ![introduccion a GIS](https://github.com/RealGuyab/Qgis/blob/main/imagenes/geographic-information-system-vector.jpg)
 
 ## ¿Que es un Sistema de información Geográfica?
-Los sistemas de información geográfica abreviado SIG o GIS en inglés son una serie de elementos que funcionan en conjunto y permiten analizar información espacial, estudiarla, representarla y generar productos útiles para la sociedad. Todos alguna vez hemos utilizado algún producto cuya fuente principal es el GIS. El ejemplo más común es Google Street View o el sistema de compartir ubicación de WhatsApp. Estos dos programas funcionan a través de una dispositivo fisico que bien pude ser una computadora o un celular y nos muestran un mapa en donde podemos hacer seguimiento buscar algunas ubicaciones alrededor del mundo. Todo GIS esta compuesto por elementos importantes los que son información espacial (data), plataformas de visualización de datos (Hardware), programas de procesamiento de datos (Software), desarrolladores y usuarios (personas). Para comprender algunos de estos terminos tenemos primero que definir algunos conceptos que vienen acontinuación.
+Los sistemas de información geográfica abreviado SIG o GIS en inglés son una serie de elementos que funcionan en conjunto y permiten analizar información espacial, estudiarla, representarla y generar productos útiles para la sociedad. Todos alguna vez hemos utilizado algún producto cuya fuente principal es el GIS. El ejemplo más común es Google Street View o el sistema de compartir ubicación de WhatsApp. Estos dos programas funcionan a través de una dispositivo fisico que bien pude ser una computadora o un celular y nos muestran un mapa en donde podemos hacer seguimiento buscar algunas ubicaciones alrededor del mundo. Todo GIS esta compuesto por elementos importantes los que son información espacial (data), plataformas de visualización de datos (Hardware), programas de procesamiento de datos (Software), desarrolladores y usuarios (personas). Para comprender algunos de estos terminos tenemos primero que definir algunos conceptos que vienen a continuación.
 
 
 ## ¿Qué es ***información espacial***?
 
 Cuando se habla de información espacial estamos hablando de información común y corriente pero que puede ser interpretada con coordenadas o una ubicación en el espacio. Para ilustrar ello nos pondremos en la siguiente situación. 
-Supongan que un compañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica (GIS), lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instrucciones como un camino, múltiples referencias y luego todas ellas se estructuran y nos dan la ruta más óptima. La respuesta bien podria ser: 
+Supongan que un compañero suyo les pregunta donde queda la clase de Sistemas de Información Geográfica (GIS), lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instrucciones como un camino, múltiples referencias y luego todas ellas se estructuran y nos dan la ruta más óptima. La respuesta bien podria ser: 
 
 "Entra por la ***<ins>puerta de San Juan<ins>***, llega al centro y dirígite a la ***<ins>plaza central<ins>***, voltea a la derecha donde se encuentran unas ***<ins>gradas<ins>*** y camina a la izquierda sigue como yendo a la ***<ins>biblioteca<ins>*** y la ***<ins>clase de GIS es el E105<ins>***" 
 
-Basicamente su cerebro analizó el terreno encontrando algunas referencias espaciales y luego diseño la ruta que se tradujo en instrucciones. Sin embargo, toda esta información no tendria ningun sentido si en primer lugar las ubicaciones a las que hicimos referencia no estuvieran en un lugar en el espacio.
+Básicamente su cerebro analizó el terreno encontrando algunas referencias espaciales y luego diseño la ruta que se tradujo en instrucciones. Sin embargo, toda esta información no tendria ningún sentido si en primer lugar las ubicaciones a las que hicimos referencia no estuvieran en un lugar en el espacio.
 
 ![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/ubicacion_cato.png)
 
-Entonces se entiende como información espacial a cualquier tipo de informacion que además de darnos datos sobre algo en especifico como los nombres de los pabellones o las clases tienen una ubicación en el espacio definida que cualquier persona es capaz de encontrar. A esto se le conocen como coordenadas.
+Entonces se entiende como "información espacial" a cualquier tipo de información que además de darnos datos sobre nombres, áreas, perímetros, etc. guarda al mismo tiempo la ubicación en el espacio del objeto. Misma que cualquier persona es capaz de buscar y encontrar a través de coordenadas. 
 
 ### ¿Qué es una coordenada?
 
