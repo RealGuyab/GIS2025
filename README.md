@@ -44,9 +44,11 @@ Los requisitos anteriormente descritos se dan para poder utilizar la mayoria de 
 ## ¿Qué software se utilizan para procesar GIS?
 
 Existen multiples programa que permiten procesas y analizar informacion GIS algunos se encuentran especializados en algunas seccioones como el analisis de imagenes de satelites. Los más conocidos y utilizados a nivel mundial son dos. 
+
 <p align="center">
-![arcgis vs qgis](https://github.com/RealGuyab/Qgis/blob/main/imagenes/arcgis_qgis.jpg)
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/arcgis_qgis.jpg" alt="Ubicaciuon cato">
 </p>
+
 ### Arcgis
 Es un programa desarrollado por ESRI empresa pionera en temas de GIS. Arcgis es un programa que funciona mediante una licencia que se compra y que da acceso a todas las potencialidades que el programa ofrece. Existen dos plataformas actualmente vigentes en donde se pude utilizar el producto de ESRI el primero es ARCMAP y todas sus dependencias. Este programa salio en 1999 y actualmente se encuentra en proceso de migracion a la segunda plataforma cabe resaltar que el fin del soporte de este software esta programado para marzo del 2026. 
 La segunda plataforma es ARCGIS PRO tamien de licencia paga que es una evolución de ARCMAP ofrece una mejor interfaz de trabajo e integracioon mejorada comparada con su antecesor. Para poder utilizar todfos loos compoenentes que ofrecen estos programas existen requisitos más exigentes que puden consultar en la siguiente pagina. Para ARCMAP(https://desktop.arcgis.com/es/system-requirements/latest/arcgis-desktop-system-requirements.htm) y para ArcGIS PRO (https://pro.arcgis.com/en/pro-app/latest/get-started/arcgis-pro-system-requirements.htm).
