@@ -23,24 +23,26 @@ Las entidades geográficas pueden clasificarse en:
 
 ## Instalación de Google Earth Pro
  + Ingresar en el siguiente link https://maps.google.com/intl/es/earth/download/gep/agree.html
- + Aceptar los terminos y condiciones e iniciar la descarga
- + Ejecutar lo descargado y esperar a que finaliza la instalacion
- + Una vez finalizado tendran acceso al programa
+ + Aceptar los términos y condiciones e iniciar la descarga
+ + Ejecutar lo descargado y esperar a que finalice la instalación
+ + Una vez finalizado tendrán acceso al programa
 
 ## Análisis de interfaz
-Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfar en 6 secciones las que se detallan:
 
-1. Barra de Herramientas y configuración: se encuentra en la parte superior de la interfaz. Incluye los menus de configuración general del programa, grardar proyectos y exportar asi como otros más-
-2. Menú lugares: Aqui encontraran todas los elementos que ustedes creen durante su sesión. Podran activarlos, desactivarlos, exportalos y eliminarlos. Siempre que un elemento se muestre mas arriba se mostrara primero.
-3. Menú capas: en el menú capas encontran algunos ejes tematicos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
-4. Menú Utilidades: Aqui se encuentran las herramientas que permiten crear entidades geográficas, asi como la opcion retroceder en el tiempo, medicion, exportacion y cambio de planeta.
-5. Visor principal: se encuetra el mapa principal donde saldran graficamente las entidades goegráficas y ciudadades. 
-6. Herramientas de navegación: permite mover el angulo de vista, el zoom y cuando este activo Google Street View 
+Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfaz en 6 secciones las que se detallan:
+
+1. Barra de Herramientas y configuración: se encuentra en la parte superior de la interfaz. Incluye los menús de configuración general del programa, guardar proyectos y exportar asi como otros más.
+2. Menú lugares: Aquá encontrarán todas los elementos que ustedes creen durante su sesión. Podran activarlos, desactivarlos, exportalos y eliminarlos. Siempre que un elemento se muestre más arriba se mostrará primero.
+3. Menú capas: en el menú capas encontran algunos ejes temáticos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
+4. Menú Utilidades: Aqui se encuentran las herramientas que permiten crear entidades geográficas, asi como la opción retroceder en el tiempo, medición, exportación y cambio de planeta.
+5. Visor principal: se encuentra el mapa principal donde saldrán gráficamente las entidades geográficas y ciudades. 
+6. Herramientas de navegación: permite mover el ángulo de vista, el zoom y cuando este activo Google Street View 
 
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
-## Creación de entidades Geograficas
+## Creación de entidades Geográficas
+Para crear entidades grográficas 
 
 ## Ejercicio Practico N°1
 
