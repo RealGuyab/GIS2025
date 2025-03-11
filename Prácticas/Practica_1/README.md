@@ -2,7 +2,7 @@
 
 ### Competencias
 1. Reconocer la plataforma Google Earth Pro
-2. Comprender los conceptos basicos de entidades geográficas
+2. Comprender los conceptos básicos de entidades geográficas
 3. Generar entidades geográficas en Google Earth Pro
    
 ### Para que sirve Google Earth Pro
@@ -38,7 +38,7 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 6. Herramientas de navegación: permite mover el angulo de vista, el zoom y cuando este activo Google Street View 
 
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
-Imagen 1: Interfaz y ubicación de secciones
+<p align="center"><ins>Imagen 1: Interfaz y ubicación de secciones<ins></p> 
 
 ## Creación de entidades Geograficas
 
