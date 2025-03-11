@@ -61,10 +61,10 @@ El procedimiento para crear un poligono es igual al de la creación de puntos. H
 ### Creación de líneas
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opción permite crear líneas
 
-Se repite el proceso de creacion anteriormente descrito. Las líneas son entidades unidimensionales´, es decir como si fuera un trazo de lápiz en un papel. El cursor nos permitirá colocar vértices y cada vértice se unirá por un trazo de color negro por defecto.
+Se repite el proceso de creacion anteriormente descrito. Las líneas son entidades unidimensionales, es decir como si fuera un trazo de lápiz en un papel. El cursor nos permitirá colocar vértices y cada vértice se unirá por un trazo de color negro por defecto.
 
-## Ejercicio Practico N°1
+## Ejercicio Practico N°1: Creacion de entidades geográficas
 
-## Ejercicio Practico N°2
+## Ejercicio Practico N°2: Edición de entidades geográficas
 
 ## Asignación 
