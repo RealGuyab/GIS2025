@@ -59,7 +59,7 @@ Para crear un punto basta con hacer clic en el icono se desplegará un menú con
 El procedimiento para crear un poligono es igual al de la creacion de puntos. Hacemos clic en el icono se desplega el recuadro y el cursos cambia de forma. Los poligonos permiten ver areas por lo que esta vez cada que hagamos un clic se genera un vertice podemos colocar la cantidad de vertices que nosotros queramos. El area que quede dentro de los vertices quedara sombreada y se generará el poligono. Para finalizar nuevamente en aceptar.
 
 ### Creación de lineas
-![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lienas.png) Esta opcion permite crear lineas
+![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opcion permite crear lineas
 
 Se repite nuevamente el proceso de creacion anteriormente descrito. Las lienas son entidades unidimensionales es decir como si fuera un trazo de lapiz en un papel. El cursos nos permitira colocar vertices y cada vertice se unira por un trazo de color negro por defecto.
 
