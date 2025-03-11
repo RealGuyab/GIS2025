@@ -11,23 +11,21 @@ Los sistemas de información geográfica abreviado SIG o GIS en inglés son una 
 ## ¿Qué es ***información espacial***?
 
 Cuando se habla de información espacial estamos hablando de información común y corriente pero que puede ser interpretada con coordenadas o una ubicación en el espacio. Para ilustrar ello nos pondremos en la siguiente situación. 
-Supongan que un coompañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica, lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instruccion como un camino, multiples referencias y luego
-todas ellas se estructuran y nos dan una ruta más óptima. La respuesta bien podria ser: 
+Supongan que un compañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica (GIS), lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instrucciones como un camino, múltiples referencias y luego todas ellas se estructuran y nos dan la ruta más óptima. La respuesta bien podria ser: 
 
-"Entra por la ***<ins>puerta de Sán Juan<ins>***, llega al centro y dirígite a la ***<ins>plaza central<ins>***, voltea a la derecha donde se encuentran unas ***<ins>gradas<ins>*** y camina a la izquierda sigue como llendo a la ***<ins>biblioteca<ins>*** y la ***<ins>clase de GIS es el E103<ins>***" 
+"Entra por la ***<ins>puerta de San Juan<ins>***, llega al centro y dirígite a la ***<ins>plaza central<ins>***, voltea a la derecha donde se encuentran unas ***<ins>gradas<ins>*** y camina a la izquierda sigue como yendo a la ***<ins>biblioteca<ins>*** y la ***<ins>clase de GIS es el E105<ins>***" 
 
-Basicamente su cerebro analizó el terreno encontrando algunas referencias espaciales y luego diseño la ruta que se tradujó en instrucciones. Sin embargo, toda esta información no tendria ningun sentido si en primer lugar las ubicaciones a las que hicimos referencia no estuvieran en un lugar en el espacio. Su cerebro es capaz de interpretar informacion espacial.
+Basicamente su cerebro analizó el terreno encontrando algunas referencias espaciales y luego diseño la ruta que se tradujo en instrucciones. Sin embargo, toda esta información no tendria ningun sentido si en primer lugar las ubicaciones a las que hicimos referencia no estuvieran en un lugar en el espacio.
 
 ![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/ubicacion_cato.png)
 
-Entonces se entiende como información espacial a cualquier tipo de informacion que además de darnos datos sobre algo en especifico como los nombres de los pabellones o las clases tienen una ubicacion espacial definida que cualquier persona es capaz de encontrar. A esto se le coonoce como coordenadas.
+Entonces se entiende como información espacial a cualquier tipo de informacion que además de darnos datos sobre algo en especifico como los nombres de los pabellones o las clases tienen una ubicación en el espacio definida que cualquier persona es capaz de encontrar. A esto se le conocen como coordenadas.
 
 ### ¿Qué es una coordenada?
 
-Las coordenadas son pares de numeros, que pueden estar en multiples formatos, que en resumen nos permiten encontrar algun objeto en la tierra. Cuando enviamos nuestra ubicación por Whastapp o cuando se busca algun sitio en google en resumen lo que queremos consultar 
-son sus coordenadas. 
-El formato más común de coordenadas es grados minutos y segundos. Sin embargo a travez del curso veremos que no es el unico y que existen algunos y analizaremos tambien sus ventajas y desventajas.
-Como les habia comentado una coordenada es un par de numeros toda coordenada viene en pares puesto que analiza la longitud y la latitud respecto de algunas lineas que se trazan en el mundo. No es necesario que comprendan esto aun por que mas adelante abordaremos este tema en mayor profundidad pero si es necesario que tengan siempre en mente que una coordenada son dos numeros y uno es la longitud y el otro la latitud.
+Las coordenadas son pares de números, que pueden estar en múltiples formatos, que en resumen nos permiten encontrar algún objeto en la tierra. Cuando enviamos nuestra ubicación por WhatsApp o cuando se busca un sitio en google en resumen lo que queremos consultar son sus coordenadas. 
+El formato más común de coordenadas es grados minutos y segundos. Sin embargo a través del curso veremos que no es el único que existe y analizaremos también sus ventajas y desventajas.
+Toda coordenada viene en pares puesto que analiza la lóngitud y la latitud respecto de algunas lineas que se trazan en el mundo. No es necesario que comprendan esto aÚn por que más adelante abordaremos este tema en mayor profundidad pero si es necesario que tengan siempre en mente que una coordenada son dos numeros y uno es la longitud y el otro la latitud.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png" alt="Ubicaciuon cato">
@@ -35,13 +33,14 @@ Como les habia comentado una coordenada es un par de numeros toda coordenada vie
 
 ## ¿Qué hardware funciona para el GIS?
 
-El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar información espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereologicas, satelites en sus multiples tipos, drones, etc. La funcion principal de este tipos de Hardware corresponde a recolectar la mayor cantidad de informacion con coordenadas que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
-El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretacion y representacion de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesdador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
-Los requisitos anteiormente descritos se dan para poder utilizar la mayoria de procesos en Qgis. Sin embargo, ello noo significa que computadoras con criterios bajos que los indicados no puedan correr el programa. Los requisitos minimos de Qgis son realmente bajos pr lo que cualqueir computadora moderna los cumple sin ningun problema. 
+El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar información espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereológicas, satélites en sus múltiples tipos, drones, etc. La función principal de este tipo de Hardware corresponde a recolectar la mayor cantidad de información con coordenadas que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
+El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretación y representación de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis, asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesdador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
+Los requisitos anteriormente descritos se dan para poder utilizar la mayoria de procesos en Qgis. Sin embargo, ello no significa que computadoras con criterios más bajos que los indicados no puedan correr el programa. Los requisitos mínimos de Qgis son realmente bajos por lo que cualquier computadora moderna los cumple sin ningún problema. 
 
 ## ¿Qué software se utilizan para procesar GIS?
 
 Existen multiples programa que permiten procesas y analizar informacion GIS algunos se encuentran especializados en algunas seccioones como el analisis de imagenes de satelites. Los más conocidos y utilizados a nivel mundial son dos. 
+
 
 ### Arcgis
 Es un programa desarrollado por ESRI empresa pionera en temas de GIS. Arcgis es un programa que funciona mediante una licencia que se compra y que da acceso a todas las potencialidades que el programa ofrece. Existen dos plataformas actualmente vigentes en donde se pude utilizar el producto de ESRI el primero es ARCMAP y todas sus dependencias. Este programa salio en 1999 y actualmente se encuentra en proceso de migracion a la segunda plataforma cabe resaltar que el fin del soporte de este software esta programado para marzo del 2026. 
