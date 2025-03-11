@@ -42,24 +42,24 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
 ## Creación de entidades Geográficas
-Para crear entidades geográficas utilizaremos el menu de utilidades 
+Para crear entidades geográficas utilizaremos el menú de utilidades 
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menu_utilidades.png" alt="Ubicaciuon cato">
 </p>
 
 ### Creación de puntos
-![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/puntos.png) Esta opcion permite crear puntos
+![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/puntos.png) Esta opción permite crear puntos
 
-Para crear un punto basta con hacer clic en el icono se desplegará un menú con un recuadrado al costado y por defecto verenos un cuadrado amarillo con un clip de color amarillo en el centro. Debemos desplazar el clip hacia a zona de interes y hacer clic en aceptar
+Para crear un punto basta con hacer clic en el ícono, se desplegará un menú con un recuadrado al costado y por defecto verenos un cuadrado amarillo con un clip de color amarillo en el centro. Debemos desplazar el clip hacia a zona de interés y hacer clic en aceptar
 
 ### Creción de poligonos
-![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png) Esta opcion permite crear polígonos 
+![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png) Esta opción permite crear polígonos 
 
-El procedimiento para crear un poligono es igual al de la creacion de puntos. Hacemos clic en el icono se desplega el recuadro y el cursos cambia de forma. Los poligonos permiten ver areas por lo que esta vez cada que hagamos un clic se genera un vertice podemos colocar la cantidad de vertices que nosotros queramos. El area que quede dentro de los vertices quedara sombreada y se generará el poligono. Para finalizar nuevamente en aceptar.
+El procedimiento para crear un poligono es igual al de la creación de puntos. Hacemos clic en el ícono se desplega el recuadro y el cursos cambia de forma. Los polígonos permiten ver áreas por lo que esta vez cada que hagamos un clic se genera un vertice podemos colocar la cantidad de vertices que nosotros queramos. El area que quede dentro de los vertices quedara sombreada y se generará el poligono. Para finalizar nuevamente en aceptar.
 
 ### Creación de lineas
-![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opcion permite crear lineas
+![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opción permite crear lineas
 
 Se repite nuevamente el proceso de creacion anteriormente descrito. Las lienas son entidades unidimensionales es decir como si fuera un trazo de lapiz en un papel. El cursos nos permitira colocar vertices y cada vertice se unira por un trazo de color negro por defecto.
 
