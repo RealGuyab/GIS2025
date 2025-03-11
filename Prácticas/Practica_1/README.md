@@ -28,6 +28,8 @@ Las entidades geográficas pueden clasificarse en:
  + Una vez finalizado tendran acceso al programa
 
 ## Análisis de interfaz
+Google Earth Pro
+
 
 ## Creación de entidades Geograficas
 
