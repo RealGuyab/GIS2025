@@ -1,6 +1,6 @@
 # Práctica N°1: Introducción a SIG y uso de Google Earth Pro
 
-###Entidad geográfica
+### Entidad geográfica
 
 
 ## Instalación de Google Earth Pro
