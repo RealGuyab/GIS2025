@@ -51,17 +51,17 @@ Para crear entidades geográficas utilizaremos el menú de utilidades
 ### Creación de puntos
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/puntos.png) Esta opción permite crear puntos
 
-Para crear un punto basta con hacer clic en el ícono, se desplegará un menú con un recuadrado al costado y por defecto verenos un cuadrado amarillo con un clip de color amarillo en el centro. Debemos desplazar el clip hacia a zona de interés y hacer clic en aceptar
+Para crear un punto basta con hacer clic en el ícono, se desplegará un menú con un recuadro al costado y veremos un cuadrado amarillo con un clip de color amarillo en el centro. Debemos desplazar el clip hacia la zona de interés y hacer clic en aceptar.
 
-### Creción de poligonos
+### Creación de poligonos
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png) Esta opción permite crear polígonos 
 
-El procedimiento para crear un poligono es igual al de la creación de puntos. Hacemos clic en el ícono se desplega el recuadro y el cursos cambia de forma. Los polígonos permiten ver áreas por lo que esta vez cada que hagamos un clic se genera un vertice podemos colocar la cantidad de vertices que nosotros queramos. El area que quede dentro de los vertices quedara sombreada y se generará el poligono. Para finalizar nuevamente en aceptar.
+El procedimiento para crear un poligono es igual al de la creación de puntos. Hacemos clic en el ícono se desplega el recuadro y el cursor cambia de forma. Los polígonos permiten ver áreas por lo que esta vez cada que hagamos un clic se generá un vértice podemos colocar la cantidad de vértices que nosotros queramos. El área que quede dentro de los veértices quedara sombreada y se generará el poligono. Para finalizar nuevamente en aceptar.
 
-### Creación de lineas
-![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opción permite crear lineas
+### Creación de líneas
+![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png) Esta opción permite crear líneas
 
-Se repite nuevamente el proceso de creacion anteriormente descrito. Las lienas son entidades unidimensionales es decir como si fuera un trazo de lapiz en un papel. El cursos nos permitira colocar vertices y cada vertice se unira por un trazo de color negro por defecto.
+Se repite el proceso de creacion anteriormente descrito. Las líneas son entidades unidimensionales´, es decir como si fuera un trazo de lápiz en un papel. El cursor nos permitirá colocar vértices y cada vértice se unirá por un trazo de color negro por defecto.
 
 ## Ejercicio Practico N°1
 
