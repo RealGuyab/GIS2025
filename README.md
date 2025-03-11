@@ -5,11 +5,10 @@
 ![introduccion a GIS](https://github.com/RealGuyab/Qgis/blob/main/imagenes/geographic-information-system-vector.jpg)
 
 ## ¿Que es un Sistema de información Geográfica?
-Los sistemas de informacion geografica  abreviado SIG o GIS en ingles son una serie de elementos que funcionan en conjunto y permiten analizar información espacial, estudiarla, representarla y generar productos utiles para la sociedad. Todos alguna vez hemos utilizado algun producto cuya fuente principal es algún GIS. El ejemplo mas común es Google street view o el sistema de compartir ubicación de WhatsApp. Todos se representan en un mapa a travez de algun dispositivo y nos muentran ubicaciones. 
-Para comprender en mejor medida este termino tenemos primero que definir algunos conceptos que vienen acontinuación.
+Los sistemas de información geográfica abreviado SIG o GIS en ingles son una serie de elementos que funcionan en conjunto y permiten analizar información espacial, estudiarla, representarla y generar productos utiles para la sociedad. Todos alguna vez hemos utilizado algún producto cuya fuente principal es el GIS. El ejemplo más común es Google Street View o el sistema de compartir ubicación de WhatsApp. Estos dos programas funcionan a travez de una dispotivo fisico que bien pude ser una computadora o un celular y nos muesntran un mapa en donde podemos hacer seguimiento buscar algunas ubicaciones al rededor del mundo. Todo GIS esta compuesto por elementos importantes los cuales son informacion espacial (data), plataformas de visualizacion de datos (Hardware), programas de procesamiento de datos (Software), desarrolladores y usuarios (personas). Para comprender algunos de estos termino tenemos primero que definir algunos conceptos que vienen acontinuación.
 
 
-### ¿Qué es ***información espacial***?
+## ¿Qué es ***información espacial***?
 
 Cuando se habla de información espacial estamos hablando de información común y corriente pero que puede ser interpretada con coordenadas o una ubicación en el espacio. Para ilustrar ello nos pondremos en la siguiente situación. 
 Supongan que un coompañero suyo les pregunta donde queda la clase de Sistemas de Informacion Geografica, lo primero que se nos viene a la mente al intentar responder esta pregunta es una serie de instruccion como un camino, multiples referencias y luego
@@ -34,6 +33,10 @@ Como les habia comentado una coordenada es un par de numeros toda coordenada vie
   <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png" alt="Ubicaciuon cato">
 </p>
 
+## ¿Que harware funciona para el GIS?
+
+El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar informacion espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereologicas, satelites en sus multiples tipos, drones, etc. La funcion principal de este tipos de Hardware corresponde a recolectar la mayor cantidad de informacion GPS que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
+El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretacion y representacion de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trbajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis asi de acuerdo con los documentos oficiales los requisitos mínimos 
 
 
 
