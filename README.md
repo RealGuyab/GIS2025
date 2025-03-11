@@ -23,9 +23,9 @@ Entonces se entiende como "información espacial" a cualquier tipo de informaci�
 
 ### ¿Qué es una coordenada?
 
-Las coordenadas son pares de números, que pueden estar en múltiples formatos, que en resumen nos permiten encontrar algún objeto en la tierra. Cuando enviamos nuestra ubicación por WhatsApp o cuando se busca un sitio en google en resumen lo que queremos consultar son sus coordenadas. 
+Las coordenadas son pares de números que nos permiten encontrar algún objeto en la tierra. Cuando enviamos nuestra ubicación por WhatsApp o cuando se busca un sitio en google lo que queremos consultar son sus coordenadas. 
 El formato más común de coordenadas es grados minutos y segundos. Sin embargo a través del curso veremos que no es el único que existe y analizaremos también sus ventajas y desventajas.
-Toda coordenada viene en pares puesto que analiza la lóngitud y la latitud respecto de algunas lineas que se trazan en el mundo. No es necesario que comprendan esto aÚn por que más adelante abordaremos este tema en mayor profundidad pero si es necesario que tengan siempre en mente que una coordenada son dos numeros y uno es la longitud y el otro la latitud.
+Toda coordenada viene en pares puesto que analiza la longitud y la latitud respecto de algunas líneas que se trazan en el mundo. No es necesario que comprendan esto aún porque más adelante abordaremos este tema en mayor profundidad, pero es necesario que tengan siempre en mente que una coordenada son dos números y uno es la longitud y el otro la latitud.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/coordenadas.png" alt="Ubicaciuon cato">
@@ -34,8 +34,9 @@ Toda coordenada viene en pares puesto que analiza la lóngitud y la latitud resp
 ## ¿Qué hardware funciona para el GIS?
 
 El tipo de hardware normalmente depende de lo que querramos lograr pero podemos dividirlo en dos tipos. El primero que tiene la finalidad de recolectar información espacial en este primer grupo se pueden incluir herramientas como GPS, estaciones metereológicas, satélites en sus múltiples tipos, drones, etc. La función principal de este tipo de Hardware corresponde a recolectar la mayor cantidad de información con coordenadas que pueda ser extraida de un lugar para luego poder procesarla e interpretarla.
-El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretación y representación de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. El curso se enfoca en Qgis, asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesdador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
-Los requisitos anteriormente descritos se dan para poder utilizar la mayoria de procesos en Qgis. Sin embargo, ello no significa que computadoras con criterios más bajos que los indicados no puedan correr el programa. Los requisitos mínimos de Qgis son realmente bajos por lo que cualquier computadora moderna los cumple sin ningún problema. 
+El segundo tipo de hardware tiene por finalidad la lectura, procesamiento, interpretación y representación de datos. Normalmente hacemos referencia a las computadoras, estaciones de trabajo, etc. Dependiendo del programa que se vaya a trabajar y del alcance al que se quiera llegar los requisitos pueden ser muy variables. 
+El curso se enfoca en Qgis, asi de acuerdo con los documentos oficiales los requisitos recomendados son Procesador de 1.9 GHz o superior, Memoria RAM de 8 GB, Tarjeta de video de 2Gb o más, disco duro o SSD de 250 GB o más.
+Los requisitos anteriormente descritos son necesarios para poder utilizar la mayoria de procesos en Qgis. Sin embargo, no significa que computadoras con criterios más bajos que los indicados no puedan correr el programa. Los requisitos mínimos de Qgis son realmente bajos por lo que cualquier computadora moderna los cumple sin ningún problema. 
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/programacion_vuelo.png" alt="Ubicaciuon cato">
