@@ -13,7 +13,7 @@ Entre sus funciones más destacadas se encuentran la medición de áreas y dista
 
 ### Entidad geográfica
 
-Una entidad geografica son elementos sobre la tierra que puede ser representado, analizado y gestionado dentro de un sistema geoespacial.
+Una entidad geográfica son elementos sobre la tierra que puede ser representado, analizado y gestionado dentro de un sistema geoespacial.
 
 Las entidades geográficas pueden clasificarse en:
 
@@ -38,7 +38,7 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 6. Herramientas de navegación: permite mover el angulo de vista, el zoom y cuando este activo Google Street View 
 
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
-<p align="center"><ins>Imagen 1: Interfaz y ubicación de secciones<ins></p> 
+<p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
 ## Creación de entidades Geograficas
 
