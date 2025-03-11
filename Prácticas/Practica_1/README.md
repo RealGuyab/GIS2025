@@ -2,8 +2,8 @@
 
 ### Competencias
 1. Reconocer la plataforma Google Earth Pro
-2. Comprender los conceptos basicos de entidades geograficas
-3. Generar entidades geograficas en Google Earth Pro
+2. Comprender los conceptos basicos de entidades geográficas
+3. Generar entidades geográficas en Google Earth Pro
    
 ### Para que sirve Google Earth Pro
 
