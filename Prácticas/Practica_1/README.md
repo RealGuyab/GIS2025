@@ -42,7 +42,7 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
 ## Creación de entidades Geográficas
-Para crear entidades grográficas 
+Para crear entidades geográficas 
 
 ## Ejercicio Practico N°1
 
