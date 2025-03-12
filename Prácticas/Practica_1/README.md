@@ -42,14 +42,27 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
 ## Creación de entidades Geográficas
-Antes de proceder a crear una entidad geográfica es necesario reconocer el lugar donde se almacenara lo desarrolla en nuestra sesión. Para ello debemos hechar un ojo al menú lugares. Alli encontraran algunas carpetas que viene precargadas por defecto. 
+Antes de proceder a crear una entidad geográfica es necesario reconocer el lugar donde se almacenara lo desarrolla en nuestra sesión. Para ello debemos hechar un ojo al menú lugares. Alli encontraran algunos elementos que viene precargadas por defecto. 
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/sinelementos.png" alt="Ubicaciuon cato">
 </p>
 
-La primera es <ins>Recorrido visual<ins>, en ella se encuentran recorridos precargados a lugares del mundo reconocidos. Para desplegar las carpetas hay que hacer clic en el triangulo que tienen al costado. a desplegar la carpeta de recorrido encontraremos una serie de nombres con hipervinculos si hacemos clic en cualquiera el programa entra en modo recorrido automatico que nos permite visualizar el lugar y visitarlo. Es una buena opción para visitar lugares sin necesidad de estar alli o para ver que nos encontraremos si en algún momento tenemoos planes de viajar a esos lugares. 
-La segunda carpeta son de <ins>Lugares temporales<ins>, esta carpeta guardará como su nombre lo dice elementos que cuando se cierre la sesion o cerremos el programa desapareceran y no los podemos ver luego. Para seleccioonar una carpeta basta con solo hacer click sobre ella y que se marque en azul eso indica al programa que guardaremos todo lo que creemos en ese lugar.
+Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener multiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto por defecto se aplica a todo lo que se tenga dentro. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. Tambien funciona Archivo >> Importar. 
+El formato que da origen a los proyecto se conocen como archivos KML o KMZ. Estos dos son los archivos mas importantes para el Google Earth Pro.
+
+El segundo logo que como se puede ver se encuentra dentro del proyecto ***Mis lugares*** son carpetas de trabajo  
+
+
+
+La primera es ***Recorrido visual***, en ella se encuentran recorridos precargados a lugares del mundo reconocidos. Para desplegar las carpetas hay que hacer clic en el triangulo que tienen al costado. a desplegar la carpeta de recorrido encontraremos una serie de nombres con hipervinculos si hacemos clic en cualquiera el programa entra en modo recorrido automatico que nos permite visualizar el lugar y visitarlo. Es una buena opción para visitar lugares sin necesidad de estar alli o para ver que nos encontraremos si en algún momento tenemoos planes de viajar a esos lugares. 
+La segunda carpeta son de ***Lugares temporales***, esta carpeta guardará como su nombre lo dice elementos que cuando se cierre la sesion o cerremos el programa desapareceran y no los podemos ver luego. Para seleccioonar una carpeta basta con solo hacer click sobre ella y que se marque en azul eso indica al programa que guardaremos todo lo que creemos en ese lugar.
+
+Para mantener el orden en el trabajo necesitaremos crear carpetas, es una buena costumbre tener una carpeta por cada proyecto que desarrollemos. Por lo que crearemos la carpeta con el nombre "Primera Clase" y alli procederemos a guardar todo lo que creemos.
+
+### Actividad 1:  Creación de carpeta "Primera Clase"
+1. Debermos seleccionar el origen que se llama 
+
 
 Para crear entidades geográficas utilizaremos el menú de utilidades 
 
