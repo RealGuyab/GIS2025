@@ -11,6 +11,12 @@ Google Earth Pro es una herramienta de exploración geográfica que permite a lo
 
 Entre sus funciones más destacadas se encuentran la medición de áreas y distancias con precisión, la posibilidad de superponer capas de información como datos demográficos y de tráfico, así como la opción de retroceder en el tiempo para observar cambios en el paisaje a lo largo de los años. Además, permite grabar recorridos virtuales, importar y exportar archivos GIS (Sistema de Información Geográfica) y generar imágenes de alta resolución para presentaciones y estudios técnicos.
 
+## Instalación de Google Earth Pro
+ + Ingresar en el siguiente link https://maps.google.com/intl/es/earth/download/gep/agree.html
+ + Aceptar los términos y condiciones e iniciar la descarga
+ + Ejecutar lo descargado y esperar a que finalice la instalación
+ + Una vez finalizado tendrán acceso al programa
+
 ## Análisis de interfaz
 
 Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfaz en 6 secciones las que se detallan:
@@ -80,13 +86,7 @@ Las entidades geográficas pueden clasificarse en:
 
 1. Puntuales: Representan ubicaciones específicas, como una torre de transmisión o una estación meteorológica.
 2. Lineales: Representan elementos con longitud, como carreteras, ríos o fronteras.
-3. Areal o poligonales: Representan superficies con área definida, como lagos, bosques o municipios.
-
-## Instalación de Google Earth Pro
- + Ingresar en el siguiente link https://maps.google.com/intl/es/earth/download/gep/agree.html
- + Aceptar los términos y condiciones e iniciar la descarga
- + Ejecutar lo descargado y esperar a que finalice la instalación
- + Una vez finalizado tendrán acceso al programa
+3. Área o poligonales: Representan superficies con área definida, como lagos, bosques o municipios.
 
 ### ¿Cómo se crean?
 
