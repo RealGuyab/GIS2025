@@ -148,12 +148,13 @@ ________________________________________________________________________________
          </p>
     
    * Notar que el recuadro de coordenadas no existe en poligonos, pero si nombre y la ventana de edición.
-   * Si se equivocan, pueden borrar el vertice haciendo clic sobre el que salio mal y darle cic en suprimir desde su teclado.
-   * Pueden reposicionar vertices manteniendo clic sobre el vertice que quieran mover y moviendolo hacia su nueva posición.
-    
-   
+   * Si se equivocan, pueden borrar el vertice haciendo clic sobre el que salio mal y darle clic en suprimir desde su teclado.
+   * Pueden reposicionar vertices manteniendo clic sobre el vértice que quieran mover y moviendolo hacia su nueva posición.
 
-4. Generar una linea a través de todo el puente de Fierro 
+4. Generar una linea a través de todo el puente de Fierro
+   * Ubicar la zona de punte de Fierro y hacer clic en el icono de edicion de lineas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
+   * Al igual que con poligonos el cursor desaparecera y cada vez que se haga clic saldra un vértice, las lineas generan trazos que unen los puntos.
+   ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
