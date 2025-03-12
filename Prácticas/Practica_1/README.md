@@ -165,4 +165,6 @@ Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se p
 1. Ingreso al menú de ediciones. Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta 
 
 
+### Cambio de coordenadas en Google Earth Pro
+
 ## Asignación 
