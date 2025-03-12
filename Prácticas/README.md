@@ -12,5 +12,3 @@
 
 # FORMA DE EVALUACION DEL CURSO 
 ![Matriz_evaluación](https://github.com/RealGuyab/Qgis/blob/main/imagenes/evaluacion_sig.png)
-
-# CRONOGRAMA DE EVALAUCIONES
