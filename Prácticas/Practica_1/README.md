@@ -122,12 +122,12 @@ ________________________________________________________________________________
     * Laguna de Salinas, Arequipa.
     * Puente de Fierro, Arequipa.
    
-    La barra de búsqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
+    La barra de búsqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algún nombre definido. Se encuentra sobre el Menú Lugares.
          <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menubuqueda.png" alt="Ubicaciuon cato">
          </p>
 
-    Para ejecutar una búsqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de búsqueda debajo como se muestras en la imagen.
+    Para ejecutar una búsqueda se necesita colocar el nombre en el recuadro blanco y darle a buscar. Saldrán las opciones de búsqueda debajo como se muestran en la imagen.
          <p align="center">
            <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png" alt="Ubicaciuon cato">
          </p>
@@ -135,7 +135,7 @@ ________________________________________________________________________________
 2. Crear un punto sobre la ciudad de Arequipa y analizar el resultado
      * Modificar el nombre del punto a Arequipa
      * Debajo del nombre encontrarán la zona de coordenadas, allí pueden ubicar el par de datos que correponden a los datos del punto. Si se mueve el punto las coordenadas cambian automáticamente.
-     * Al final de todo el recuadro encontrarán cuadrado con pestañas esta es la zona de edición abordaremos las configuraciones que se pueden hacer.
+     * Al final de todo el recuadro encontrarán un cuadrado con pestañas esta es la zona de edición abordaremos las configuraciones que se pueden hacer.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/zonas_edicion_puntos.png" alt="Ubicaciuon cato">
          </p>
