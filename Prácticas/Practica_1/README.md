@@ -115,7 +115,15 @@ Se repite el proceso de creacion anteriormente descrito. Las líneas son entidad
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
+### Actividad 2: Creación de entidades geoográficas
+1. Utilizar la barra de busqueda para encontrar los siguientes lugares 
+         * Ciudad de Arequipa
+         * Laguna de Salinas, Arequipa
+         * Puente de Fierro, Arequipa
+   
+** La barra de busqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares. Para ejecutar una busqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de busqueda debajo como se muestras en la imagen.
 
+![barra busqueda](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menubuqueda.png)  ![busqueda ejecutada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
