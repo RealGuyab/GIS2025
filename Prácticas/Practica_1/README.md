@@ -135,34 +135,34 @@ ________________________________________________________________________________
 2. Crear un punto sobre la ciudad de Arequipa y analizar el resultado
      * Modificar el nombre del punto a Arequipa
      * Debajo del nombre encontrarán la zona de coordenadas, allí pueden ubicar el par de datos que correponden a los datos del punto. Si se mueve el punto las coordenadas cambian automáticamente.
-     * Al final de todo el recuadro encontrarán un cuadrado con pestañas esta es la zona de edición abordaremos las configuraciones que se pueden hacer.
+     * Al final de todo el recuadro encontrarán un recuadro con pestañas, esta es la zona de edición, abordaremos las configuraciones que se pueden hacer.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/zonas_edicion_puntos.png" alt="Ubicaciuon cato">
          </p>
          
-3. Generar un polígono sobre la ubicación de la laguna de salinas
-    * Al momento de hacer clic sobre el logo de crear poligono ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png). El cursor cambiará pero no habrá ningún puntos de referencia como si paso con los puntos
-    *  Para generar el poligono deberá hacer clic en cada uno de los margenes cada clic generará un vértice del polígono como se muestra en la imagen.
+3. Generar un polígono sobre la ubicación de la Laguna de Salinas
+    * Al momento de hacer clic sobre el logo de crear polígono ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png). El cursor cambiará, pero no habrá ningún punto de referencia como si paso con los puntos.
+    *  Para generar el polígono deberá hacer clic en cada uno de los márgenes, cada clic generará un vértice del polígono como se muestra en la imagen.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/Captura%20de%20pantalla%202025-03-12%20151357.png" alt="Ubicaciuon cato">
          </p>
     
    * Notar que el recuadro de coordenadas no existe en polígonos, pero si nombre y la ventana de edición.
-   * Si se equivocan, pueden borrar el vértice haciendo clic sobre el que salio mal y darle clic en suprimir desde su teclado.
-   * Pueden reposicionar vértices manteniendo clic sobre el vértice que quieran mover y moviendolo hacia su nueva posición.
+   * Si se equivocan, pueden borrar el vértice haciendo clic sobre el que salió mal y darle clic en suprimir desde su teclado.
+   * Pueden reposicionar vértices manteniendo clic sobre el vértice que quieran desplazar y moviendolo hacia su nueva posición.
 
-4. Generar una linea a través de todo el puente de Fierro
-   * Ubicar la zona de punte de Fierro y hacer clic en el ícono de edición de lineas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
-   * Al igual que con polígonos el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, las lineas generan trazos que unen los puntos.
+4. Generar una línea a través de todo el Puente de Fierro
+   * Ubicar la zona de Punte de Fierro y hacer clic en el ícono de edición de líneas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
+   * Al igual que con polígonos, el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, las líneas generan trazos que unen los puntos.
    ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Edición de entidades geográficas
 
-Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se presentan ligeras diferencias pero manteienen una misma lógica. 
+Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se presentan ligeras diferencias pero mantienen una misma lógica. 
 
-1. Ingreso al menú de ediciones. Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta con hacer clic derecho en el nombre del elemento y hacer clic en propiedades
+1. Ingreso al menú de ediciones. Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro, podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta con hacer clic derecho en el nombre del elemento y hacer clic en propiedades.
 ![Reedicion de elementos creados](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png).
 
 2. 
