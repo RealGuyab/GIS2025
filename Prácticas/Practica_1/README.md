@@ -32,7 +32,7 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
 ## Creación de proyectos y carpetas
-Antes de proceder a crear una entidad geográfica es necesario reconocer el lugar donde se almacenara lo desarrolla en nuestra sesión. Para ello debemos hechar un ojo al menú lugares. Alli encontraran algunos elementos que viene precargadas por defecto. 
+Antes de proceder a crear una entidad geográfica es necesario reconocer el lugar donde se almacenara lo desarrolla en nuestra sesión. Para ello debemos hechar un ojo al menú lugares. Allí encontraran algunos elementos que viene precargadas por defecto. 
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/sinelementos.png" alt="Ubicaciuon cato">
