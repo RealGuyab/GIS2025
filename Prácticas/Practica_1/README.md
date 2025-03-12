@@ -116,44 +116,44 @@ Se repite el proceso de creación anteriormente descrito. Las líneas son entida
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ### Actividad 2: Creación de entidades geoográficas
-1. Utilizar la barra de busqueda para encontrar los siguientes lugares:
+1. Utilizar la barra de búsqueda para encontrar los siguientes lugares:
    
     * Ciudad de Arequipa.
     * Laguna de Salinas, Arequipa.
     * Puente de Fierro, Arequipa.
    
-    La barra de busqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
+    La barra de búsqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
          <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menubuqueda.png" alt="Ubicaciuon cato">
          </p>
 
-    Para ejecutar una busqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de busqueda debajo como se muestras en la imagen.
+    Para ejecutar una búsqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de búsqueda debajo como se muestras en la imagen.
          <p align="center">
            <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png" alt="Ubicaciuon cato">
          </p>
 
 2. Crear un punto sobre la ciudad de Arequipa y analizar el resultado
      * Modificar el nombre del punto a Arequipa
-     * Debajo del nombre encontrarán la zona de coordenadas, alli pueden ubicar el par de datos que correponden a los datos del punto. Si se mueve el punto las coordenadas cambian automáticamente.
+     * Debajo del nombre encontrarán la zona de coordenadas, allí pueden ubicar el par de datos que correponden a los datos del punto. Si se mueve el punto las coordenadas cambian automáticamente.
      * Al final de todo el recuadro encontrarán cuadrado con pestañas esta es la zona de edición abordaremos las configuraciones que se pueden hacer.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/zonas_edicion_puntos.png" alt="Ubicaciuon cato">
          </p>
          
-3. Generar un poligono sobre la ubicación de la laguna de salinas
-    * Al momento de hacer clic sobre el logo de crear poligono ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png). El cursos cambiara pero no habra ningun puntos de referencia como si paso con los puntos
-    *  Para generar el poligono deberá hacer clic en cada uno de los margenes cada clic generará un vertice del poligono como se muestra en la imagen.
+3. Generar un polígono sobre la ubicación de la laguna de salinas
+    * Al momento de hacer clic sobre el logo de crear poligono ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/poligonos.png). El cursor cambiará pero no habrá ningún puntos de referencia como si paso con los puntos
+    *  Para generar el poligono deberá hacer clic en cada uno de los margenes cada clic generará un vértice del polígono como se muestra en la imagen.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/Captura%20de%20pantalla%202025-03-12%20151357.png" alt="Ubicaciuon cato">
          </p>
     
-   * Notar que el recuadro de coordenadas no existe en poligonos, pero si nombre y la ventana de edición.
-   * Si se equivocan, pueden borrar el vertice haciendo clic sobre el que salio mal y darle clic en suprimir desde su teclado.
-   * Pueden reposicionar vertices manteniendo clic sobre el vértice que quieran mover y moviendolo hacia su nueva posición.
+   * Notar que el recuadro de coordenadas no existe en polígonos, pero si nombre y la ventana de edición.
+   * Si se equivocan, pueden borrar el vértice haciendo clic sobre el que salio mal y darle clic en suprimir desde su teclado.
+   * Pueden reposicionar vértices manteniendo clic sobre el vértice que quieran mover y moviendolo hacia su nueva posición.
 
 4. Generar una linea a través de todo el puente de Fierro
-   * Ubicar la zona de punte de Fierro y hacer clic en el icono de edicion de lineas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
-   * Al igual que con poligonos el cursor desaparecera y cada vez que se haga clic saldra un vértice, las lineas generan trazos que unen los puntos.
+   * Ubicar la zona de punte de Fierro y hacer clic en el ícono de edición de lineas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
+   * Al igual que con polígonos el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, las lineas generan trazos que unen los puntos.
    ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
