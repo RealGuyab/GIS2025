@@ -154,6 +154,7 @@ ________________________________________________________________________________
 4. Generar una línea a través de todo el Puente de Fierro
    * Ubicar la zona de Punte de Fierro y hacer clic en el ícono de edición de líneas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
    * Al igual que con polígonos, el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, las líneas generan trazos que unen los puntos.
+     
    ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea.png)
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
