@@ -59,12 +59,32 @@ El segundo logo que como se puede ver se encuentra dentro del proyecto ***Mis lu
 Por defecto el proyecto ***Mis Lugares*** tiene dos carpetas:
 La primera es ***Recorrido visual***, en ella se encuentran recorridos precargados a lugares del mundo reconocidos. Para desplegar las carpetas hay que hacer clic en el triangulo que tienen al costado. a desplegar la carpeta de recorrido encontraremos una serie de nombres con hipervinculos si hacemos clic en cualquiera el programa entra en modo recorrido automatico que nos permite visualizar el lugar y visitarlo. Es una buena opción para visitar lugares sin necesidad de estar alli o para ver que nos encontraremos si en algún momento tenemoos planes de viajar a esos lugares. 
 La segunda carpeta son de ***Lugares temporales***, esta carpeta guardará como su nombre lo dice elementos que cuando se cierre la sesion o cerremos el programa desapareceran y no los podemos ver luego. Para seleccioonar una carpeta basta con solo hacer click sobre ella y que se marque en azul eso indica al programa que guardaremos todo lo que creemos en ese lugar.
+Las carpetas pueden dar origen a nuevos proyectos pero eso lo veremos un poco más adelante al momento de exportar los elementos que deseemos.
 
 Para mantener el orden en el trabajo necesitaremos crear carpetas, es una buena costumbre tener una carpeta por cada proyecto que desarrollemos. Por lo que crearemos la carpeta con el nombre "Primera Clase" y alli procederemos a guardar todo lo que creemos.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ### Actividad 1:  Creación de carpeta "Primera Clase"
-1. Debermos seleccionar el origen que se llama 
+1. Deberemos seleccionar el proyecto sobre el que se desee para este caso es el Proyecto Mis Lugares hacemos clic derecho y ubicamos la opción Añadir >> Carpeta
+  <p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/crear_carpeta.png" alt="Ubicaciuon cato">
+</p>
+2. Se debera desplegar un nuevo recuadro, en este podremos configurar el nombre de la carpeta de trabajo. Para este ejercicio debera ser "Primera Clase" 
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/nueva_carpeta_menu.png" alt="Ubicaciuon cato">
+</p>
 
+3. Si todo salió como deberia debera aparecerles la nueva carpeta "Primera clase en el menu lugares"
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_nueva.png" alt="Ubicaciuon cato">
+</p>
+
+Si les surgio algun problema es mejor que eliminen lo que se haya creado para ello para ello seleccionan la carpeta coon un clic luego clic derecho y ubicacion la opcion eliminar. 
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/eliminar_carpeta.png" alt="Ubicaciuon cato">
+</p>
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 Para crear entidades geográficas utilizaremos el menú de utilidades 
 
