@@ -164,9 +164,13 @@ ________________________________________________________________________________
 Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se presentan ligeras diferencias pero mantienen una misma lógica. 
 
 1. Ingreso al menú de ediciones. Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro, podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta con hacer clic derecho en el nombre del elemento y hacer clic en propiedades.
-![Reedicion de elementos creados](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png).
 
-2. 
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
+         </p>
+
+2. fhv
+3.  
 
 
 
