@@ -10,3 +10,6 @@
 8. Todo trabajo en donde se encuentre copia literal de trabajos de años pasados o de otros grupos inmediatamente tendrá una nota de 5 puntos. Si el grupo es reincidente se elevará el caso a la facultad.
 9. Las notas seran enviadas durante la semana de examenes de cada fase el alumno puede revisar su nota e indicar si se cometio algún error en la asignación de la misma. Bajo ninguna justificante se incrementarán puntos a la nota final obtenida. 
 
+# FORMA DE EVALUACION DEL CURSO 
+![Matriz_evaluación](https://github.com/RealGuyab/Qgis/blob/main/imagenes/evaluacion_sig.png)
+
