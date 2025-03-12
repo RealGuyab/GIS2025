@@ -11,22 +11,6 @@ Google Earth Pro es una herramienta de exploración geográfica que permite a lo
 
 Entre sus funciones más destacadas se encuentran la medición de áreas y distancias con precisión, la posibilidad de superponer capas de información como datos demográficos y de tráfico, así como la opción de retroceder en el tiempo para observar cambios en el paisaje a lo largo de los años. Además, permite grabar recorridos virtuales, importar y exportar archivos GIS (Sistema de Información Geográfica) y generar imágenes de alta resolución para presentaciones y estudios técnicos.
 
-### Entidad geográfica
-
-Una entidad geográfica son elementos sobre la tierra que puede ser representado, analizado y gestionado dentro de un sistema geoespacial.
-
-Las entidades geográficas pueden clasificarse en:
-
-1. Puntuales: Representan ubicaciones específicas, como una torre de transmisión o una estación meteorológica.
-2. Lineales: Representan elementos con longitud, como carreteras, ríos o fronteras.
-3. Areal o poligonales: Representan superficies con área definida, como lagos, bosques o municipios.
-
-## Instalación de Google Earth Pro
- + Ingresar en el siguiente link https://maps.google.com/intl/es/earth/download/gep/agree.html
- + Aceptar los términos y condiciones e iniciar la descarga
- + Ejecutar lo descargado y esperar a que finalice la instalación
- + Una vez finalizado tendrán acceso al programa
-
 ## Análisis de interfaz
 
 Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfaz en 6 secciones las que se detallan:
@@ -41,7 +25,7 @@ Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuest
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
 
-## Creación de entidades Geográficas
+## Creación de proyectos y carpetas
 Antes de proceder a crear una entidad geográfica es necesario reconocer el lugar donde se almacenara lo desarrolla en nuestra sesión. Para ello debemos hechar un ojo al menú lugares. Alli encontraran algunos elementos que viene precargadas por defecto. 
 
 <p align="center">
@@ -62,7 +46,7 @@ La segunda carpeta son de ***Lugares temporales***, esta carpeta guardará como 
 Las carpetas pueden dar origen a nuevos proyectos pero eso lo veremos un poco más adelante al momento de exportar los elementos que deseemos.
 
 Para mantener el orden en el trabajo necesitaremos crear carpetas, es una buena costumbre tener una carpeta por cada proyecto que desarrollemos. Por lo que crearemos la carpeta con el nombre "Primera Clase" y alli procederemos a guardar todo lo que creemos.
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ### Actividad 1:  Creación de carpeta "Primera Clase"
 1. Deberemos seleccionar el proyecto sobre el que se desee para este caso es el Proyecto Mis Lugares hacemos clic derecho y ubicamos la opción Añadir >> Carpeta
@@ -84,10 +68,31 @@ Si les surgio algun problema es mejor que eliminen lo que se haya creado para el
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/eliminar_carpeta.png" alt="Ubicaciuon cato">
 </p>
 
-______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-Para crear entidades geográficas utilizaremos el menú de utilidades 
+## Creación de entidades geográficas
 
+### ¿Que es una entidad geográfica?
+
+Una entidad geográfica son elementos sobre la tierra que puede ser representado, analizado y gestionado dentro de un sistema geoespacial.
+
+Las entidades geográficas pueden clasificarse en:
+
+1. Puntuales: Representan ubicaciones específicas, como una torre de transmisión o una estación meteorológica.
+2. Lineales: Representan elementos con longitud, como carreteras, ríos o fronteras.
+3. Areal o poligonales: Representan superficies con área definida, como lagos, bosques o municipios.
+
+## Instalación de Google Earth Pro
+ + Ingresar en el siguiente link https://maps.google.com/intl/es/earth/download/gep/agree.html
+ + Aceptar los términos y condiciones e iniciar la descarga
+ + Ejecutar lo descargado y esperar a que finalice la instalación
+ + Una vez finalizado tendrán acceso al programa
+
+### ¿Cómo se crean?
+
+Retomenos de donde nos quedamos en la Actividad N°1. Uan vez creada la carpeta debemos seleccionarla para ello solo basta con hacer un solo clic sobre el nombre de la carpeta y veran que se sombrea de un zolor azul ![seleccionada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_seleccionada.png). Este proceso es importante puedo que al seleccionar la carpeta le decimos al programa que allí es donde queremos que se guarden nuestras entidades geográficas.
+
+Con la capeta seleccionada nos dirigiremos al menú Utilidades, esta barra tiene todas las herramientas que nos permitiran editar crear y modificar las entidades geográficas.
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menu_utilidades.png" alt="Ubicaciuon cato">
 </p>
@@ -108,15 +113,17 @@ Si la entidad geografica fue correctamente creada la encontraran en el Menú lug
 
 Se repite el proceso de creacion anteriormente descrito. Las líneas son entidades unidimensionales, es decir como si fuera un trazo de lápiz en un papel. El cursor nos permitirá colocar vértices y cada vértice se unirá por un trazo de color negro por defecto.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
 ### Edición de entidades geográficas
 
 Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se presentan ligeras diferencias pero manteienen una misma lógica. 
 
 1. Ingreso al menú de ediciones. Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta 
 
-
-## Ejercicio Practico N°1: Creacion de entidades geográficas
-
-## Ejercicio Practico N°2: Edición de entidades geográficas
 
 ## Asignación 
