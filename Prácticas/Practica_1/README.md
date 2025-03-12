@@ -121,15 +121,15 @@ ________________________________________________________________________________
          * Laguna de Salinas, Arequipa
          * Puente de Fierro, Arequipa
    
-** La barra de busqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
-<p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menubuqueda.png" alt="Ubicaciuon cato">
-</p>
+         ** La barra de busqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
+         <p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menubuqueda.png" alt="Ubicaciuon cato">
+         </p>
 
-Para ejecutar una busqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de busqueda debajo como se muestras en la imagen.
-<p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png" alt="Ubicaciuon cato">
-</p>
+         Para ejecutar una busqueda se necesita solo colocar el nombre en el recuadro en blanco y darle a buscar. Saldran las opciones de busqueda debajo como se muestras en la imagen.
+         <p align="center">
+           <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png" alt="Ubicaciuon cato">
+         </p>
 
 
 
