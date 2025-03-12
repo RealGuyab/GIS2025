@@ -132,7 +132,15 @@ ________________________________________________________________________________
            <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/busquedaejecutada.png" alt="Ubicaciuon cato">
          </p>
 
-2. 
+2. Crear un punto sobre la ciudad de Arequipa y analizar el resultado
+     * Modificar el nombre del punto a Arequipa
+     * Debajo del nombre encontrarán la zona de coordenadas, alli pueden ubicar el par de datos que correponden a los datos del punto. Si se mueve el punto las coordenadas cambian automáticamente.
+     * Al final de todo el recuadro encontrarán cuadrado con pestañas esta es la zona de edición abordaremos las configuraciones que se pueden hacer.
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/zonas_edicion_puntos.png" alt="Ubicaciuon cato">
+         </p>
+
+   
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
