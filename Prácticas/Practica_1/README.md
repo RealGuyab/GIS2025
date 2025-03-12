@@ -116,10 +116,11 @@ Se repite el proceso de creacion anteriormente descrito. Las líneas son entidad
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ### Actividad 2: Creación de entidades geoográficas
-1. Utilizar la barra de busqueda para encontrar los siguientes lugares 
-         * Ciudad de Arequipa
-         * Laguna de Salinas, Arequipa
-         * Puente de Fierro, Arequipa
+1. Utilizar la barra de busqueda para encontrar los siguientes lugares:
+   
+    * Ciudad de Arequipa.
+    * Laguna de Salinas, Arequipa.
+    * Puente de Fierro, Arequipa.
    
     La barra de busqueda funciona para encontrar lugares dentro de Google Earth Pro que tengan algun nombre definido. Se encuentra sobre el Menú Lugares.
          <p align="center">
