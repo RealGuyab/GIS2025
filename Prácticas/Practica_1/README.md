@@ -51,10 +51,12 @@ Antes de proceder a crear una entidad geográfica es necesario reconocer el luga
 Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener multiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto por defecto se aplica a todo lo que se tenga dentro. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. Tambien funciona Archivo >> Importar. 
 El formato que da origen a los proyecto se conocen como archivos KML o KMZ. Estos dos son los archivos mas importantes para el Google Earth Pro.
 
-El segundo logo que como se puede ver se encuentra dentro del proyecto ***Mis lugares*** son carpetas de trabajo  
+El segundo logo que como se puede ver se encuentra dentro del proyecto ***Mis lugares*** son carpetas de trabajo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta.png) Las carpetas son la forma de organizar informacion dentro de cada proyecto. Un mismo proyecto puede tener multiples carpetas. Para crear nuevas carpetas se debe seleccionar el proyecto en el que se quiera crear la carpeta luego dar clic derecho y buscar y seleccinoar la opción Añadir >> Carpeta tal como se muestra en la imagen. 
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/crear_carpeta.png" alt="Ubicaciuon cato">
+</p>
 
-
-
+Por defecto el proyecto ***Mis Lugares*** tiene dos carpetas:
 La primera es ***Recorrido visual***, en ella se encuentran recorridos precargados a lugares del mundo reconocidos. Para desplegar las carpetas hay que hacer clic en el triangulo que tienen al costado. a desplegar la carpeta de recorrido encontraremos una serie de nombres con hipervinculos si hacemos clic en cualquiera el programa entra en modo recorrido automatico que nos permite visualizar el lugar y visitarlo. Es una buena opción para visitar lugares sin necesidad de estar alli o para ver que nos encontraremos si en algún momento tenemoos planes de viajar a esos lugares. 
 La segunda carpeta son de ***Lugares temporales***, esta carpeta guardará como su nombre lo dice elementos que cuando se cierre la sesion o cerremos el programa desapareceran y no los podemos ver luego. Para seleccioonar una carpeta basta con solo hacer click sobre ella y que se marque en azul eso indica al programa que guardaremos todo lo que creemos en ese lugar.
 
