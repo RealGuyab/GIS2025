@@ -90,7 +90,7 @@ Las entidades geográficas pueden clasificarse en:
 
 ### ¿Cómo se crean?
 
-Retomenos de donde nos quedamos en la Actividad N°1. Uan vez creada la carpeta debemos seleccionarla para ello solo basta con hacer un solo clic sobre el nombre de la carpeta y veran que se sombrea de un zolor azul ![seleccionada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_seleccionada.png). Este proceso es importante puedo que al seleccionar la carpeta le decimos al programa que allí es donde queremos que se guarden nuestras entidades geográficas.
+Retomenos de donde nos quedamos en la Actividad N°1. Uan vez creada la carpeta debemos seleccionarla para ello solo basta con hacer un solo clic sobre el nombre de la carpeta y veran que se sombrea de un color azul ![seleccionada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_seleccionada.png). Este proceso es importante puedo que al seleccionar la carpeta le decimos al programa que allí es donde queremos que se guarden nuestras entidades geográficas.
 
 Con la capeta seleccionada nos dirigiremos al menú Utilidades, esta barra tiene todas las herramientas que nos permitiran editar crear y modificar las entidades geográficas.
 <p align="center">
