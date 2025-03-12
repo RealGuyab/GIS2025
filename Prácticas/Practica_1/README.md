@@ -1,7 +1,7 @@
 # Práctica N°1: Introducción a SIG y uso de Google Earth Pro
 
 ### Competencias
-1. Reconocer la plataforma Google Earth Pro
+1. Reconocer la plataforma Google Earth Pro hjkhjkhjk
 2. Comprender los conceptos básicos de entidades geográficas
 3. Generar entidades geográficas en Google Earth Pro
    
