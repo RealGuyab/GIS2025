@@ -169,11 +169,24 @@ Cada vez que creamos una entidad geográfica se desplega un recuadro al costado.
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
          </p>
 
-Dentro de todos los menús de ediciones de datos siempre se presentan las ventanas de Descripción, Estilo/color y Ver. Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad geográfica que se este analizando por dicho motivo se abordará la edicion de cada una de ellas por separado. 
+Dentro de todos los menús de ediciones de datos siempre se presentan las ventanas de Descripción, Estilo/color y Ver. 
+
+* Ventana Descripción: En la ventana descripción podemos colocar información correspondiente a la entidad que estemos creando. Por ejemplo si tiene algun dueño, alguna referencia, etc. La descripcion no se moestrara en pantalla pero al consultar las propiedades podremos volver a verlas y editarlas 
+* Ventana Estilo/color: La ventana estilo y color nos permite cambiar los colores de la entidad geográfica creada asi como de la etiqueta (nombre) que le colocamos. 
+* Ventana ver: 
+
+
+Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad geográfica que se este analizando por dicho motivo se abordará la edicion de cada una de ellas por separado. 
+
+
 
 ### Ediciones de puntos
 
-  
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
+         </p>
+
+La edición de puntos consta de dos partes la edicion del icono  y los menús de edición 
 
 
 
