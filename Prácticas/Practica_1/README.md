@@ -169,7 +169,10 @@ Cada vez que creamos una entidad geográfica se desplega un recuadro al costado.
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
          </p>
 
-Dentro de todos los menus de ediciones de datos siempre se presentan las ventas de Descripción, Estilo/color y Ver.   
+Dentro de todos los menús de ediciones de datos siempre se presentan las ventanas de Descripción, Estilo/color y Ver. Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad geográfica que se este analizando por dicho motivo se abordará la edicion de cada una de ellas por separado. 
+
+### Ediciones de puntos
+
   
 
 
