@@ -258,16 +258,27 @@ Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad 
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/norte_sur.png" alt="Ubicaciuon cato" width="480">
          </p>
 
+### Tipos de coordenadas geográficas
+
+Existen multiples tipos de coordenadas geográficas pero todas se basan en el mismo principio la única diferencia es la forma de escritura. Se presentan a continuación las que se pueden configurar en Google Earth Pro
+
+| Sistema de Coordenadas  | Longitud | Latitud |
+| :---: | :---: |  :---: |
+| Content Cell  | Content Cell  | cell |
+| Content Cell  | Content Cell  | cell |
+
 ### Coordenadas Proyectadas
 
 
 
 Como les habia explicado anteiormente existen multiples tipos de formatos de coordenadas. Google Earth Pro nos permite cambiar estos sistemas. Esta opción es necesaria ya que algunas veces nos enfrentaremos a diversos formatos de coordenadas y se nos pedirá que las ubiquemos en el mapa. Por lo que tenemos que saber que hacer ante esta situacion. Los formatos de coordendas más comunes y que se encuentran en el programa son los siguientes:
 
-| Sistema de Coordenadas  | Second Header | asdasd |
-| :---: | :---: |  :---: |
-| Content Cell  | Content Cell  | cell |
-| Content Cell  | Content Cell  | cell |
+| Sistema de Coordenadas  | Longitud | Latitud | Descripción |
+| :---: | :---: |  :---: | :---: |
+| Grados, minutos y segundos  | Content Cell  | cell | |
+| Grados decimales  | Content Cell  | cell | |
+| Grados, minutos decimales | Content Cell  | cell | |
+| Grados decimales  | Content Cell  | cell | |
 
 + Grados, minutos y segundos
 + Grados decimales
