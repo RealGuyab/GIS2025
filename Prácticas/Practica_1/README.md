@@ -264,9 +264,9 @@ Existen multiples tipos de coordenadas geográficas pero todas se basan en el mi
 
 | Sistema de Coordenadas  | Longitud | Latitud | Descripción |
 | :---: | :---: | :---: | :--- |
-| Grados, minutos y segundos  | 71° 2'40.62"O  |  15°45'28.64"S | Es la forma que la mayoria conoce la descripcion de coordenadas. El formato incluye de forma OBLIGATORIA las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este) |
-| Grados decimales  | -71.044616° | -15.757957° |  |
-| Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S |  |
+| Grados, minutos y segundos  | 71°2'40.62"O  |  15°45'28.64"S | Es la forma que la mayoria conoce la descripcion de coordenadas. El formato incluye de forma OBLIGATORIA las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este). |
+| Grados decimales  | -71.044616° | -15.757957° | Este formato solo presenta los grados y los minutos y segundos han sido convertidos en decimales. Notar que aquí no aparecen letras pero el signo es importante. Para el caso de la longitud, los valores positivos hacen referencia al hemisferio Este y negativos para el hemisferio Oeste. Y para el caso de la latitud los valores positivos hacen referencia al hemisferio norte y negativos para el hemisferio sur. |
+| Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S | Esto resulta de una mezcla de ambas coordenadas se mantienen los grados y minutos pero segundos se convierten en decimales de minutos. Los signos desaparen pero se mantienen las letras por lo que en estas cordenadas tambien es OBLIGATORIO que se mantengan. |
 
 ### Coordenadas Proyectadas
 
