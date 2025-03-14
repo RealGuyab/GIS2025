@@ -231,6 +231,15 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
 
+Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Como les habia explicado anteiormente existen multiples tipos de formatos de coordenadas. Google Earth Pro nos permite cambiar estos sistemas. Esta opción es necesaria ya que algunas veces noos enfrentaremos a diversos fortmatos de coordenadas y ses nos pedira que las ubiquemos en el mapa por lo que tenemos que saber que hacer ante esta situacion. Los formatos de coordendas más comunes y que se encuentran en el programa son los siguientes:
+
++ Grados, minutos y segundos
++ Grados decimales
++ Grads, minutos decimales
++ Universal Trasversal Mercator (UTM)
++ Sistema de referencia de cuadricula militar
+
+Para configurar el tipo de coordenadas 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas
