@@ -263,8 +263,8 @@ Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad 
 Existen multiples tipos de coordenadas geográficas pero todas se basan en el mismo principio la única diferencia es la forma de escritura. Se presentan a continuación las que se pueden configurar en Google Earth Pro
 
 | Sistema de Coordenadas  | Longitud | Latitud | Descripción |
-| :---: | :---: | :---: | :---: |
-| Grados, minutos y segundos  | 71° 2'40.62"O  |  15°45'28.64"S | Es la forma que la mayoria conoce la descripcion de coordenadas. El formato incluye de forma OBLIGATORIA las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur |
+| :---: | :---: | :---: | :--- |
+| Grados, minutos y segundos  | 71° 2'40.62"O  |  15°45'28.64"S | Es la forma que la mayoria conoce la descripcion de coordenadas. El formato incluye de forma OBLIGATORIA las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este) |
 | Grados decimales  | -71.044616° | -15.757957° |  |
 | Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S |  |
 
