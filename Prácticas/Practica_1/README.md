@@ -206,7 +206,7 @@ La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos 
 1. Ventana estilo/color: las opciones son las mismas sin embargo ahora aparece area en lugar de ícono. encontraran que existe un pequeño recuadro desplegable con tres opcines, Relleno, Contorno y Relleno y contorno. Estas opciones permitiran darle detalle colores a las lineas de contorno como al area o solo dejar activa una a la vez les remendamos que lo prueban activando cada una a la vez y viendo como cambia el resultad.
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/ver.png" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/dise%C3%B1o_area.png" alt="Ubicaciuon cato">
          </p>
  
 2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon.
