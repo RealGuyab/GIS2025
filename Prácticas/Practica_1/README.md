@@ -270,17 +270,18 @@ Existen multiples tipos de coordenadas geográficas pero todas se basan en el mi
 
 ### Coordenadas Proyectadas
 
+Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir la tierra como una esfera la asume como un plano. Para lograr ello se utilizan proyeccion. Estas proyecciones permitren convertir algunas secciones de la Tierra en plano con una presición moderadamente alta pero generan deformacion bastante notable en otras zonas de la Tierra. Las proyecciones más comunes son las siguientes:
 
+* Proyección cilindrica
+* Proyección conica
+* Proyección planar
 
-Como les habia explicado anteiormente existen multiples tipos de formatos de coordenadas. Google Earth Pro nos permite cambiar estos sistemas. Esta opción es necesaria ya que algunas veces nos enfrentaremos a diversos formatos de coordenadas y se nos pedirá que las ubiquemos en el mapa. Por lo que tenemos que saber que hacer ante esta situacion. Los formatos de coordendas más comunes y que se encuentran en el programa son los siguientes:
+En la sesion 2 profundizaremos más en estos terminos ya que para entender al 100% las coordenadas proyectadas tenemos que abordar diversos terminos relacionados entre sí. Google Earth Pro presenta dos sistemas de coordenadas proyectadas los que son las siguientes:
 
-
-
-+ Grados, minutos y segundos
-+ Grados decimales
-+ Grads, minutos decimales
-+ Universal Trasversal Mercator (UTM)
-+ Sistema de referencia de cuadricula militar
+| Sistema de Coordenadas  | Longitud | Latitud | Descripción |
+| :---: | :---: | :---: | :--- |
+| Universal Trasversal Mercator | 71°2'40.62"O  |  15°45'28.64"S |  |
+| Sistema de referencia de cuadricula militar  | -71.044616° | -15.757957° |  |
 
 Para configurar el tipo de coordenadas 
 
