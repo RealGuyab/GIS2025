@@ -183,12 +183,46 @@ Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad g
 ### Ediciones de puntos
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edicion_puntos.png" alt="Ubicaciuon cato">
          </p>
 
-La edición de puntos consta de dos partes la edicion del icono  y los menús de edición 
+La edición de puntos consta de dos partes la edicion del icono y los menús de edición 
 
+1. Edición de ícono. Si hacemos clic en la tachuelade color amarillo se nos desplegara una nueva ventana con multiples gráficos. Al seleccionar en algun grafico podremos cambiar el diseño del punto a cualquiera de los predefinidos o podemos ingresar nuestro propio icono haciendo clic en ![argregar icono](https://github.com/RealGuyab/Qgis/blob/main/imagenes/a%C3%B1adir_icono.png). Se aperturará una nueva ventan donde tendremos que dar clic en examinar y buscar nuestro ícono. Se recomienda no usar iconos muy complicados, muy grandes o llamativos.
+2. El Menu de edicion se pueden encontrar las ventanas Descipcion, Estilo-Color, Ver y Altitud.
+     * La ventana Estilo-color nos permite modificar el Color de la etiqueta o el nombre asi como su tamaño haciendo crecer el numero que se encuentra en la opcion escala. La opacidad nos dara el valor de la transparencia. Es decir, hara que la etiquea sea cada vez mas translucida el valor de 100% indica un color completamente solido mientras que 0% la hara complemetamente transparente puede mover el valor entre estos rango y analizar como cambia el resultado. Ocurre lo mismo en ícono con la única diferencia de que aqui cambia el color del logo que hayamoos configurado. 
+     * La ventana Ver, configura la vista por defecto del punto. Si nosotros hacemos sobre el nombre de mi punto clic en el menú lugares en automatico la camara se reposicionara y podremos visualizar nuestro punto. Si repoosicionamos el punto se necesita darle a restablcer para que pueda reposicionarse a la nueva ubicacion que le dieron.
+       
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/ver.png" alt="Ubicaciuon cato">
+         </p>
 
+   * Altitud en esta configuración no nos da ningún valor.
+     
+### Ediciones de poligonos
+
+La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos diferencias. La primera se encuentra en la ventana de Estilo/color y la segunda en la ventana de medidas.
+
+1. Ventana estilo/color: las opciones son las mismas sin embargo ahora aparece area en lugar de ícono. encontraran que existe un pequeño recuadro desplegable con tres opcines, Relleno, Contorno y Relleno y contorno. Estas opciones permitiran darle detalle colores a las lineas de contorno como al area o solo dejar activa una a la vez les remendamos que lo prueban activando cada una a la vez y viendo como cambia el resultad.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/ver.png" alt="Ubicaciuon cato">
+         </p>
+ 
+2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.pngg" alt="Ubicaciuon cato">
+         </p>
+
+### Ediciones de Lineas
+
+Al igual que las entidad anterior existen ligeros cambios en la ventana Estilo/color y medidas 
+
+1. Ventana estilo/color: aqui habra un ligero cambio en el nombre llamandose lineas. Sin embargo, las opciones de configuración se mantienen igual.
+2. En medidas ahora solo aparece la longitud, que indica la longitud de la linea trazada en el mapa.  
+
+IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como por ejemplo colores fosforescentes o rojos.
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°3 Edicion de entidades geográficas
@@ -196,6 +230,8 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
+
+
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas
 
