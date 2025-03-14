@@ -279,7 +279,7 @@ Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir 
 En la sesion 2 profundizaremos más en estos terminos ya que para entender al 100% las coordenadas proyectadas tenemos que abordar diversos terminos relacionados entre sí. Google Earth Pro presenta dos sistemas de coordenadas proyectadas los que son las siguientes:
 
 | Sistema de Coordenadas | Coordenada | Zona | Coordenada Este | Coordenada Norte | Descripción |
-| :---: | :---: | :---: | :--- | :---: | :---: | :--- |
+| :---: | :---: | :---: | :--- | :---: | :---: |
 | Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS |  | 
 | Sistema de referencia de cuadricula militar  | 19LBC8094256776 | ------ | ----- | ------ |  | 
 
