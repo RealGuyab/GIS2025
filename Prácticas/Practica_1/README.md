@@ -280,8 +280,8 @@ En la sesion 2 profundizaremos más en estos terminos ya que para entender al 10
 
 | Sistema de Coordenadas | Coordenada | Zona | Coordenada Este | Coordenada Norte | Descripción |
 | :---: | :---: | :---: | :--- | :---: | :---: |
-| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS |  | 
-| Sistema de referencia de cuadricula militar  | 19LBC8094256776 | ------ | ----- | ------ |  | 
+| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS | Notar que la medida que obtenertemos esta en metros las letras mE y mS hacer referencia a metros Este y metros Sur. Solo metros Sur puede cambiar a metros Norte (mN) siempre que la coordenada este sobre el ecuador. Asi mismo se puede notar la presencia de un valor en la Zona. Estas coordenadas siempre funcionan con 3 elementos. Una Zona de ubicación que hace referencia a una porción especifica de la Tierra y que cambia de lugar en lugar y las coordenadas propiamente dichas. | 
+| Sistema de referencia de cuadricula militar  | 19LBC8094256776 | ------ | ----- | ------ | Este sistema de coordenadas de cuadricula militar es un sistema utilizado por la OTAM para encontrar elementos en la Tierra. Este sistema no sera utilizado en el desarrollo del curso. | 
 
 Para configurar el tipo de coordenadas 
 
