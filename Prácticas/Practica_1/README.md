@@ -255,7 +255,7 @@ Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad 
    + Latitud o tambien conocido como eje Y. La latitud se mide con líneas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La línea de referencia es la línea ecuatorial o ecuador geográfico. Esta línea divide el mundo en dos partes o Hemisferios El hemiferio Norte (N) y el hemisferio Sur (S).
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/este_oeste2.png" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/norte_sur.png" alt="Ubicaciuon cato">
          </p>
 
 ### Coordenadas Proyectadas
