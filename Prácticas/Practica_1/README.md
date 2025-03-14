@@ -209,7 +209,7 @@ La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos 
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/dise%C3%B1o_area.png" alt="Ubicaciuon cato">
          </p>
  
-2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon.
+2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon. La opción desplegable permite cambiar las unidades al resultado.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.png" alt="Ubicaciuon cato">
@@ -220,7 +220,16 @@ La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos 
 Al igual que las entidad anterior existen ligeros cambios en la ventana Estilo/color y medidas 
 
 1. Ventana estilo/color: aqui habra un ligero cambio en el nombre llamandose lineas. Sin embargo, las opciones de configuración se mantienen igual.
-2. En medidas ahora solo aparece la longitud, que indica la longitud de la linea trazada en el mapa.  
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea_edicion.png" alt="Ubicaciuon cato">
+         </p>
+   
+2. En medidas ahora solo aparece la longitud, que indica la longitud de la linea trazada en el mapa. recordar que el desplegable permite cambiar unidades al resultado.
+
+<p align="center">
+       <img src="https://raw.githubusercontent.com/RealGuyab/Qgis/main/Pr%C3%A1cticas/Practica_1/imagenes/medidas_linea.png" alt="Ubicaciuon cato">
+         </p>   
 
 IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como por ejemplo colores fosforescentes o rojos.
 
