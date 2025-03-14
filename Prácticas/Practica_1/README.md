@@ -240,7 +240,22 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
 
-Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Como les habia explicado anteiormente existen multiples tipos de formatos de coordenadas. Google Earth Pro nos permite cambiar estos sistemas. Esta opción es necesaria ya que algunas veces noos enfrentaremos a diversos fortmatos de coordenadas y ses nos pedira que las ubiquemos en el mapa por lo que tenemos que saber que hacer ante esta situacion. Los formatos de coordendas más comunes y que se encuentran en el programa son los siguientes:
+Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las coordendas solo se muestran para objetos puntuales en una zona (puntos) es por ello que no encontramos coordenadas ni en lineas, ni en poligonos pero ello no significa que no las tengan. Existen multiples formatos de coordenadas pero las agruparemos en dos grupos para un mejor entendimiento.
+
+### Coordenadas Geográficas 
+
+
+
+### Coordenadas Proyectadas
+
+
+
+Como les habia explicado anteiormente existen multiples tipos de formatos de coordenadas. Google Earth Pro nos permite cambiar estos sistemas. Esta opción es necesaria ya que algunas veces nos enfrentaremos a diversos formatos de coordenadas y se nos pedirá que las ubiquemos en el mapa. Por lo que tenemos que saber que hacer ante esta situacion. Los formatos de coordendas más comunes y que se encuentran en el programa son los siguientes:
+
+| Sistema de Coordenadas  | Second Header |
+| :---: | :---: |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 + Grados, minutos y segundos
 + Grados decimales
