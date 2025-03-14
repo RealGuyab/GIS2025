@@ -212,7 +212,7 @@ La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos 
 2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon.
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.pngg" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.png" alt="Ubicaciuon cato">
          </p>
 
 ### Ediciones de Lineas
