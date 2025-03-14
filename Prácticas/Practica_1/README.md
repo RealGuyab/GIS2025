@@ -245,13 +245,13 @@ Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las 
 ### Coordenadas Geográficas 
 
 Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad principal son los grados minutos y segundos. Para que estas coordenadas funcionen se tienen que tener lineas de referencia. Estas se encuentran distribudas a travez del mundo sobre dos 2 ejes que llamaremos longitud y latitud. 
-   + Longitud o tambien conocido como eje X. La longitud se mide con lineas verticales paralelas entre sí. Para fines graficos estas lineas se distribuyen cada determinado número de ángulos. Estas lineas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch que se encuentra en Inglaterra. Si tuvieras que definirlo de una manera simple la linea de corte principal el Meridiano de Greenwitch divide el mundo en derecha e izquierda o mejor dijo Este para el caso de lo que se encuentra a la derecha del meridiano de referencia y oeste para lo que esta a la izquierda,
+   + Longitud o tambien conocido como eje X. La longitud se mide con lineas verticales paralelas entre sí. Para fines graficos estas lineas se distribuyen cada determinado número de ángulos. Estas lineas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch que se encuentra en Inglaterra. Si tuvieras que definirlo de una manera simple la linea de corte principal el Meridiano de Greenwitch divide el mundo en derecha e izquierda o mejor dicho "hemisferio Este" para el caso de lo que se encuentra a la derecha del meridiano de referencia y "hemisferio oeste" para lo que esta a la izquierda,
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/este_oeste2.png" alt="Ubicaciuon cato">
          </p>
 
-   + Latitud o tambien conocido como eje Y. La latitud se mide con lineas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado numero de grados     
+   + Latitud o tambien conocido como eje Y. La latitud se mide con lineas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La linea de referencia es la línea ecuatorial o ecuador geográfico. Esta linea divide el mundo en dos partes o Hemisferios El emiferio Norte (N) y el emisferio Sur (S)     
 
 ### Coordenadas Proyectadas
 
