@@ -233,9 +233,24 @@ IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°3 Edicion de entidades geográficas
 
+Utilizando las entidades geograficas creadas previamente
+
+   * Ciudad de Arequipa. -> Punto
+   * Laguna de Salinas, Arequipa. -> Polígono
+   * Puente de Fierro, Arequipa. -> Línea}
+
 Edición de Puntos
 
++ Cambiar el color de la etiqueta y que se muestre de color rojo, cambiar al escala a 2 puntos y la transparencia (opacidad) al 75%.
++ Cambiar el logo del punto a cualquiera que este contruido de color azul.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_icono.png" alt="Ubicaciuon cato" width="300">
+         </p> 
+         
 Edicion de Líneas 
+
+
 
 Edicion de Polígonos 
 
@@ -327,6 +342,7 @@ La diferencia entre ambos formatos es muy sutil.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
+
 
 Obtener las coordenadas en una tabla de punto xxxxx complentando lo siguiente 
 
