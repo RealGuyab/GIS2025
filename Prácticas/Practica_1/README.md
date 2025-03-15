@@ -237,7 +237,7 @@ Utilizando las entidades geograficas creadas previamente
 
    * Ciudad de Arequipa. -> Punto
    * Laguna de Salinas, Arequipa. -> Polígono
-   * Puente de Fierro, Arequipa. -> Línea}
+   * Puente de Fierro, Arequipa. -> Línea
 
 <ins> Edición de Puntos <ins>
 
@@ -250,10 +250,21 @@ Utilizando las entidades geograficas creadas previamente
          
 <ins> Edicion de Líneas <ins>
 
++ Cambiar el color de la linea a coloro azul
++ Cambiar la escala de presentación a 8 puntos y la opacidad al 60%
+   + Si la linea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud
 
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_linea.png" alt="Ubicaciuon cato" width="300">
+         </p>   
 
 <ins> Edicion de Polígonos <ins> 
++ Cambiar el color de la linea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%
++ En Area coolocar un color verde, Mantener la opción Relleno+Contorno y colocar la opacidad al 50%
 
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_poligono.png" alt="Ubicaciuon cato" width="300">
+         </p>
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
