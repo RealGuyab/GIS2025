@@ -293,7 +293,7 @@ En Google Earth Pro se pueden configurar las coordenadas a todos los sistemas qu
 
 Ello desplegara una nueva ventana en donde podresmos encontrar multiples opciones para configurar el programa pero la que nos interesa es la opcion de cambio de coordenadas. Solo tenemos que seleccionar la que nos interese y darle a aceptar. Con ello las coordenadas tanto de puntos como del propio sistema quedaran configurados en automatico. 
 
-##Activación de cuadricula
+## Activación de cuadrícula
 
 La cuadricula nos muestra las lineas de referencias de todos los sistemas de coordenadas, esto es útil para reconocer las zonas que se presentan si es que desconocieramos alguna referncia de nuestras areas de estudio. Para activar la cuadricula tenemos que dirigirnos a la barra de Herramientas y configuración ubicar la opción Ver y activar Cuadricula.
 
@@ -302,8 +302,22 @@ La cuadricula nos muestra las lineas de referencias de todos los sistemas de coo
          </p>
 
 Cada vez que configuremos las coordenadas se configurará por defecto la cuadricula. 
+
+## Expotación de datos y generacion de KML o KMZ
+
+Si han seguido todo hasta este punto deberan tener una carpeta con multiples archivos de entidades geograficas entre puntos, lineas y poligonos. Todas estas estan ubicadas en forma local en la computadora es decir que si las deseara enviar a alguna otra persona se deben de generar archivos que permitan ser compartidos. 
+Google Earth Pro permite exportar datos de manera individual como en conjunto es decir carpetas completas. Para ambos el procedimiento es el mismo simplementa basta con hacer clic derecho al objeto que querramos exportar y darle a "Guardar lugar como..." 
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/exportar_lugares.png alt="Ubicaciuon cato" width="300">
+         </p>
+
+Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con con aceptar. 
+
+
+
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
-### Actividad N°4 Cambio de coordenadas
+### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Asignación 
