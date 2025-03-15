@@ -309,7 +309,7 @@ Si han seguido todo hasta este punto deberan tener una carpeta con multiples arc
 Google Earth Pro permite exportar datos de manera individual como en conjunto es decir carpetas completas. Para ambos el procedimiento es el mismo simplementa basta con hacer clic derecho al objeto que querramos exportar y darle a "Guardar lugar como..." 
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/exportar_lugares.png alt="Ubicaciuon cato" width="300">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/exportar_lugares.png" alt="Ubicaciuon cato" width="300">
          </p>
 
 Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con con aceptar. 
