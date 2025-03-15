@@ -312,11 +312,18 @@ Google Earth Pro permite exportar datos de manera individual como en conjunto es
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/exportar_lugares.png" alt="Ubicaciuon cato" width="300">
          </p>
 
-Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con con aceptar. 
+Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con aceptar. 
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/guardado.png" alt="Ubicaciuon cato" width="300">
+         </p>
+
+La diferencia entre ambos formatos es muy sutil. 
+* KML (Keyhold Markup Language) es un formato que permita guardar un solo archivo. En algunos casos se trbaajo con archivos adjuntos como fotografias, etc. Estos se tiene que generar en un formato aparte. Es decir que si quiero guardar de un solo proyecto multiples elementos cada uno tendria que tener su propio archivo KML.
+* KMZ (KML Zipped) este formato permite tener multiples archivos KML 
 
 
-
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
