@@ -115,7 +115,7 @@ Se repite el proceso de creación anteriormente descrito. Las líneas son entida
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-### Actividad 2: Creación de entidades geoográficas
+### Actividad 2: Creación de entidades geográficas
 1. Utilizar la barra de búsqueda para encontrar los siguientes lugares:
    
     * Ciudad de Arequipa.
@@ -291,6 +291,17 @@ En Google Earth Pro se pueden configurar las coordenadas a todos los sistemas qu
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/configurar_coordenadas.png" alt="Ubicaciuon cato" width="300">
          </p>
 
+Ello desplegara una nueva ventana en donde podresmos encontrar multiples opciones para configurar el programa pero la que nos interesa es la opcion de cambio de coordenadas. Solo tenemos que seleccionar la que nos interese y darle a aceptar. Con ello las coordenadas tanto de puntos como del propio sistema quedaran configurados en automatico. 
+
+##Activación de cuadricula
+
+La cuadricula nos muestra las lineas de referencias de todos los sistemas de coordenadas, esto es útil para reconocer las zonas que se presentan si es que desconocieramos alguna referncia de nuestras areas de estudio. Para activar la cuadricula tenemos que dirigirnos a la barra de Herramientas y configuración ubicar la opción Ver y activar Cuadricula.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/cuadricula.png" alt="Ubicaciuon cato" width="300">
+         </p>
+
+Cada vez que configuremos las coordenadas se configurará por defecto la cuadricula. 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas
 
