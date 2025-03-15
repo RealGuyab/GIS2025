@@ -243,7 +243,7 @@ Utilizando las entidades geograficas creadas previamente
 
 + Cambiar el color de la etiqueta y que se muestre de color rojo, cambiar al escala a 2 puntos y la transparencia (opacidad) al 75%.
 + Cambiar el logo del punto a cualquiera que este contruido de color azul.
-
+* Tomar nota de las coordenadas del punto
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_icono.png" alt="Ubicaciuon cato" width="300">
          </p> 
@@ -253,7 +253,7 @@ Utilizando las entidades geograficas creadas previamente
 + Cambiar el color de la linea a coloro azul
 + Cambiar la escala de presentación a 8 puntos y la opacidad al 60%
    + Si la linea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud
-
+* Tomar nota de la longitud en metros en la ventana "Medidas"
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_linea.png" alt="Ubicaciuon cato" width="300">
          </p>   
@@ -261,7 +261,7 @@ Utilizando las entidades geograficas creadas previamente
 <ins> Edicion de Polígonos <ins> 
 + Cambiar el color de la linea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%
 + En Area coolocar un color verde, Mantener la opción Relleno+Contorno y colocar la opacidad al 50%
-
+* Tomar nota del perímetro y área en metros en la venta de "Medidas"
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_poligono.png" alt="Ubicaciuon cato" width="300">
          </p>
