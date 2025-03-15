@@ -320,8 +320,7 @@ Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simple
 
 La diferencia entre ambos formatos es muy sutil. 
 * KML (Keyhold Markup Language) es un formato que permita guardar un solo archivo. En algunos casos se trbaajo con archivos adjuntos como fotografias, etc. Estos se tiene que generar en un formato aparte. Es decir que si quiero guardar de un solo proyecto multiples elementos cada uno tendria que tener su propio archivo KML.
-* KMZ (KML Zipped) este formato permite tener multiples archivos KML 
-
+* KMZ (KML Zipped) este formato permite tener multiples archivos KML comprimidos en un solo zip. Este formato se recomienda para exportar carpetas.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
