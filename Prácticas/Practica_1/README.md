@@ -236,6 +236,12 @@ IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°3 Edicion de entidades geográficas
 
+Edición de Puntos
+
+Edicion de Líneas 
+
+Edicion de Polígonos 
+
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
@@ -325,5 +331,8 @@ La diferencia entre ambos formatos es muy sutil.
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
 
+Obtener las coordenadas en una tabla de punto xxxxx complentando lo siguiente 
+
+Editar los colores a la preferncia de cada uno y exportar las capas de forma individual. 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Asignación 
