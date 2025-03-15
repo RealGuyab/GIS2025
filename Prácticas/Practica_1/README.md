@@ -239,7 +239,7 @@ Utilizando las entidades geograficas creadas previamente
    * Laguna de Salinas, Arequipa. -> Polígono
    * Puente de Fierro, Arequipa. -> Línea}
 
-Edición de Puntos
+<ins> Edición de Puntos <ins>
 
 + Cambiar el color de la etiqueta y que se muestre de color rojo, cambiar al escala a 2 puntos y la transparencia (opacidad) al 75%.
 + Cambiar el logo del punto a cualquiera que este contruido de color azul.
@@ -248,11 +248,11 @@ Edición de Puntos
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_icono.png" alt="Ubicaciuon cato" width="300">
          </p> 
          
-Edicion de Líneas 
+<ins> Edicion de Líneas <ins>
 
 
 
-Edicion de Polígonos 
+<ins> Edicion de Polígonos <ins> 
 
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
