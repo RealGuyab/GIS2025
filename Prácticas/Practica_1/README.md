@@ -173,12 +173,9 @@ Dentro de todos los menús de ediciones de datos siempre se presentan las ventan
 
 * Ventana Descripción: En la ventana descripción podemos colocar información correspondiente a la entidad que estemos creando. Por ejemplo si tiene algun dueño, alguna referencia, etc. La descripcion no se moestrara en pantalla pero al consultar las propiedades podremos volver a verlas y editarlas 
 * Ventana Estilo/color: La ventana estilo y color nos permite cambiar los colores de la entidad geográfica creada asi como de la etiqueta (nombre) que le colocamos. 
-* Ventana ver: 
-
+* Ventana ver: Muestra las cooordenas donse se ubica el visor al momento que demos clic sobre la entidad geográfica
 
 Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad geográfica que se este analizando por dicho motivo se abordará la edicion de cada una de ellas por separado. 
-
-
 
 ### Ediciones de puntos
 
