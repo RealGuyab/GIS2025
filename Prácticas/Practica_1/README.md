@@ -416,7 +416,10 @@ ________________________________________________________________________________
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/machupicchu.png" alt="Ubicaciuon cato">
          </p>
+         
 Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuario Histórico de Machu Picchu". Las coordenadas que incluyan aqui pueden ser diferentes a la del ejercicio 2.
+
+
 
 
 4. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menu capas la opcin carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
