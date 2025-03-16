@@ -406,6 +406,7 @@ ________________________________________________________________________________
 | Petra | ----- | ----- | ----- | ----- |
 | Taj Mahal | ----- | ----- | ----- | ----- |
 
+
 3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio encontrar el área que deben buscar. Generar un poligono al rededor de la estructura y tomar las medidas de área y perimetro. Completar la siguiente tabla
 
 | Nombre del lugar | Ubicacion (Coordenadas UTM) | Área del complejo | Perimetro del complejo |
