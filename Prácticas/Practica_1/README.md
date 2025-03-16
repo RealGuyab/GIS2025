@@ -417,8 +417,11 @@ ________________________________________________________________________________
          </p>
 Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuario Histórico de Machu Picchu". Las coordenadas que incluyan aqui pueden ser diferentes a la del ejercicio 2.
 
-5. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menu capas la opcin carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
+
+4. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menu capas la opcin carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/ruta.png" alt="Ubicaciuon cato">
          </p>
+
+5. Presentar en una sola captura de pantalla la ruta que cada uno de ustedes tendria que seguir desde la plaza más representativa de su distrito hasta la universidad. En el titulo de cada ruta debera incluirse la distancia en metros. Recuerden que para que esto pueda ser completado deberan exportar y enviar el archivo que generen a un compañero que tendra que ser el encargado de recopilar todos los datos abrirlos en el Google Earth Pro y tomar la captura de pantalla. 
