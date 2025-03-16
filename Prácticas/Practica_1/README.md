@@ -382,10 +382,10 @@ IMPORTANTE: Siempre que cambien de coordenadas un punto creado anteriormente se 
    
 <ins> Exportar el resultado <ins>
 
-
+Exportar el resultado (punto Muralla China) en un formato KML y exportar la carpeta de trabajo del curso "Primera clase" com archivo KMZ. Guardar estos archivos ya que seran utiles en futuras clases.
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+## Asignación 
 
 Obtener las coordenadas en una tabla de punto xxxxx complentando lo siguiente 
 
 Editar los colores a la preferncia de cada uno y exportar las capas de forma individual. 
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
-## Asignación 
