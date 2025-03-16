@@ -344,7 +344,7 @@ Google Earth Pro permite exportar datos de manera individual como en conjunto es
 Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con aceptar. 
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/guardado.png" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/guardado.png" alt="Ubicaciuon cato" width="1300">
          </p>
 
 La diferencia entre ambos formatos es muy sutil. 
@@ -375,7 +375,7 @@ ________________________________________________________________________________
 8. Haciendo ello la vista se movera hacia la nueva ubicación del punto que debera ser la Muralla China
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato" width="800">
          </p>   
 
 IMPORTANTE: Siempre que cambien de coordenadas un punto creado anteriormente se debe restablecer la vista. 
