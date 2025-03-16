@@ -386,6 +386,39 @@ Exportar el resultado (punto Muralla China) en un formato KML y exportar la carp
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Asignación 
 
-Obtener las coordenadas en una tabla de punto xxxxx complentando lo siguiente 
+1. Deberan completar los nombres de los lugares en la siguiente tabla. Para resolver el ejercicio tendran que conofigurar las coordenadas y buscar los puntos (Repasar actividad N°3 y N°4)
 
-Editar los colores a la preferncia de cada uno y exportar las capas de forma individual. 
+| Nombre del lugar | Coordenada Norte (Latitud) | Coordenada Este (Longitud) | Zona (Solo UTM) | Sistemas de coordenadas | Pista |
+| :---: | :---: | :---: | :--- | :---: | :---: |
+| ----- | 5636294.00 m N | 699079.00 m E | 30U | UTM | Es un laberinto, hacer zoom hasta que se vea una forma | 
+| ----- | 27° 7'4.40S | 109°20'54.73O | ----- | Grados minutos y segundos | Es una isla, alejar el zoom para obtenerrrrr el nombre |    
+| ----- | -14.707137° | -75.138619° | ----- | Grados decimales | Hacer zoom hasta que aparezca una figura |    
+
+2. Escoger las 7 maravillas del mundo moderno, buscarlas en Google Earth Pro y completar la siguiente tabla.
+
+| Nombre del lugar | Grados, minutos y segundos | Grados decimales | UTM | Sistema de referencia de cuadricula militar |
+| :---: | :---: | :---: | :---: | :---: |
+| Muralla China | Lat: 40°26'6.59"N long: 116°33'43.08"E | Lat: 40.435163° long: 116.561967° | 50T, 462848.10 m E, 4476150.02 m N | 50TMK6284876149 |
+| Cristo Redentor | ----- | ----- | ----- | ----- |
+| Chichén Itzá | ----- | ----- | ----- | ----- |
+| Coliseo de Roma | ----- | ----- | ----- | ----- |
+| Machu Picchu | ----- | ----- | ----- | ----- |
+| Petra | ----- | ----- | ----- | ----- |
+| Taj Mahal | ----- | ----- | ----- | ----- |
+
+3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio encontrar el área que deben buscar. Generar un poligono al rededor de la estructura y tomar las medidas de área y perimetro. Completar la siguiente tabla
+
+| Nombre del lugar | Ubicacion (Coordenadas UTM) | Área del complejo | Perimetro del complejo |
+| :---: | :---: | :---: | :---: |
+| Santuario Histórico de Machu Picchu | ----- | ----- | ----- |
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/machupicchu.png" alt="Ubicaciuon cato">
+         </p>
+Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuario Histórico de Machu Picchu". Las coordenadas que incluyan aqui pueden ser diferentes a la del ejercicio 2.
+
+5. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menu capas la opcin carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/ruta.png" alt="Ubicaciuon cato">
+         </p>
