@@ -233,7 +233,7 @@ IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°3 Edicion de entidades geográficas
 
-Utilizando las entidades geograficas creadas previamente
+Utilizando las entidades geograficas creadas previamente (Resultado Actividad N°2)
 
    * Ciudad de Arequipa. -> Punto
    * Laguna de Salinas, Arequipa. -> Polígono
@@ -353,6 +353,35 @@ La diferencia entre ambos formatos es muy sutil.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
+
+<ins> Ubicar puntos a partir de coordenadas <ins>
+
+1. Generar un nuevo punto en cualquier parte del mapa u llamarlo cooordenada.
+2. Analizar el tipo de coordenada que arroja la tabla por defecto e identificar a que sistema de coordenadas cooresponde.
+3. Configurar el sistema de coordenadas a Universal Transversal Mercator (Menu Herramientas >>> Opciones). Si no recuerda revisar el apartado de "Configuración de coordenadas en Google Earth Pro"
+4. Volver a ingresar a las propiedades del elemento para el ubicar el elemento coordenada dentro del mení de capas dar clic derecho y lueg ubicar la opción propiedades.
+5. Verificar como cambio la coordenada y que se añadio.
+6. Coon el sistema configurado deberan ingresar los siguientes datos.
+   * En Zona ingresar ***50 T***
+   * En Coordenada Este: ***462848.10 m E***
+   * En Coordenada Norte: ***4476150.02 m N***
+   Finalmente dar clic en aceptar. Lo que ocurrira es que el punto aparentemente desaparecerá no se preocupen es normal tendremos que arreglar la vista
+7. Ingresaremos al menu de propiedades del elemento, al mismo lugar de donde se editan los colores. Ingresar a la ventana "Ver" y dar clic en restablecer tal como lo indica la imagen.
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/restablcer_vista.png" alt="Ubicaciuon cato">
+         </p>
+   
+8. Haciendo ello la vista se movera hacia la nueva ubicación del punto que debera ser la Muralla China
+
+<p align="center">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato">
+         </p>   
+
+IMPORTANTE: Siempre que cambien de coordenadas un punto creado anteriormente se debe restablecer la vista. 
+   
+<ins> Exportar el resultado <ins>
+
 
 
 Obtener las coordenadas en una tabla de punto xxxxx complentando lo siguiente 
