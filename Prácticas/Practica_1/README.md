@@ -375,7 +375,7 @@ ________________________________________________________________________________
 8. Haciendo ello la vista se movera hacia la nueva ubicación del punto que debera ser la Muralla China
 
 <p align="center">
-       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato" width="700">
+       <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato" width="500">
          </p>   
 
 IMPORTANTE: Siempre que cambien de coordenadas un punto creado anteriormente se debe restablecer la vista. 
