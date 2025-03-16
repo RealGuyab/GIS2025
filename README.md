@@ -17,7 +17,7 @@ Supongan que un compañero suyo les pregunta donde queda la clase de Sistemas de
 
 Básicamente su cerebro analizó el terreno encontrando algunas referencias espaciales y luego diseño la ruta que se tradujo en instrucciones. Sin embargo, toda esta información no tendria ningún sentido si en primer lugar las ubicaciones a las que hicimos referencia no estuvieran en un lugar en el espacio.
 
-![Ubicaciuon cato](https://github.com/RealGuyab/Qgis/blob/main/imagenes/ubicacion_cato.png)
+![Ubicaciuon cato](/imagenes/ubicacion_cato.png)
 
 Entonces se entiende como "información espacial" a cualquier tipo de información que además de darnos datos sobre nombres, áreas, perímetros, etc. guarda al mismo tiempo la ubicación en el espacio del objeto. Misma que cualquier persona es capaz de buscar y encontrar a través de coordenadas. 
 
