@@ -22,11 +22,11 @@ Entre sus funciones más destacadas se encuentran la medición de áreas y dista
 Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfaz en 6 secciones que se detallan a continuación:
 
 1. Barra de Herramientas y Configuración: se encuentra en la parte superior de la interfaz. Incluye los menús de configuración general del programa, guardar proyectos y exportar así como otros más.
-2. Menú Lugares: aquí encontrarán todos los elementos que ustedes creen durante su sesión. Podrán activarlos, desactivarlos, exportarlos y eliminarlos. Siempre que un elemento se muestre más arriba se mostrará primero.
-3. Menú Capas: aquí encontran algunos ejes temáticos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
-4. Menú Utilidades: Aquí se encuentran las herramientas que permiten crear entidades geográficas, así como la opción retroceder en el tiempo, medición, exportación y cambio de planeta.
-5. Visor Principal: se encuentra el mapa principal donde saldrán gráficamente las entidades geográficas y ciudades. 
-6. Herramientas de navegación: permite mover el ángulo de vista, el zoom y cuando este activo Google Street View. 
+2. Menú lugares: Aquí encontrarán todos los elementos que ustedes creen durante su sesión. Podran activarlos, desactivarlos, exportalos y eliminarlos. Siempre que un elemento se muestre más arriba se mostrará primero.
+3. Menú capas: en el menú capas encontran algunos ejes temáticos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
+4. Menú Utilidades: Aqui se encuentran las herramientas que permiten crear entidades geográficas, asi como la opción retroceder en el tiempo, medición, exportación y cambio de planeta.
+5. Visor principal: se encuentra el mapa principal donde saldrán gráficamente las entidades geográficas y ciudades. 
+6. Herramientas de navegación: permite mover el ángulo de vista, el zoom y cuando este activo Google Street View 
 
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
@@ -38,17 +38,17 @@ Antes de proceder a crear una entidad geográfica es necesario reconocer el luga
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/sinelementos.png" alt="Ubicaciuon cato">
 </p>
 
-Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener múltiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto, por defecto se aplica a todo lo que se tenga dentro del mismo. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. También funciona Archivo >> Importar. 
-El formato que da origen a los proyectos se conocen como archivos KML o KMZ. Estos dos son los archivos más importantes para el Google Earth Pro.
+Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener múltiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto, por defecto se aplica a todo lo que se tenga dentro del mismo. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. Tambien funciona Archivo >> Importar. 
+El formato que da origen a los proyecto se conocen como archivos KML o KMZ. Estos dos son los archivos más importantes para el Google Earth Pro.
 
-El segundo logo que se puede ver se encuentra dentro del proyecto **Mis lugares** son carpetas de trabajo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta.png). Las carpetas son la forma de organizar información dentro de cada proyecto. Un mismo proyecto puede tener múltiples carpetas. Para crear nuevas carpetas se debe seleccionar el proyecto en el que se quiera crear la carpeta, luego dar clic derecho, buscar y seleccinoar la opción Añadir >> Carpeta. Tal como se muestra en la imagen. 
+El segundo logo que se puede ver se encuentra dentro del proyecto ***Mis lugares*** son carpetas de trabajo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta.png). Las carpetas son la forma de organizar información dentro de cada proyecto. Un mismo proyecto puede tener múltiples carpetas. Para crear nuevas carpetas se debe seleccionar el proyecto en el que se quiera crear la carpeta, luego dar clic derecho, buscar y seleccionar la opción Añadir >> Carpeta. Tal como se muestra en la imagen. 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/crear_carpeta.png" alt="Ubicaciuon cato">
 </p>
 
 Por defecto el proyecto ***Mis Lugares*** tiene dos carpetas:
 La primera es ***Recorrido visual***, en ella se encuentran recorridos precargados a lugares del mundo reconocidos. Para desplegar las carpetas hay que hacer clic en el triángulo que tienen al costado, al desplegar la carpeta de recorrido encontraremos una serie de nombres con hipervínculos, si hacemos clic en cualquiera el programa entra en modo recorrido automático que nos permite visualizar el lugar y visitarlo. Es una buena opción para visitar lugares sin necesidad de estar allí o para ver que nos encontraremos si en algún momento tenemos planes de viajar a esos lugares. 
-La segunda carpeta es ***Lugares temporales***, esta carpeta guardará como su nombre lo dice elementos que cuando se cierre la sesión o cerremos el programa desaparecerán y no los podremos ver luego. Para seleccionar una carpeta basta con solo hacer clic sobre ella y que se marque en azul, eso indica al programa que guardaremos todo lo que creemos en ese lugar.
+La segunda carpeta es ***Lugares temporales***, esta carpeta guardará, como su nombre lo dice, elementos que cuando se cierre la sesión o cerremos el programa desaparecerán y no los podremos ver luego. Para seleccionar una carpeta basta con solo hacer clic sobre ella y que se marque en azul, eso indica al programa que guardaremos todo lo que creemos en ese lugar.
 Las carpetas pueden dar origen a nuevos proyectos, pero eso lo veremos un poco más adelante, al momento de exportar los elementos que deseemos.
 
 Para mantener el orden en el trabajo necesitaremos crear carpetas, es una buena costumbre tener una carpeta por cada proyecto que desarrollemos. Por lo que crearemos la carpeta con el nombre "Primera Clase" y allí procederemos a guardar todo lo que creemos.
@@ -78,7 +78,7 @@ ________________________________________________________________________________
 
 ## Creación de entidades geográficas
 
-### ¿Que es una entidad geográfica?
+### ¿Qué es una entidad geográfica?
 
 Una entidad geográfica es un elemento sobre la tierra que puede ser representado, analizado y gestionado dentro de un sistema geoespacial.
 
@@ -185,10 +185,10 @@ Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad g
 
 La edición de puntos consta de dos partes la edicion del icono y los menús de edición 
 
-1. Edición de ícono. Si hacemos clic en la tachuelade color amarillo se nos desplegara una nueva ventana con multiples gráficos. Al seleccionar en algun grafico podremos cambiar el diseño del punto a cualquiera de los predefinidos o podemos ingresar nuestro propio icono haciendo clic en ![argregar icono](https://github.com/RealGuyab/Qgis/blob/main/imagenes/a%C3%B1adir_icono.png). Se aperturará una nueva ventan donde tendremos que dar clic en examinar y buscar nuestro ícono. Se recomienda no usar iconos muy complicados, muy grandes o llamativos.
-2. El Menu de edicion se pueden encontrar las ventanas Descipcion, Estilo-Color, Ver y Altitud.
-     * La ventana Estilo-color nos permite modificar el Color de la etiqueta o el nombre asi como su tamaño haciendo crecer el numero que se encuentra en la opcion escala. La opacidad nos dara el valor de la transparencia. Es decir, hara que la etiquea sea cada vez mas translucida el valor de 100% indica un color completamente solido mientras que 0% la hara complemetamente transparente puede mover el valor entre estos rango y analizar como cambia el resultado. Ocurre lo mismo en ícono con la única diferencia de que aqui cambia el color del logo que hayamoos configurado. 
-     * La ventana Ver, configura la vista por defecto del punto. Si nosotros hacemos sobre el nombre de mi punto clic en el menú lugares en automatico la camara se reposicionara y podremos visualizar nuestro punto. Si repoosicionamos el punto se necesita darle a restablcer para que pueda reposicionarse a la nueva ubicacion que le dieron.
+1. Edición de ícono. Si hacemos clic en la tachuela de color amarillo se nos desplegará una nueva ventana con multiples gráficos. Al seleccionar en algun grafico podremos cambiar el diseño del punto a cualquiera de los predefinidos o podemos ingresar nuestro propio icono haciendo clic en ![argregar icono](https://github.com/RealGuyab/Qgis/blob/main/imagenes/a%C3%B1adir_icono.png). Se aperturará una nueva ventan donde tendremos que dar clic en examinar y buscar nuestro ícono. Se recomienda no usar iconos muy complicados, muy grandes o llamativos.
+2. El Menú de edición se pueden encontrar las ventanas Descipcion, Estilo-Color, Ver y Altitud.
+     * La ventana Estilo-color nos permite modificar el Color de la etiqueta o el nombre asi como su tamaño haciendo crecer el numero que se encuentra en la opcion escala. La opacidad nos dara el valor de la transparencia. Es decir, hará que la etiqueta sea cada vez mas translucida el valor de 100% indica un color completamente opaco mientras que 0% la hará complemetamente transparente puede mover el valor entre estos rangos y analizar como cambia el resultado. Ocurre lo mismo en ícono con la única diferencia de que aqui cambia el color del logo que hayamoos configurado. 
+     * La ventana Ver, configura la vista por defecto del punto. Si nosotros hacemos clic sobre el nombre de mi punto , en el menú lugares en automatico la camara se reposicionará y podremos visualizar nuestro punto. Si repoosicionamos el punto se necesita darle a restablecer para que pueda reposicionarse a la nueva ubicación que le dieron.
        
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/ver.png" alt="Ubicaciuon cato">
@@ -198,21 +198,21 @@ La edición de puntos consta de dos partes la edicion del icono y los menús de 
      
 ### Ediciones de poligonos
 
-La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos diferencias. La primera se encuentra en la ventana de Estilo/color y la segunda en la ventana de medidas.
+La edidion de poligonos es similar a la de puntos, sin embargo aqui aparecen dos diferencias. La primera se encuentra en la ventana de Estilo/color y la segunda en la ventana de medidas.
 
-1. Ventana estilo/color: las opciones son las mismas sin embargo ahora aparece area en lugar de ícono. encontraran que existe un pequeño recuadro desplegable con tres opcines, Relleno, Contorno y Relleno y contorno. Estas opciones permitiran darle detalle colores a las lineas de contorno como al area o solo dejar activa una a la vez les remendamos que lo prueban activando cada una a la vez y viendo como cambia el resultad.
+1. Ventana estilo/color: las opciones son las mismas sin embargo ahora aparece area en lugar de ícono. encontraran que existe un pequeño recuadro desplegable con tres opcines, Relleno, Contorno y Relleno y contorno. Estas opciones permitiran darle detalle colores a las lineas de contorno como al area o solo dejar activa una a la vez les remendamos que lo prueban activando cada una a la vez y viendo como cambia el resultado.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/dise%C3%B1o_area.png" alt="Ubicaciuon cato">
          </p>
  
-2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon. La opción desplegable permite cambiar las unidades al resultado.
+2. Medias: aqui podran encontrar datos del área y perímetro que comprende el poligono que crearon. La opción desplegable permite cambiar las unidades al resultado.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.png" alt="Ubicaciuon cato">
          </p>
 
-### Ediciones de Lineas
+### Ediciones de Líneas
 
 Al igual que las entidad anterior existen ligeros cambios en la ventana Estilo/color y medidas 
 
@@ -222,13 +222,13 @@ Al igual que las entidad anterior existen ligeros cambios en la ventana Estilo/c
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea_edicion.png" alt="Ubicaciuon cato">
          </p>
    
-2. En medidas ahora solo aparece la longitud, que indica la longitud de la linea trazada en el mapa. recordar que el desplegable permite cambiar unidades al resultado.
+2. En medidas ahora solo aparece la longitud, que indica la longitud de la línea trazada en el mapa. recordar que el desplegable permite cambiar unidades al resultado.
 
 <p align="center">
        <img src="https://raw.githubusercontent.com/RealGuyab/Qgis/main/Pr%C3%A1cticas/Practica_1/imagenes/medidas_linea.png" alt="Ubicaciuon cato">
          </p>   
 
-IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como por ejemplo colores fosforescentes o rojos.
+IMPORTANTE: como se explicó en es preferible evitar colores muy llamativos como por ejemplo colores fosforescentes o rojos.
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### Actividad N°3 Edicion de entidades geográficas
@@ -250,17 +250,17 @@ Utilizando las entidades geograficas creadas previamente (Resultado Actividad N�
          
 <ins> Edicion de Líneas <ins>
 
-+ Cambiar el color de la linea a coloro azul
++ Cambiar el color de la línea a color azul
 + Cambiar la escala de presentación a 8 puntos y la opacidad al 60%
-   + Si la linea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud
+   + Si la línea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud
 * Tomar nota de la longitud en metros en la ventana "Medidas"
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_linea.png" alt="Ubicaciuon cato" width="300">
          </p>   
 
 <ins> Edicion de Polígonos <ins> 
-+ Cambiar el color de la linea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%
-+ En Area coolocar un color verde, Mantener la opción Relleno+Contorno y colocar la opacidad al 50%
++ Cambiar el color de la línea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%
++ En Area colocar un color verde, Mantener la opción Relleno+Contorno y colocar la opacidad al 50%
 * Tomar nota del perímetro y área en metros en la venta de "Medidas"
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_poligono.png" alt="Ubicaciuon cato" width="300">
@@ -269,19 +269,19 @@ Utilizando las entidades geograficas creadas previamente (Resultado Actividad N�
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
 
-Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las coordendas solo se muestran para objetos puntuales en una zona (puntos) es por ello que no encontramos coordenadas ni en lineas, ni en poligonos pero ello no significa que no las tengan. Existen multiples formatos de coordenadas pero las agruparemos en dos grupos para un mejor entendimiento.
+Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las coordenadas solo se muestran para objetos puntuales en una zona (puntos) es por ello que no encontramos coordenadas ni en líneas, ni en poligonos pero ello no significa que no las tengan. Existen múltiples formatos de coordenadas pero las agruparemos en dos grupos para un mejor entendimiento.
 
 ### Coordenadas Geográficas 
 
-Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad principal son los grados minutos y segundos. Para que estas coordenadas funcionen se tienen que tener lineas de referencia. Estas se encuentran distribudas a travez del mundo sobre dos 2 ejes que llamaremos longitud y latitud. 
+Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad principal son los grados minutos y segundos. Para que estas coordenadas funcionen se tienen que tener lineas de referencia. Estas se encuentran distribuidas a través del mundo sobre dos 2 ejes que llamaremos longitud y latitud. 
 
-   + Longitud o tambien conocido como eje X. La longitud se mide con lineas verticales paralelas entre sí. Para fines graficos estas lineas se distribuyen cada determinado número de ángulos. Estas lineas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch o primer meridiano que se encuentra en Inglaterra. Si tuvieras que definirlo de una manera simple la linea de corte principal el Meridiano de Greenwitch divide el mundo en derecha e izquierda o mejor dicho "hemisferio Este" para el caso de lo que se encuentra a la derecha del meridiano de referencia y "hemisferio oeste" para lo que esta a la izquierda,
+   + Longitud o también conocido como eje X. La longitud se mide con líneas verticales paralelas entre sí. Para fines gráficos estas líneas se distribuyen cada determinado número de ángulos. Estas líneas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch o primer meridiano que se encuentra en Inglaterra. Si tuvieras que definirlo de una manera simple la línea de corte principal el Meridiano de Greenwitch divide el mundo en derecha e izquierda o mejor dicho "hemisferio Este" para el caso de lo que se encuentra a la derecha del meridiano de referencia y "hemisferio oeste" para lo que esta a la izquierda,
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/este_oeste2.png" alt="Ubicaciuon cato" width="480">
          </p>
 
-   + Latitud o tambien conocido como eje Y. La latitud se mide con líneas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La línea de referencia es la línea ecuatorial o ecuador geográfico. Esta línea divide el mundo en dos partes o Hemisferios El hemiferio Norte (N) y el hemisferio Sur (S).
+   + Latitud o también conocido como eje Y. La latitud se mide con líneas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La línea de referencia es la línea ecuatorial o ecuador geográfico. Esta línea divide el mundo en dos partes o Hemisferios El hemiferio Norte (N) y el hemisferio Sur (S).
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/norte_sur.png" alt="Ubicaciuon cato" width="480">
@@ -299,7 +299,7 @@ Existen multiples tipos de coordenadas geográficas pero todas se basan en el mi
 
 ### Coordenadas Proyectadas
 
-Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir la tierra como una esfera la asume como un plano. Para lograr ello se utilizan proyeccion. Estas proyecciones permitren convertir algunas secciones de la Tierra en plano con una presición moderadamente alta pero generan deformacion bastante notable en otras zonas de la Tierra. Las proyecciones más comunes son las siguientes:
+Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir la tierra como una esfera la asume como un plano. Para lograr ello se utilizan proyeccion. Estas proyecciones permiten convertir algunas secciones de la Tierra en plano con una presición moderadamente alta pero generan deformacion bastante notable en otras zonas de la Tierra. Las proyecciones más comunes son las siguientes:
 
 * Proyección cilindrica
 * Proyección conica
@@ -309,7 +309,7 @@ En la sesion 2 profundizaremos más en estos terminos ya que para entender al 10
 
 | Sistema de Coordenadas | Coordenada | Zona | Coordenada Este | Coordenada Norte | Descripción |
 | :---: | :---: | :---: | :--- | :---: | :---: |
-| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS | Notar que la medida que obtenertemos esta en metros las letras mE y mS hacer referencia a metros Este y metros Sur. Solo metros Sur puede cambiar a metros Norte (mN) siempre que la coordenada este sobre el ecuador. Asi mismo se puede notar la presencia de un valor en la Zona. Estas coordenadas siempre funcionan con 3 elementos. Una Zona de ubicación que hace referencia a una porción especifica de la Tierra y que cambia de lugar en lugar y las coordenadas propiamente dichas. | 
+| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS | Notar que la medida que obtenertemos esta en metros las letras mE y mS hacer referencia a metros Este y metros Sur. Solo metros Sur puede cambiar a metros Norte (mN) siempre que la coordenada este sobre el ecuador. Así mismo se puede notar la presencia de un valor en la Zona. Estas coordenadas siempre funcionan con 3 elementos. Una Zona de ubicación que hace referencia a una porción especifica de la Tierra y que cambia de lugar en lugar y las coordenadas propiamente dichas. | 
 | Sistema de referencia de cuadricula militar  | 19LBC8094256776 | ------ | ----- | ------ | Este sistema de coordenadas de cuadricula militar es un sistema utilizado por la OTAM para encontrar elementos en la Tierra. Este sistema no sera utilizado en el desarrollo del curso. | 
 
 ## Configuración de coordenadas en Google Earth Pro
@@ -332,9 +332,9 @@ La cuadricula nos muestra las lineas de referencias de todos los sistemas de coo
 
 Cada vez que configuremos las coordenadas se configurará por defecto la cuadricula. 
 
-## Expotación de datos y generacion de KML o KMZ
+## Exportación de datos y generacion de KML o KMZ
 
-Si han seguido todo hasta este punto deberan tener una carpeta con multiples archivos de entidades geograficas entre puntos, lineas y poligonos. Todas estas estan ubicadas en forma local en la computadora es decir que si las deseara enviar a alguna otra persona se deben de generar archivos que permitan ser compartidos. 
+Si han seguido todo hasta este punto deberan tener una carpeta con multiples archivos de entidades geográficas entre puntos, lineas y polígonos. Todas estas estan ubicadas en forma local en la computadora es decir que si las deseara enviar a alguna otra persona se deben de generar archivos que permitan ser compartidos. 
 Google Earth Pro permite exportar datos de manera individual como en conjunto es decir carpetas completas. Para ambos el procedimiento es el mismo simplementa basta con hacer clic derecho al objeto que querramos exportar y darle a "Guardar lugar como..." 
 
 <p align="center">
@@ -347,12 +347,12 @@ Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simple
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/guardado.png" alt="Ubicaciuon cato" width="700">
          </p>
 
-La diferencia entre ambos formatos es muy sutil. 
-* KML (Keyhold Markup Language) es un formato que permita guardar un solo archivo. En algunos casos se trbaajo con archivos adjuntos como fotografias, etc. Estos se tiene que generar en un formato aparte. Es decir que si quiero guardar de un solo proyecto multiples elementos cada uno tendria que tener su propio archivo KML.
+La diferencia entre ambos formatos es muy sutíl. 
+* KML (Keyhold Markup Language) es un formato que permita guardar un solo archivo. En algunos casos se trbaajo con archivos adjuntos como fotografias, etc. Estos se tiene que generar en un formato aparte. Es decir que si quiero guardar de un solo proyecto múltiples elementos cada uno tendria que tener su propio archivo KML.
 * KMZ (KML Zipped) este formato permite tener multiples archivos KML comprimidos en un solo zip. Este formato se recomienda para exportar carpetas.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
-### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
+### Actividad N°4 Cambio de coordenadas y exportación de datos. 
 
 <ins> Ubicar puntos a partir de coordenadas <ins>
 
@@ -407,7 +407,7 @@ ________________________________________________________________________________
 | Taj Mahal | ----- | ----- | ----- | ----- |
 
 
-3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio encontrar el área que deben buscar. Generar un poligono al rededor de la estructura y tomar las medidas de área y perimetro. Completar la siguiente tabla
+3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio encontrar el área que deben buscar. Generar un poligono al rededor de la estructura y tomar las medidas de área y perímetro. Completar la siguiente tabla
 
 | Nombre del lugar | Ubicacion (Coordenadas UTM) | Área del complejo | Perimetro del complejo |
 | :---: | :---: | :---: | :---: |
@@ -428,4 +428,4 @@ Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuari
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/ruta.png" alt="Ubicaciuon cato">
          </p>
 
-5. Presentar en una sola captura de pantalla la ruta que cada uno de ustedes tendria que seguir desde la plaza más representativa de su distrito hasta la universidad. En el titulo de cada ruta debera incluirse la distancia en metros. Recuerden que para que esto pueda ser completado deberan exportar y enviar el archivo que generen a un compañero que tendra que ser el encargado de recopilar todos los datos abrirlos en el Google Earth Pro y tomar la captura de pantalla. 
+5. Presentar en una sola captura de pantalla la ruta que cada uno de ustedes tendría que seguir desde la plaza más representativa de su distrito hasta la universidad. En el título de cada ruta debera incluirse la distancia en metros. Recuerden que para que esto pueda ser completado deberán exportar y enviar el archivo que generen a un compañero que tendra que ser el encargado de recopilar todos los datos, abrirlos en el Google Earth Pro y tomar la captura de pantalla. 
