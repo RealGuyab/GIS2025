@@ -59,7 +59,7 @@ ________________________________________________________________________________
   <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/crear_carpeta.png" alt="Ubicaciuon cato">
 </p>
-2. Se deberá desplegar un nuevo recuadro, en este podremos configurar el nombre de la carpeta de trabajo. Para este ejercicio debera ser "Primera Clase" 
+2. Se abrirá una nueva ventana, en esta podremos configurar el nombre de la carpeta de trabajo. Para este ejercicio deberá ser "Primera Clase" 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/nueva_carpeta_menu.png" alt="Ubicaciuon cato">
 </p>
@@ -84,15 +84,15 @@ Una entidad geográfica es un elemento sobre la tierra que puede ser representad
 
 Las entidades geográficas pueden clasificarse en:
 
-1. Puntuales: representan ubicaciones específicas, como una torre de transmisión o una estación meteorológica.
-2. Lineales: representan elementos con longitud, como carreteras, ríos o fronteras.
-3. Área o poligonales: representan superficies con área definida, como lagos, bosques o municipios.
+1. Puntuales o puntos: representan ubicaciones específicas, como una torre de transmisión o una estación meteorológica.
+2. Lineales o líneas: representan elementos con longitud, como carreteras, ríos o fronteras.
+3. Poligonales o polígonos: representan superficies con área definida, como lagos, bosques o municipios.
 
 ### ¿Cómo se crean?
 
-Retomenos donde nos quedamos en la Actividad N°1. Una vez creada la carpeta debemos seleccionarla, para ello basta con hacer un solo clic sobre el nombre de la carpeta y verán que se sombrea de un color azul ![seleccionada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_seleccionada.png). Este proceso es importante porque al seleccionar la carpeta le decimos al programa que allí es donde queremos que se guarden nuestras entidades geográficas.
+Retomemos donde nos quedamos en la Actividad N°1. Una vez creada la carpeta debemos seleccionarla, para ello basta con hacer un solo clic sobre el nombre de la carpeta y verán que se sombrea de un color azul ![seleccionada](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta_seleccionada.png). Este proceso es importante porque al seleccionar la carpeta le decimos al programa que allí es donde queremos que se guarden nuestras entidades geográficas.
 
-Con la capeta seleccionada nos dirigiremos al menú Utilidades, esta barra tiene todas las herramientas que nos permitirán editar, crear y modificar las entidades geográficas.
+Con la carpeta seleccionada nos dirigiremos al menú Utilidades, esta barra tiene todas las herramientas que nos permitirán editar, crear y modificar las entidades geográficas.
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/menu_utilidades.png" alt="Ubicaciuon cato">
 </p>
@@ -147,13 +147,13 @@ ________________________________________________________________________________
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/Captura%20de%20pantalla%202025-03-12%20151357.png" alt="Ubicaciuon cato">
          </p>
     
-   * Notar que el recuadro de coordenadas no existe en polígonos, pero si nombre y la ventana de edición.
-   * Si se equivocan, pueden borrar el vértice haciendo clic sobre el que salió mal y darle clic en suprimir desde su teclado.
+   * Notar que el recuadro de coordenadas no existe en polígonos, pero si su nombre y la ventana de edición.
+   * Si se equivocan, pueden borrar el vértice haciendo clic sobre el que salió mal y darle apretar la tecla suprimir del teclado.
    * Pueden reposicionar vértices manteniendo clic sobre el vértice que quieran desplazar y moviendolo hacia su nueva posición.
 
 4. Generar una línea a través de todo el Puente de Fierro
    * Ubicar la zona de Punte de Fierro y hacer clic en el ícono de edición de líneas ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/lineas.png).
-   * Al igual que con polígonos, el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, las líneas generan trazos que unen los puntos.
+   * Al igual que con polígonos, el cursor desaparecerá y cada vez que se haga clic saldrá un vértice, al finalizar la edición aparecerá una sola línea que une los vértices.
      
    ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea.png)
 
@@ -163,7 +163,7 @@ ________________________________________________________________________________
 
 Las ediciones de cada entidad geográfica son bastante parecidas entre sí. Se presentan ligeras diferencias pero mantienen una misma lógica. 
 
-Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro, podremos encontrar las opciones de edición. Si la entidad ya se creo y se dio en aceptar el recuadro desaparece, para volver a aperturarlo basta con hacer clic derecho en el nombre del elemento y hacer clic en propiedades.
+Cada vez que creamos una entidad geográfica se desplega un recuadro al costado. En dicho recuadro, podremos encontrar las opciones de edición. Si la entidad ya se creó y se dió en aceptar el recuadro desaparece, para volver a aperturarlo basta con hacer clic derecho en el nombre del elemento y hacer clic en propiedades.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edita.png" alt="Ubicaciuon cato">
@@ -171,11 +171,11 @@ Cada vez que creamos una entidad geográfica se desplega un recuadro al costado.
 
 Dentro de todos los menús de ediciones de datos siempre se presentan las ventanas de Descripción, Estilo/color y Ver. 
 
-* Ventana Descripción: En la ventana descripción podemos colocar información correspondiente a la entidad que estemos creando. Por ejemplo si tiene algun dueño, alguna referencia, etc. La descripcion no se moestrara en pantalla pero al consultar las propiedades podremos volver a verlas y editarlas 
-* Ventana Estilo/color: La ventana estilo y color nos permite cambiar los colores de la entidad geográfica creada asi como de la etiqueta (nombre) que le colocamos. 
-* Ventana ver: Muestra las cooordenas donse se ubica el visor al momento que demos clic sobre la entidad geográfica
+* Ventana Descripción: en la ventana descripción podemos colocar información correspondiente a la entidad que estemos creando. Por ejemplo, si tiene algun dueño, alguna referencia, etc. La descripción no se mostrará en pantalla pero al consultar las propiedades podremos volver a verlas y editarlas. 
+* Ventana Estilo/color: la ventana estilo y color nos permite cambiar los colores de la entidad geográfica creada así como de la etiqueta (nombre) que le colocamos. 
+* Ventana ver: muestra las cooordenas donde se ubicará el visor al momento que demos clic sobre la entidad geográfica.
 
-Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad geográfica que se este analizando por dicho motivo se abordará la edicion de cada una de ellas por separado. 
+Las opciones que acompañan a estas ventanas cambian de acuerdo con la entidad geográfica que se este analizando, por dicho motivo se abordará la edición de cada una de ellas por separado. 
 
 ### Ediciones de puntos
 
@@ -183,57 +183,59 @@ Las opciones que acompañan a estas ventanas cambien de acuerdo con la entidad g
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/edicion_puntos.png" alt="Ubicaciuon cato">
          </p>
 
-La edición de puntos consta de dos partes la edicion del icono y los menús de edición 
+La edición de puntos consta de dos partes, la edicion del ícono y los menús de edición. 
 
-1. Edición de ícono. Si hacemos clic en la tachuelade color amarillo se nos desplegara una nueva ventana con multiples gráficos. Al seleccionar en algun grafico podremos cambiar el diseño del punto a cualquiera de los predefinidos o podemos ingresar nuestro propio icono haciendo clic en ![argregar icono](https://github.com/RealGuyab/Qgis/blob/main/imagenes/a%C3%B1adir_icono.png). Se aperturará una nueva ventan donde tendremos que dar clic en examinar y buscar nuestro ícono. Se recomienda no usar iconos muy complicados, muy grandes o llamativos.
-2. El Menu de edicion se pueden encontrar las ventanas Descipcion, Estilo-Color, Ver y Altitud.
-     * La ventana Estilo-color nos permite modificar el Color de la etiqueta o el nombre asi como su tamaño haciendo crecer el numero que se encuentra en la opcion escala. La opacidad nos dara el valor de la transparencia. Es decir, hara que la etiquea sea cada vez mas translucida el valor de 100% indica un color completamente solido mientras que 0% la hara complemetamente transparente puede mover el valor entre estos rango y analizar como cambia el resultado. Ocurre lo mismo en ícono con la única diferencia de que aqui cambia el color del logo que hayamoos configurado. 
-     * La ventana Ver, configura la vista por defecto del punto. Si nosotros hacemos sobre el nombre de mi punto clic en el menú lugares en automatico la camara se reposicionara y podremos visualizar nuestro punto. Si repoosicionamos el punto se necesita darle a restablcer para que pueda reposicionarse a la nueva ubicacion que le dieron.
-       
+1. Edición de ícono. Si hacemos clic en la tachuela de color amarillo se desplegará una nueva ventana con multiples gráficos. Al seleccionar en algún gráfico podremos cambiar el diseño del punto a cualquiera de los predefinidos o podemos ingresar nuestro propio ícono haciendo clic en ![argregar icono](https://github.com/RealGuyab/Qgis/blob/main/imagenes/a%C3%B1adir_icono.png). Se aperturará una nueva ventana donde tendremos que dar clic en examinar y buscar nuestro ícono. Se recomienda no usar íconos muy complicados, grandes o llamativos.
+2. En el Menú de edición se pueden encontrar las ventanas Descipción, Estilo-Color, Ver y Altitud.
+     * La ventana Estilo-color nos permite modificar el Color de la etiqueta o el nombre, así como su tamaño haciendo crecer el número que se encuentra en la opción escala. La opacidad nos dará el valor de transparencia. Es decir, hará que la etiqueta sea cada vez más translúcida, el valor de 100% indica un color completamente sólido mientras que 0% la hara completamente transparente. Se puede mover el valor dentro de este rango y analizar como cambia el resultado. Ocurre lo mismo para la opción ícono, podemos cambiar el color del logo que hayamos configurado y su transparencia. 
+     * La ventana Ver configura la vista por defecto del punto. Si repoosicionamos el punto en algún otro lugar se necesitará darle a restablcer para que pueda reposicionarse a la nueva ubicación.
+
+IMPORTANTE: Si creamos un punto aparecerá en el menú lugares, al hacer doble clic sobre su nombre la vista se modificará de manera que el punto quedará en la mitad de la pantalla.
+     
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/ver.png" alt="Ubicaciuon cato">
          </p>
 
-   * Altitud en esta configuración no nos da ningún valor.
+   * Altitud, en esta configuración no nos da ningún valor.
      
 ### Ediciones de poligonos
 
-La edidion de poligonos es similar a la de puntos sin embargo aqui aparecen dos diferencias. La primera se encuentra en la ventana de Estilo/color y la segunda en la ventana de medidas.
+La edición de polígonos es similar a la de puntos. Sin embargo, aquí aparecen dos diferencias. La primera se encuentra en la ventana de Estilo/color y la segunda en la ventana de medidas.
 
-1. Ventana estilo/color: las opciones son las mismas sin embargo ahora aparece area en lugar de ícono. encontraran que existe un pequeño recuadro desplegable con tres opcines, Relleno, Contorno y Relleno y contorno. Estas opciones permitiran darle detalle colores a las lineas de contorno como al area o solo dejar activa una a la vez les remendamos que lo prueban activando cada una a la vez y viendo como cambia el resultad.
+1. Ventana estilo/color: las opciones son las mismas sin embargo, ahora aparece área en lugar de ícono. Encontrarán que existe un pequeño recuadro desplegable con tres opciones, Relleno, Contorno y Relleno y contorno. Estas opciones permitirán darle detalle de colores a las lineas del contorno, al relleno o ambos. Les recomendamos que prueben todas las opciones y vean cual es el resultado al modificarlas.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/dise%C3%B1o_area.png" alt="Ubicaciuon cato">
          </p>
  
-2. Medias: aqui podran encontrar datos del area y perimetro que comprende el poligono que crearon. La opción desplegable permite cambiar las unidades al resultado.
+2. Medidas: aquí podrán encontrar datos del área y perímetro que comprende el polígono que crearon. La opción desplegable permite cambiar las unidades al resultado.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/imagenes/medidas.png" alt="Ubicaciuon cato">
          </p>
 
-### Ediciones de Lineas
+### Ediciones de Líneas
 
-Al igual que las entidad anterior existen ligeros cambios en la ventana Estilo/color y medidas 
+Al igual que las entidades anteriores existen ligeros cambios en la ventana Estilo/color y medidas. 
 
-1. Ventana estilo/color: aqui habra un ligero cambio en el nombre llamandose lineas. Sin embargo, las opciones de configuración se mantienen igual.
+1. Ventana estilo/color: aquí habrá un ligero cambio en el nombre llamandose líneas. Sin embargo, las opciones de configuración se mantienen igual.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/linea_edicion.png" alt="Ubicaciuon cato">
          </p>
    
-2. En medidas ahora solo aparece la longitud, que indica la longitud de la linea trazada en el mapa. recordar que el desplegable permite cambiar unidades al resultado.
+2. Medidas: aquí ahora solo aparece la longitud, que indica la longitud de la línea trazada en el mapa. Recordar que el desplegable permite cambiar unidades al resultado.
 
 <p align="center">
        <img src="https://raw.githubusercontent.com/RealGuyab/Qgis/main/Pr%C3%A1cticas/Practica_1/imagenes/medidas_linea.png" alt="Ubicaciuon cato">
          </p>   
 
-IMPORTANTE: como se explico en es preferible evitar colores muy llamativos como por ejemplo colores fosforescentes o rojos.
+IMPORTANTE: Es preferible evitar colores muy llamativos como por ejemplo, colores fosforescentes o rojos.
 
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
-### Actividad N°3 Edicion de entidades geográficas
+### Actividad N°3 Edición de entidades geográficas
 
-Utilizando las entidades geograficas creadas previamente (Resultado Actividad N°2)
+Utilizando las entidades geográficas creadas previamente (Resultado Actividad N°2)
 
    * Ciudad de Arequipa. -> Punto
    * Laguna de Salinas, Arequipa. -> Polígono
@@ -241,27 +243,27 @@ Utilizando las entidades geograficas creadas previamente (Resultado Actividad N�
 
 <ins> Edición de Puntos <ins>
 
-+ Cambiar el color de la etiqueta y que se muestre de color rojo, cambiar al escala a 2 puntos y la transparencia (opacidad) al 75%.
++ Cambiar el color de la etiqueta y que se muestre de color rojo, cambiar la escala a 2 puntos y la transparencia (opacidad) al 75%.
 + Cambiar el logo del punto a cualquiera que este contruido de color azul.
-* Tomar nota de las coordenadas del punto
+* Tomar nota de las coordenadas del punto.
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_icono.png" alt="Ubicaciuon cato" width="300">
          </p> 
          
-<ins> Edicion de Líneas <ins>
+<ins> Edición de Líneas <ins>
 
-+ Cambiar el color de la linea a coloro azul
-+ Cambiar la escala de presentación a 8 puntos y la opacidad al 60%
-   + Si la linea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud
-* Tomar nota de la longitud en metros en la ventana "Medidas"
++ Cambiar el color de la línea a color azul.
++ Cambiar la escala de presentación a 8 puntos y la opacidad al 60%.
+   + Si la línea no se muestra igual que en la imagen puede seguir editandola hasta que tenga la misma longitud.
+* Tomar nota de la longitud en metros en la ventana "Medidas".
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_linea.png" alt="Ubicaciuon cato" width="300">
          </p>   
 
-<ins> Edicion de Polígonos <ins> 
-+ Cambiar el color de la linea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%
-+ En Area coolocar un color verde, Mantener la opción Relleno+Contorno y colocar la opacidad al 50%
-* Tomar nota del perímetro y área en metros en la venta de "Medidas"
+<ins> Edición de Polígonos <ins> 
++ Cambiar el color de la línea a negro, la anchura a 2.5 y la transparencia (opacidad) dejarla al 100%.
++ En relleno colocar un color verde, mantener la opción Relleno+Contorno y colocar la opacidad al 50%.
+* Tomar nota del perímetro y área en metros en la ventana de "Medidas".
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_poligono.png" alt="Ubicaciuon cato" width="300">
          </p>
@@ -269,19 +271,19 @@ Utilizando las entidades geograficas creadas previamente (Resultado Actividad N�
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Cambio de coordenadas en Google Earth Pro
 
-Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las coordendas solo se muestran para objetos puntuales en una zona (puntos) es por ello que no encontramos coordenadas ni en lineas, ni en poligonos pero ello no significa que no las tengan. Existen multiples formatos de coordenadas pero las agruparemos en dos grupos para un mejor entendimiento.
+Cuando creamos un punto y entramos a sus propiedades vemos sus coordenadas. Las coordendas solo se muestran para objetos puntuales (puntos) es por ello que no encontramos coordenadas ni en líneas, ni en polígonos pero ello no significa que no las tengan. Existen múltiples formatos de coordenadas pero las agruparemos en dos para un mejor entendimiento.
 
 ### Coordenadas Geográficas 
 
-Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad principal son los grados minutos y segundos. Para que estas coordenadas funcionen se tienen que tener lineas de referencia. Estas se encuentran distribudas a travez del mundo sobre dos 2 ejes que llamaremos longitud y latitud. 
+Las coordenadas geográficas asumen un modelo esférico de la tierra y su unidad principal son los grados minutos y segundos. Para que estas coordenadas funcionen se tienen que tener líneas de referencia. Estas se encuentran distribudas a través del mundo sobre dos ejes que llamaremos longitud y latitud. 
 
-   + Longitud o tambien conocido como eje X. La longitud se mide con lineas verticales paralelas entre sí. Para fines graficos estas lineas se distribuyen cada determinado número de ángulos. Estas lineas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch o primer meridiano que se encuentra en Inglaterra. Si tuvieras que definirlo de una manera simple la linea de corte principal el Meridiano de Greenwitch divide el mundo en derecha e izquierda o mejor dicho "hemisferio Este" para el caso de lo que se encuentra a la derecha del meridiano de referencia y "hemisferio oeste" para lo que esta a la izquierda,
+   + Longitud o tambien conocida como eje X. La longitud se mide con líneas verticales paralelas entre sí. Para fines gráficos, se distribuyen cada determinado número de grados. Estas líneas toman el nombre de meridianos y el meridiano de referencia es el Meridiano de Greenwitch o primer meridiano que se encuentra en Inglaterra. Si tuviera que definirlo de una manera simple la línea de corte principal, el Meridiano de Greenwitch, divide el mundo en derecha o mejor dicho "hemisferio Este" y "hemisferio oeste" para lo que esta a la izquierda,
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/este_oeste2.png" alt="Ubicaciuon cato" width="480">
          </p>
 
-   + Latitud o tambien conocido como eje Y. La latitud se mide con líneas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La línea de referencia es la línea ecuatorial o ecuador geográfico. Esta línea divide el mundo en dos partes o Hemisferios El hemiferio Norte (N) y el hemisferio Sur (S).
+   + Latitud o también conocido como eje Y. La latitud se mide con líneas verticales entre sí. Al igual que en el anterior caso se distribuyen bajo determinado número de grados. La línea de referencia es la línea ecuatorial o ecuador geográfico. Esta línea divide el mundo en dos partes o hemisferios. El hemisferio Norte (N) y el hemisferio Sur (S).
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/norte_sur.png" alt="Ubicaciuon cato" width="480">
@@ -289,11 +291,11 @@ Las coordenadas geográficas asumen un modelo esferico de la tierra y su unidad 
 
 ### Tipos de coordenadas geográficas
 
-Existen multiples tipos de coordenadas geográficas pero todas se basan en el mismo principio la única diferencia es la forma de escritura. Se presentan a continuación las que se pueden configurar en Google Earth Pro
+Existen múltiples tipos de coordenadas geográficas pero todas se basan en el mismo principio. La única diferencia es la forma de escritura. Se presentan a continuación las que se pueden configurar en Google Earth Pro.
 
 | Sistema de Coordenadas  | Longitud | Latitud | Descripción |
 | :---: | :---: | :---: | :--- |
-| Grados, minutos y segundos  | 71°2'40.62"O  |  15°45'28.64"S | Es la forma que la mayoria conoce la descripcion de coordenadas. El formato incluye de forma OBLIGATORIA las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este). |
+| Grados, minutos y segundos  | 71°2'40.62"O  |  15°45'28.64"S | Es la forma más común de representar una coordenada. El formato incluye OBLIGATORIAMENTE las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este). |
 | Grados decimales  | -71.044616° | -15.757957° | Este formato solo presenta los grados y los minutos y segundos han sido convertidos en decimales. Notar que aquí no aparecen letras pero el signo es importante. Para el caso de la longitud, los valores positivos hacen referencia al hemisferio Este y negativos para el hemisferio Oeste. Y para el caso de la latitud los valores positivos hacen referencia al hemisferio norte y negativos para el hemisferio sur. |
 | Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S | Esto resulta de una mezcla de ambas coordenadas se mantienen los grados y minutos pero segundos se convierten en decimales de minutos. Los signos desaparen pero se mantienen las letras por lo que en estas cordenadas tambien es OBLIGATORIO que se mantengan. |
 
