@@ -295,62 +295,62 @@ Existen múltiples tipos de coordenadas geográficas pero todas se basan en el m
 
 | Sistema de Coordenadas  | Longitud | Latitud | Descripción |
 | :---: | :---: | :---: | :--- |
-| Grados, minutos y segundos  | 71°2'40.62"O  |  15°45'28.64"S | Es la forma más común de representar una coordenada. El formato incluye OBLIGATORIAMENTE las letras. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este). |
-| Grados decimales  | -71.044616° | -15.757957° | Este formato solo presenta los grados y los minutos y segundos han sido convertidos en decimales. Notar que aquí no aparecen letras pero el signo es importante. Para el caso de la longitud, los valores positivos hacen referencia al hemisferio Este y negativos para el hemisferio Oeste. Y para el caso de la latitud los valores positivos hacen referencia al hemisferio norte y negativos para el hemisferio sur. |
-| Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S | Esto resulta de una mezcla de ambas coordenadas se mantienen los grados y minutos pero segundos se convierten en decimales de minutos. Los signos desaparen pero se mantienen las letras por lo que en estas cordenadas tambien es OBLIGATORIO que se mantengan. |
+| Grados, minutos y segundos  | 71°2'40.62"O  |  15°45'28.64"S | Es la forma más común de representar una coordenada. Fijarse que luego de la coordenada aparece una O y una S. Son la abreviacion de Oeste y Sur, pero tambien podria ser N (Norte) y E (Este). El formato incluye OBLIGATORIAMENTE las letras. |
+| Grados decimales  | -71.044616° | -15.757957° | Este formato solo presenta los grados sin los minutos ni segundos, que han sido convertidos en decimales. Notar que aquí no aparecen letras pero el signo es importante. Para el caso de la longitud, los valores positivos hacen referencia al hemisferio Este y negativos para el hemisferio Oeste. Y para el caso de la latitud los valores positivos hacen referencia al hemisferio norte y negativos para el hemisferio sur. |
+| Grados, minutos decimales | 71° 2.677'O  | 15° 45.477'S | Esto resulta de una mezcla de ambas coordenadas, se mantienen los grados y minutos pero los segundos se convierten en decimales de minutos. Los signos desaparecen pero se mantienen las letras por lo que en estas coordenadas también es OBLIGATORIO que se mantengan. |
 
 ### Coordenadas Proyectadas
 
-Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir la tierra como una esfera la asume como un plano. Para lograr ello se utilizan proyeccion. Estas proyecciones permitren convertir algunas secciones de la Tierra en plano con una presición moderadamente alta pero generan deformacion bastante notable en otras zonas de la Tierra. Las proyecciones más comunes son las siguientes:
+Las coordenadas proyectadas es un sistema de coordenadas que en lugar de asumir la tierra como una esfera la asume como un plano. Para lograr ello se utilizan proyecciones. Estas proyecciones permitren convertir algunas secciones de la Tierra en plano con una precisión moderadamente alta pero generan deformaciones bastante notables en otras zonas de la Tierra. Las proyecciones más comunes son las siguientes:
 
-* Proyección cilindrica
-* Proyección conica
+* Proyección cilíndrica
+* Proyección cónica
 * Proyección planar
 
-En la sesion 2 profundizaremos más en estos terminos ya que para entender al 100% las coordenadas proyectadas tenemos que abordar diversos terminos relacionados entre sí. Google Earth Pro presenta dos sistemas de coordenadas proyectadas los que son las siguientes:
+En la sesión 2 profundizaremos más en estos terminos ya que para entender al 100% las coordenadas proyectadas tenemos que abordar diversos términos relacionados entre sí. Google Earth Pro presenta dos sistemas de coordenadas proyectadas que son los siguientes:
 
 | Sistema de Coordenadas | Coordenada | Zona | Coordenada Este | Coordenada Norte | Descripción |
 | :---: | :---: | :---: | :--- | :---: | :---: |
-| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS | Notar que la medida que obtenertemos esta en metros las letras mE y mS hacer referencia a metros Este y metros Sur. Solo metros Sur puede cambiar a metros Norte (mN) siempre que la coordenada este sobre el ecuador. Asi mismo se puede notar la presencia de un valor en la Zona. Estas coordenadas siempre funcionan con 3 elementos. Una Zona de ubicación que hace referencia a una porción especifica de la Tierra y que cambia de lugar en lugar y las coordenadas propiamente dichas. | 
-| Sistema de referencia de cuadricula militar  | 19LBC8094256776 | ------ | ----- | ------ | Este sistema de coordenadas de cuadricula militar es un sistema utilizado por la OTAM para encontrar elementos en la Tierra. Este sistema no sera utilizado en el desarrollo del curso. | 
+| Universal Trasversal Mercator | -----  | 19L | 280942.50mE | 8256776.50mS | Notar que el par de coordenadas esta en metros, las letras mE y mS hacer referencia a metros Este y metros Sur. Solo metros Sur puede cambiar a metros Norte (mN) siempre que la coordenada este sobre el ecuador y metros Este no se cambia. Así mismo, se puede notar la presencia de un valor con el nombre de Zona. Estas coordenadas siempre funcionan con 3 elementos. La Zona hace referencia a una porción especifica de la Tierra y cambia cuando se cambia de lugar. | 
+| Sistema de referencia de cuadrícula militar  | 19LBC8094256776 | ------ | ----- | ------ | Este sistema de coordenadas de cuadrícula militar es un sistema utilizado por la OTAN para encontrar elementos en la Tierra. Este sistema no será utilizado en el desarrollo del curso. | 
 
 ## Configuración de coordenadas en Google Earth Pro
 
-En Google Earth Pro se pueden configurar las coordenadas a todos los sistemas que hemos visto hasta ahora para ello ubicar la opcion herramientas dentro de la barra de Herramientas y configuración ubicar la opcion Herramientas >>> Opciones. 
+En Google Earth Pro se pueden configurar las coordenadas a todos los sistemas que hemos visto hasta ahora. Para ello, debemos ubicar dentro de la Barra de Herramientas y Configuración, la opcion Herramientas >>> Opciones. 
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/configurar_coordenadas.png" alt="Ubicaciuon cato" width="300">
          </p>
 
-Ello desplegara una nueva ventana en donde podresmos encontrar multiples opciones para configurar el programa pero la que nos interesa es la opcion de cambio de coordenadas. Solo tenemos que seleccionar la que nos interese y darle a aceptar. Con ello las coordenadas tanto de puntos como del propio sistema quedaran configurados en automatico. 
+Ello desplegara una nueva ventana en donde podremos encontrar múltiples opciones para configurar el programa pero la que nos interesa es la opción de cambio de coordenadas. Solo tenemos que seleccionar la que nos interese y darle a aceptar. Con ello, las coordenadas tanto de puntos como del propio sistema quedaran configuradas en automático. 
 
 ## Activación de cuadrícula
 
-La cuadricula nos muestra las lineas de referencias de todos los sistemas de coordenadas, esto es útil para reconocer las zonas que se presentan si es que desconocieramos alguna referncia de nuestras areas de estudio. Para activar la cuadricula tenemos que dirigirnos a la barra de Herramientas y configuración ubicar la opción Ver y activar Cuadricula.
+La cuadrícula nos muestra las líneas de referencias de todos los sistemas de coordenadas, esto es útil para poder ubicarnos espacialmente en nuestra área de estudio. Para activar la cuadrícula tenemos que dirigirnos a la barra de Herramientas y Configuración, ubicar la opción Ver y activar Cuadricula.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/cuadricula.png" alt="Ubicaciuon cato" width="300">
          </p>
 
-Cada vez que configuremos las coordenadas se configurará por defecto la cuadricula. 
+Cada vez que configuremos las coordenadas se configurará por defecto la cuadrícula. 
 
-## Expotación de datos y generacion de KML o KMZ
+## Exportación de datos y generación de KML o KMZ
 
-Si han seguido todo hasta este punto deberan tener una carpeta con multiples archivos de entidades geograficas entre puntos, lineas y poligonos. Todas estas estan ubicadas en forma local en la computadora es decir que si las deseara enviar a alguna otra persona se deben de generar archivos que permitan ser compartidos. 
-Google Earth Pro permite exportar datos de manera individual como en conjunto es decir carpetas completas. Para ambos el procedimiento es el mismo simplementa basta con hacer clic derecho al objeto que querramos exportar y darle a "Guardar lugar como..." 
+Si han seguido todo hasta este punto, deberán tener una carpeta con múltiples archivos de entidades geográficas entre puntos, líneas y polígonos. Todas estas estan ubicadas en forma local en la computadora. Es decir que si las deseara enviar a alguna otra persona se deben de generar archivos que permitan ser compartidos. 
+Google Earth Pro permite exportar datos de manera individual y en conjunto es decir carpetas completas. Para ambos casos, el procedimiento es el mismo simplemente basta con hacer clic derecho al objeto que querramos exportar y darle a "Guardar lugar como...". 
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/exportar_lugares.png" alt="Ubicaciuon cato" width="300">
          </p>
 
-Cuando se haga clic se aperturará una nueva ventana estilo buscador aqui simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con aceptar. 
+Cuando se haga clic se aperturará una nueva ventana. Aquí simplemente tenemos que darle nombre al archivo que queremos exportar y ubicar la carpeta donde queremos que se guarde y finalizar con aceptar. 
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/guardado.png" alt="Ubicaciuon cato" width="700">
          </p>
 
 La diferencia entre ambos formatos es muy sutil. 
-* KML (Keyhold Markup Language) es un formato que permita guardar un solo archivo. En algunos casos se trbaajo con archivos adjuntos como fotografias, etc. Estos se tiene que generar en un formato aparte. Es decir que si quiero guardar de un solo proyecto multiples elementos cada uno tendria que tener su propio archivo KML.
+* KML (Keyhold Markup Language) es un formato que permite guardar un solo archivo. En algunos casos se trabaja con archivos adjuntos como fotografías entre otros. Estos se tienen que generar en un formato aparte. Es decir, que si quiero guardar múltiples elementos de un solo proyecto cada elemento tendría que tener su propio archivo KML.
 * KMZ (KML Zipped) este formato permite tener multiples archivos KML comprimidos en un solo zip. Este formato se recomienda para exportar carpetas.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
