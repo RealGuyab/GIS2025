@@ -354,46 +354,46 @@ La diferencia entre ambos formatos es muy sutil.
 * KMZ (KML Zipped) este formato permite tener multiples archivos KML comprimidos en un solo zip. Este formato se recomienda para exportar carpetas.
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________
-### Actividad N°4 Cambio de coordenadas y exportacion de datos. 
+### Actividad N°4 Cambio de coordenadas y exportación de datos. 
 
 <ins> Ubicar puntos a partir de coordenadas <ins>
 
 1. Generar un nuevo punto en cualquier parte del mapa u llamarlo cooordenada.
-2. Analizar el tipo de coordenada que arroja la tabla por defecto e identificar a que sistema de coordenadas cooresponde.
+2. Analizar el tipo de coordenada que arroja la tabla por defecto e identificar a que sistema de coordenadas corresponde.
 3. Configurar el sistema de coordenadas a Universal Transversal Mercator (Menu Herramientas >>> Opciones). Si no recuerda revisar el apartado de "Configuración de coordenadas en Google Earth Pro"
-4. Volver a ingresar a las propiedades del elemento para el ubicar el elemento coordenada dentro del mení de capas dar clic derecho y lueg ubicar la opción propiedades.
-5. Verificar como cambio la coordenada y que se añadio.
-6. Coon el sistema configurado deberan ingresar los siguientes datos.
+4. Volver a ingresar a las propiedades del elemento para ubicar el elemento coordenada dentro del menú de capas, dar clic derecho y luego ubicar la opción propiedades.
+5. Verificar como cambió la coordenada y que se añadió.
+6. Con el sistema configurado deberán ingresar los siguientes datos.
    * En Zona ingresar ***50 T***
    * En Coordenada Este: ***462848.10 m E***
    * En Coordenada Norte: ***4476150.02 m N***
-   Finalmente dar clic en aceptar. Lo que ocurrira es que el punto aparentemente desaparecerá no se preocupen es normal tendremos que arreglar la vista
-7. Ingresaremos al menu de propiedades del elemento, al mismo lugar de donde se editan los colores. Ingresar a la ventana "Ver" y dar clic en restablecer tal como lo indica la imagen.
+   Finalmente dar clic en aceptar. Lo que ocurrirá es que el punto aparentemente desaparecerá, no se preocupen es normal, tendremos que arreglar la vista.
+7. Ingresaremos al menú de propiedades del elemento, al mismo lugar en donde se editan los colores. Ingresar a la ventana "Ver" y dar clic en restablecer tal como lo indica la imagen.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/restablcer_vista.png" alt="Ubicaciuon cato">
          </p>
    
-8. Haciendo ello la vista se movera hacia la nueva ubicación del punto que debera ser la Muralla China
+8. Haciendo ello la vista se moverá hacia la nueva ubicación del punto que deberá ser la Muralla China.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/resultado_vista.png" alt="Ubicaciuon cato" width="500">
          </p>   
 
-IMPORTANTE: Siempre que cambien de coordenadas un punto creado anteriormente se debe restablecer la vista. 
+IMPORTANTE: Siempre que cambien de coordenadas a un punto creado anteriormente se debe restablecer la vista. 
    
 <ins> Exportar el resultado <ins>
 
-Exportar el resultado (punto Muralla China) en un formato KML y exportar la carpeta de trabajo del curso "Primera clase" com archivo KMZ. Guardar estos archivos ya que seran utiles en futuras clases.
+Exportar el resultado (punto Muralla China) en un formato KML y exportar la carpeta de trabajo del curso "Primera clase" como archivo KMZ. Guardar estos archivos ya que serán útiles en futuras clases.
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ## Asignación 
 
-1. Deberan completar los nombres de los lugares en la siguiente tabla. Para resolver el ejercicio tendran que conofigurar las coordenadas y buscar los puntos (Repasar actividad N°3 y N°4)
+1. Deberan completar los nombres de los lugares en la siguiente tabla. Para resolver el ejercicio tendrán que configurar las coordenadas y buscar los puntos (Repasar actividad N°3 y N°4)
 
 | Nombre del lugar | Coordenada Norte (Latitud) | Coordenada Este (Longitud) | Zona (Solo UTM) | Sistemas de coordenadas | Pista |
 | :---: | :---: | :---: | :--- | :---: | :---: |
 | ----- | 5636294.00 m N | 699079.00 m E | 30U | UTM | Es un laberinto, hacer zoom hasta que se vea una forma | 
-| ----- | 27° 7'4.40S | 109°20'54.73O | ----- | Grados minutos y segundos | Es una isla, alejar el zoom para obtenerrrrr el nombre |    
+| ----- | 27° 7'4.40S | 109°20'54.73O | ----- | Grados minutos y segundos | Es una isla, alejar el zoom para obtener el nombre |    
 | ----- | -14.707137° | -75.138619° | ----- | Grados decimales | Hacer zoom hasta que aparezca una figura |    
 
 2. Escoger las 7 maravillas del mundo moderno, buscarlas en Google Earth Pro y completar la siguiente tabla.
@@ -409,9 +409,9 @@ ________________________________________________________________________________
 | Taj Mahal | ----- | ----- | ----- | ----- |
 
 
-3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio encontrar el área que deben buscar. Generar un poligono al rededor de la estructura y tomar las medidas de área y perimetro. Completar la siguiente tabla
+3. Encontrar el Santuario Histórico de Machu Picchu en la imagen adjunta al ejercio. Generar un polígono alrededor de la estructura y tomar las medidas de área y perímetro. Completar la siguiente tabla:
 
-| Nombre del lugar | Ubicacion (Coordenadas UTM) | Área del complejo | Perimetro del complejo |
+| Nombre del lugar | Ubicación (Coordenadas UTM) | Área del complejo (m2) | Perímetro del complejo (m) |
 | :---: | :---: | :---: | :---: |
 | Santuario Histórico de Machu Picchu | ----- | ----- | ----- |
 
@@ -419,15 +419,15 @@ ________________________________________________________________________________
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/machupicchu.png" alt="Ubicaciuon cato">
          </p>
          
-Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuario Histórico de Machu Picchu". Las coordenadas que incluyan aqui pueden ser diferentes a la del ejercicio 2.
+Recomendación para encontrar la zona. Buscar la zona con el nombre de "Santuario Histórico de Machu Picchu". Las coordenadas que incluyan aquí pueden ser diferentes a las del ejercicio 2.
 
 
 
 
-4. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menu capas la opcin carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
+4. Ubicar la localidad de "Aguas Calientes" que se encuentra al Este (a la derecha) del Santuario Histórico de Machu Picchu. Activen en el menú capas la opción carreterras ![carretera](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carretera.png) y dibujen una ruta entre ambos puntos siguiendo el camino sugerido por Google Earth Pro (ver imagen adjunta). Tomen la medida de su longitud.
 
 <p align="center">
        <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/ruta.png" alt="Ubicaciuon cato">
          </p>
 
-5. Presentar en una sola captura de pantalla la ruta que cada uno de ustedes tendria que seguir desde la plaza más representativa de su distrito hasta la universidad. En el titulo de cada ruta debera incluirse la distancia en metros. Recuerden que para que esto pueda ser completado deberan exportar y enviar el archivo que generen a un compañero que tendra que ser el encargado de recopilar todos los datos abrirlos en el Google Earth Pro y tomar la captura de pantalla. 
+5. Presentar en una sola captura de pantalla la ruta que cada uno de ustedes tendría que seguir desde la plaza más representativa de su distrito hasta la universidad. En el título de cada ruta deberá incluirse la distancia en metros. Recuerden que para que esto pueda ser completado deberán exportar y enviar el archivo que generen a un compañero que tendrá que ser el encargado de recopilar todos los datos, abrirlos en el Google Earth Pro y tomar la capturas de pantalla. 
