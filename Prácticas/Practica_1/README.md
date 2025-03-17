@@ -22,11 +22,11 @@ Entre sus funciones más destacadas se encuentran la medición de áreas y dista
 Google Earth Pro cuenta con una interfaz con segmentos diferenciados. Para nuestro curso dividiremos la interfaz en 6 secciones que se detallan a continuación:
 
 1. Barra de Herramientas y Configuración: se encuentra en la parte superior de la interfaz. Incluye los menús de configuración general del programa, guardar proyectos y exportar así como otros más.
-2. Menú lugares: Aquí encontrarán todos los elementos que ustedes creen durante su sesión. Podran activarlos, desactivarlos, exportalos y eliminarlos. Siempre que un elemento se muestre más arriba se mostrará primero.
-3. Menú capas: en el menú capas encontran algunos ejes temáticos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
-4. Menú Utilidades: Aqui se encuentran las herramientas que permiten crear entidades geográficas, asi como la opción retroceder en el tiempo, medición, exportación y cambio de planeta.
-5. Visor principal: se encuentra el mapa principal donde saldrán gráficamente las entidades geográficas y ciudades. 
-6. Herramientas de navegación: permite mover el ángulo de vista, el zoom y cuando este activo Google Street View 
+2. Menú Lugares: aquí encontrarán todos los elementos que ustedes creen durante su sesión. Podrán activarlos, desactivarlos, exportarlos y eliminarlos. Siempre que un elemento se muestre más arriba se mostrará primero.
+3. Menú Capas: aquí encontran algunos ejes temáticos ya precargados por Google estos elementos no necesitan de ser descargados previamente. Cada vez que uno active una capa podrá obtener más información del terreno bajo estudio.
+4. Menú Utilidades: Aquí se encuentran las herramientas que permiten crear entidades geográficas, así como la opción retroceder en el tiempo, medición, exportación y cambio de planeta.
+5. Visor Principal: se encuentra el mapa principal donde saldrán gráficamente las entidades geográficas y ciudades. 
+6. Herramientas de navegación: permite mover el ángulo de vista, el zoom y cuando este activo Google Street View. 
 
 ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/gep_interfaz.png)
 <p align="center">Imagen 1: Interfaz y ubicación de secciones</p> 
@@ -38,8 +38,8 @@ Antes de proceder a crear una entidad geográfica es necesario reconocer el luga
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/sinelementos.png" alt="Ubicaciuon cato">
 </p>
 
-Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener múltiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto, por defecto se aplica a todo lo que se tenga dentro del mismo. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. Tambien funciona Archivo >> Importar. 
-El formato que da origen a los proyecto se conocen como archivos KML o KMZ. Estos dos son los archivos más importantes para el Google Earth Pro.
+Como se pude observar en la imagen se tienen dos tipos de archivos que se pueden distinguir por sus logos. El primero que tiene un logo de mundo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/kml.png) es el archivo del proyecto. Podemos tener múltiples proyectos activos en una sola sesión. Al activar o desactivar el proyecto, por defecto se aplica a todo lo que se tenga dentro del mismo. Para abrir o crear nuevos proyectos tenemos que ir a la barra herramientas Archivo >> Abrir o Archivo >> Guardar. También funciona Archivo >> Importar. 
+El formato que da origen a los proyectos se conocen como archivos KML o KMZ. Estos dos son los archivos más importantes para el Google Earth Pro.
 
 El segundo logo que se puede ver se encuentra dentro del proyecto **Mis lugares** son carpetas de trabajo ![Interfaz de Google Earth Pro](https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_1/imagenes/carpeta.png). Las carpetas son la forma de organizar información dentro de cada proyecto. Un mismo proyecto puede tener múltiples carpetas. Para crear nuevas carpetas se debe seleccionar el proyecto en el que se quiera crear la carpeta, luego dar clic derecho, buscar y seleccinoar la opción Añadir >> Carpeta. Tal como se muestra en la imagen. 
 <p align="center">
