@@ -2,11 +2,16 @@
 
 ## Competencias
 
+1. Conocer la plataforma Qgis
+2. Identificar las diferencias entre coordendas geograficas y proyectadas
+3. Reconocer los elementos minimos que deben estar presentes en un mapa
+4. Reconocer la plataforma de generacion de mapas de Qgis
+   
 ## ¿Qué es una coordenada?
 
 ### ¿Qué es un geoide?
 
-## Coordendas Geograficas
+## Coordendas Geográficas
 
 ## Tipos de proyecciones
 
