@@ -25,12 +25,26 @@ Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, et
 
 ## ¿Qué es un elipsoide?
 
-El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas. El elipsoide más común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
+Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta, esta fortma de representar la tierra es una representación artistica que no coincide con la fomra real de la tierra. Si tuviarmos que ser mas precisos sobre su forma real sin incluir todavia valles montaññas, etc. estariamos hablando de una esfea que se encuentra achatada en los polos (esfera oblata). El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas.
+
+En la historia se han desarollado multiples elipsoides todos calculados matematicamente Volveremos a retomar termino más adelante. 
+
+
+
+
+
+### ¿Qué es un geoide?
+
+Como sabemos la Tierra presenta montañas, valles, volcanes, etc. En ese esntido intentar representar la tierra completa es algo que es muy complicado no solo matematicamente sino computacionalmente. Ante esto se intetan generar multiples modelos para que se les pueda representar uno de ellos es el geoide
+
+
+
+El elipsoide más común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
 
 #ingresar imagen de elipsoide y de elipsoide WGS84
 
 
-### ¿Qué es un geoide?
+
 
 
 
