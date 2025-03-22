@@ -18,14 +18,16 @@ La sesión anterior definímos lo que es una coodenada geográfica y como es que
 
 ## ¿Cuál es la verdadera forma de la tierra?
 
-Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es bien conocido que la forma de la tierra es esferica y ello se determino hace mucho tiempo atras esto fue propuesto en la antigua Grecia y fue Eratóstenes un matemático quien con un simple experimentos (utilizando palos y sombras) pudo medir la circunferencia con una precisión muy buena eso aproximadamente en el año 240 A.C. Pero cuando hablamos de una esfera el contexto pude ser un poco ambiguo. 
-Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, etc. 
+Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es bien conocido que la forma de la Tierra es esferica y ello se determino hace mucho tiempo atras esto fue propuesto en la antigua Grecia y fue Eratóstenes un matemático quien con un simple experimentos (utilizando palos y sombras) pudo medir la circunferencia con una precisión muy buena eso aproximadamente en el año 240 A.C. Pero cuando hablamos de una esfera el contexto pude ser un poco ambiguo. 
+Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, etc.
 
 ![imagen_esferas](https://github.com/RealGuyab/GIS2025/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png)
 
 ## ¿Qué es un elipsoide?
 
-El elipsoide es una forma mátematica de la tierra. 
+El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas. El elipsoide mas común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
+
+#ingresar imagen de elipsoide y de elipsoide WGS84
 
 
 ### ¿Qué es un geoide?
