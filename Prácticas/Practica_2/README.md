@@ -25,7 +25,7 @@ Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, et
 
 ## ¿Qué es un elipsoide?
 
-El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas. El elipsoide mas común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
+El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas. El elipsoide más común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
 
 #ingresar imagen de elipsoide y de elipsoide WGS84
 
