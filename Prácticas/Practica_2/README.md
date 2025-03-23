@@ -22,27 +22,57 @@ Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es bien conocido 
 Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, etc.
 
 <p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png" alt="Ubicaciuon cato">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png" alt="TIPOS ESFERAS">
+
+## Generalización de la forma de la tierra
+
+La superoficie de la tierra es algo muy irregular. Se tienen montañas, valles, cañones, rios, etc. Todos estos elementos son muy dificil de moodelar tomando en cuenta que en la mayoria de mapas o modelos de la tierra o se dispone unicamente de una superficie plana como una hoja o una pantalla. Es por ello que se desarrollan modelos con un mayor grado de simplificación. A esto se le llamaremops generalizacion de los moodelos de la tierra.
+
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/nivel_generalizacion.png" alt="TIPOS ESFERAS">
+
+Como pueden observar en la imagen con forme vamos bajando en la misma encontramos diversos modelos. Estos modelos van perdiendo detalle si tomamos en cuneta la superficie inicial de la tierra. Sin embargo nos permiten desarrollar cálculos matemáticos mas precisos y de ellos generar herramientas como las coordenas o sistemas de posicionamiento. 
+
+Los modelos de analizaremos en este apartado seran principalmente dos:
++ Elipsoides
++ Geoide
+  
+Esto nos permitira entender algunos elementos adicionales como los datum o las proyecciones. Todo esto se estudia en la Geodecia, que es la ciencia que permite ubicar cosas en la Tierra con mucha precisión. La información que se coloca en la página servirá como un inicio si alguno estuviera interesado en tomar mayor detalle espero que esto le sirva como punto de partida.  
 
 ## ¿Qué es un elipsoide?
 
-Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta, esta fortma de representar la tierra es una representación artistica que no coincide con la fomra real de la tierra. Si tuviarmos que ser mas precisos sobre su forma real sin incluir todavia valles montaññas, etc. estariamos hablando de una esfea que se encuentra achatada en los polos (esfera oblata). El elipsoide es una forma resumida de la Tierra se asume una una esfera achatada (elipse) que intenta cubrir toda la tierra. Todos lo han visto este modelo alguna vez en su vida corresponde al modelo de canica azul. En un elipsoide no se toma en cuenta elementos como montañas, continentes, etc. En ese sentido es una superficie completamente plana. A este modelo se le conoce como la forma Matemática de la Tierra y es la base principal para las coordenadas Geográficas.
+Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta, esta fortma de representar la tierra es una representación artistica que no coincide con la fomra real de la tierra. Si tuviarmos que ser mas precisos sobre su forma real sin incluir todavia valles, montañas, etc. estariamos hablando de una esfea que se encuentra achatada en los polos (esfera oblata), si aún reducimos mas la complegidad o nos fijamos solo en los bordes la figura resultante es una elipse. 
 
-En la historia se han desarollado multiples elipsoides todos calculados matematicamente Volveremos a retomar termino más adelante. 
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/ESFERA_OBLATA.png" alt="ELIPSOIDE">
 
+El elipsoide surge entonces de esta idea de representar la tierra de forma más precisa. Sintetizando la idea un elipsoide es una superficie homogénea (sin perturbaciones) que englpba toda la tierra y la aproxima hacia una esfera. Se le conoce como la forma matematica de la Tierra por que mediante la aplicacion del calculo se puede llegar a la misma forma que hemos interpretado de forma visual. Este elipse da origen principalemente a las coordenadas Geografícas que como vimos la clase anterior asumen la tierra como una esfera o en este caso una semiesfera. 
+Lamentablemente el elipse no es preciso en todos los lugares de la tierra. Como hemos hecho un resumen y la tierra tiene ciertas deformidades superficiales la linea que se establace como limite del elipsoide puede quedar por debajo o sobre el terreno a esteo se le conoce como ondulacion geoidal. Esto se corrige luego con algunos elementos adicionales que veremos más adelante. Existen multiples eliposoides desarrollaros hasta el momento algunos más precisos en algunas zonas. 
+Se tienen dos tipos de elipsoides: 
+* Elipsoides globales. Tienen la principal función de resumir la forma de la tierra de todo el mundo normalmente se desarrollan coincidiciendo el centro del elipse con el centro real de la tierra.
+* Elipsoides locales. Tienen el objetivo de dar alto detalle en una zona definida de la tierra. Es decir mover la elipse de manera que coincida sin estar por encima o por debajo de alguna zona de interes.
 
-
-
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/ajuste_elipsoide.jpg" alt="ELIPSOIDE">
 
 ### ¿Qué es un geoide?
 
-Como sabemos la Tierra presenta montañas, valles, volcanes, etc. En ese esntido intentar representar la tierra completa es algo que es muy complicado no solo matematicamente sino computacionalmente. Ante esto se intetan generar multiples modelos para que se les pueda representar uno de ellos es el geoide
+Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma tecnica un geoide corresponde a medir como la tierra se modela en base a la atraccion de la gravedad en los multiples puntos del planeta y se mide en metros sobre el nivel del mar. De forma mas simple imaginen que estamos cubriend la Tierra con agua y eliminaramos la accion de las mareas o corrientes. En ese sentido el agua se orientaria de acuerdo con la gravedfad de los sitios. Y como la gravedad depende de la materia que tenga el cuerpo se orientaria más alto en las zonas más altas de la tierra (con más materia) como en zonas de montañas y más baja en las zonas bajas (donde menos materia hay). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aun no llegamos a incluir el detalle de las alturas al 100%.
+
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE">
+
+
+### ¿Como se relaciona todo esto? (Definición de DATUM)
+
+Recodermos alguna informacion esencial 
++ El geoide tiene mayor detalle de la altura de la tierra y patrones de altitud y depresión en la superficie
++ El elipsoide permite resumir un area completa pero a veces puede quedar debajo o por encima del terreno.
++ Deben existir puntos en donde el elipsoide y el geoide coincidan.
 
 
 
-El elipsoide más común y mas conocido es el WGS84 un elipsoide que intenta abarcar toda la tierra. Más adelante veremos que existen multiples elipsoides por el momento nos quedaremos unicamete con la defición. 
 
-#ingresar imagen de elipsoide y de elipsoide WGS84
 
 
 
