@@ -60,7 +60,7 @@ Se tienen dos tipos de elipsoides:
 Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma tecnica un geoide corresponde a medir como la tierra se modela en base a la atraccion de la gravedad en los multiples puntos del planeta y se mide en metros sobre el nivel del mar. De forma mas simple imaginen que estamos cubriend la Tierra con agua y eliminaramos la accion de las mareas o corrientes. En ese sentido el agua se orientaria de acuerdo con la gravedfad de los sitios. Y como la gravedad depende de la materia que tenga el cuerpo se orientaria más alto en las zonas más altas de la tierra (con más materia) como en zonas de montañas y más baja en las zonas bajas (donde menos materia hay). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aun no llegamos a incluir el detalle de las alturas al 100%.
 
 <p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE" width=300>
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE" width=450>
 
 
 ### ¿Como se relaciona todo esto? (Definición de DATUM)
