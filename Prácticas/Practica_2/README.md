@@ -22,7 +22,7 @@ Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es bien conocido 
 Existen multiples tipos de esfera, esferas perfectas, esferoides, elipsoides, etc.
 
 <p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png" alt="TIPOS ESFERAS" width=450>
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png" alt="TIPOS ESFERAS" width=550>
 
 ## Generalización de la forma de la tierra
 
