@@ -86,16 +86,7 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
 
  Otra forma de categorizar los datum como como referencia el ambito de correción que tiene teniendo dos claisificaciones datum locales y datum mundial 
   + Los **Datum Locales** tienen un ambito de acción local y normalmente se usa para tener una alta definicnion y que el elipsoide cuadre de muy buena manera en una área muy localizada como un continente o un país. Por ejemplo el PASD56 (Provisional South American Datum 1956) es un sistema que fue muy utilizado en latinoamerica durante el siglo 20 debido a su presicion en la zona de américa del sur sin embargo si se queria usar este datum para zonas como Europa se tendria un error muy gende debido a la deformación del elipsoide para esta zona. 
-  + Los **Datum Mundiales** 
-
-
-
-
-
-
-
-
-
+  + Los **Datum Mundiales** tiene un ámbito de estudio global. Principalmente estos datum usan el centro del mundo como punto de referencia por lo que se establece un elipse bastante preciso para casi todo el mundo pero ojo que aún hay errores a nivel local. El más conocido es el datum WGS84 (World Geodesic System 1984). este lo usaremos constantemente durante el curso.
 
 ## Tipos de proyecciones
 
