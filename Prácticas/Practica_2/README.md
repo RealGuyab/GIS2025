@@ -70,8 +70,13 @@ Recodermos alguna informacion esencial
 + El elipsoide permite resumir un area completa pero a veces puede quedar debajo o por encima del terreno.
 + Deben existir puntos en donde el elipsoide y el geoide coincidan.
 
+Entonces tenemos dos elementos el elipsoide que nos da el marco de referencia en donde podemos establecer las coordenadas y el geoide que nos permite conocer la forma de la Tierra para relacionar ambos contextos debemos tener un elemento que me permita interconectarlos y alli es donde cuadra el datum.
+De forma simple el datun es un elemento matemático que permite situar coordenadas en base a un elipsoide y encontra los puntos del elipsoide que coinciden con el y modifica ligeranmente el elipsoide de manera que una gran porcion de area o todo el muedo cuadre de forma perfecta. 
+El datum le da un segmento de ubicacion al elipciode corresponde algo asi como puntos ancla que pemiten que todo funcine. Con el datus activo se arma los sistemas de coordenadas geográficas. Y como a veces se utilizan elipsoides con una mejor definicion en alguna que otra zona las coordenas varian si cambiamos el datum. 
 
-ahhs
+Para Latinoamerica hay dos datum muy coonocidos el PSAD56 y WGS84. El primero utiliza el elipsoide Hayford 1924 y el segundo usa el elipsoide del miusmo nombre WGS84.
+
+
 
 
 
