@@ -85,12 +85,9 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
   + Los **Datum verticales** incluyen un elemento adicional que es la altitud. Entonces tenemos tambien coordenadas que modelan elementos 3D en un espacio tridimencional.
 
  Otra forma de categorizar los datum como como referencia el ambito de correción que tiene teniendo dos claisificaciones datum locales y datum mundial 
-  + *Datum Locales* 
-  + 
+  + Los **Datum Locales** tienen un ambito de acción local y normalmente se usa para tener una alta definicnion y que el elipsoide cuadre de muy buena manera en una área muy localizada como un continente o un país. Por ejemplo el PASD56 (Provisional South American Datum 1956) es un sistema que fue muy utilizado en latinoamerica durante el siglo 20 debido a su presicion en la zona de américa del sur sin embargo si se queria usar este datum para zonas como Europa se tendria un error muy gende debido a la deformación del elipsoide para esta zona. 
+  + Los **Datum Mundiales** 
 
-
-
-Para Latinoamerica hay dos datum muy coonocidos el PSAD56 y WGS84. El primero utiliza el elipsoide Hayford 1924 y el segundo usa el elipsoide del mismo nombre WGS84.
 
 
 
