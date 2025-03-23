@@ -70,11 +70,27 @@ Recodermos alguna informacion esencial
 + El elipsoide permite resumir un area completa pero a veces puede quedar debajo o por encima del terreno.
 + Deben existir puntos en donde el elipsoide y el geoide coincidan.
 
-Entonces tenemos dos elementos el elipsoide que nos da el marco de referencia en donde podemos establecer las coordenadas y el geoide que nos permite conocer la forma de la Tierra para relacionar ambos contextos debemos tener un elemento que me permita interconectarlos y alli es donde cuadra el datum.
-De forma simple el datun es un elemento matemático que permite situar coordenadas en base a un elipsoide y encontra los puntos del elipsoide que coinciden con el y modifica ligeranmente el elipsoide de manera que una gran porcion de area o todo el muedo cuadre de forma perfecta. 
-El datum le da un segmento de ubicacion al elipciode corresponde algo asi como puntos ancla que pemiten que todo funcine. Con el datus activo se arma los sistemas de coordenadas geográficas. Y como a veces se utilizan elipsoides con una mejor definicion en alguna que otra zona las coordenas varian si cambiamos el datum. 
+Entonces tenemos dos elementos el elipsoide que nos da el marco de referencia en donde podemos establecer las coordenadas y el geoide que nos permite conocer la forma de la Tierra. Para relacionar ambos contextos debemos tener un elemento que permita interconectarlos y alli es donde cuadra el datum.
+De forma simple el datum es un elemento matemático que permite situar a un elipsoide y hacerl coincidir de la mejor forma con el geoide. Para ello se necesita encontrar puntos del elipsoide que coinciden casi perfectamente con el geoide y luego aplicar modificaciones que pueden ser traslaciones, rotaciones, etc. Esto da como resultado un elemto grillado tal como lo vimos la vez pasada cuando analizarmos la regla en Google Earth Pro.
 
-Para Latinoamerica hay dos datum muy coonocidos el PSAD56 y WGS84. El primero utiliza el elipsoide Hayford 1924 y el segundo usa el elipsoide del miusmo nombre WGS84.
+Interaccionando estos tres elementos tenemos lo que se conoce como Sistema de Coordenadas de Referencia (SRC) de momento la definición alcanza para detallar las coordenadas geográficas para analizar las coordendas pryectadas aun debemso hablar de proyecciones. 
+
+*ingresar imagen de datum y desplazamientos
+
+### Información adicional de Datum
+
+El datum de forma muy generalizada funcina como un pegamento que une un elipsoide y una geoide dandole un contexto. Pero cuidado, por que existen multiples elipsoides y datum. Y los resultados finales tambien son diferentes. Por lo que si queremos cambiar de un sistema de coordenadas a otro las ubicaciones sera diferentes puesto qued pueden habier sido creados con elementos distintos entre sí. Asi que tener mucho cuidado en que sistema de coordenas se trabaja y esto incluye a todos los elementos que se vayan a proyectar o crear dentro de un mapa. Pues que pueden haber errores grandes al momento de subir información creada en diferentes elipsoides o datum y este error puede ser de hasta 50 metros por lo que es algo que tenemos que tener mucho en mente. 
+Para finalizar tenemos dos tipos de datum, horizontales y verticales. 
+  + Los **Datum horizontales** tienen por finalidad corregir el elipsoide de forma lateral
+  + Los **Datum verticales** incluyen un elemento adicional que es la altitud. Entonces tenemos tambien coordenadas que modelan elementos 3D en un espacio tridimencional.
+
+ Otra forma de categorizar los datum como como referencia el ambito de correción que tiene teniendo dos claisificaciones datum locales y datum mundial 
+  + *Datum Locales* 
+  + 
+
+
+
+Para Latinoamerica hay dos datum muy coonocidos el PSAD56 y WGS84. El primero utiliza el elipsoide Hayford 1924 y el segundo usa el elipsoide del mismo nombre WGS84.
 
 
 
@@ -83,8 +99,6 @@ Para Latinoamerica hay dos datum muy coonocidos el PSAD56 y WGS84. El primero ut
 
 
 
-
-## Coordendas Geográficas
 
 ## Tipos de proyecciones
 
