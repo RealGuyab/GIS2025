@@ -123,7 +123,15 @@ Debemos tener muy en mente que toda proyección es valida para algunos lugares p
 
 ## Coordenadas proyectadas
 
-Las coordendas proyectadas surgen de interaccionar todo lo que hemos visto hasta el momento. 
+Las coordendas proyectadas surgen de interaccionar todo lo que hemos visto hasta el momento. Una coordenada proyectada se basa inicialmente en una sistema de coordenadas geográfico al que se le asigna una proyección. Lo que permite establecer una nueva representacion de la tierra trabajada para tener una mejor resolución de la zona de interes. Existen multiples tipos de coordendas proyectadas para este curso tomaremos especial enfasis en las coodenadas UTM ya que corresponden al estandar genral de trabajos de ingeniería del Perú.
+
+### Sistema de coordendas UTM 
+
+El sistema de coordendas UTM se basa en el elipsoide y datum WGS84 y desarrolla una proyección cilindrica de la zona. Recuerdemos que el datum WGS84 hacia referencia a las coordenadas geográficas.
+
+Resultado de esta interacción se forman 60 zonas cuya longitud es 6° dentro del elipse de referencia. La unidad con la que se trabajan estos datos ya no son  grados sino en su lugar son metros, este cambio de unidades es gracias a la proyección que ejecutamos, recuerden que al ejecutar una proyeccion estamos aplanando la esfera en una zona que es la que nos interesa. 
+
+
 
 ## ¿Qué es escala de trabajo?
 
