@@ -111,7 +111,7 @@ Debemos tener muy en mente que toda proyección es valida para algunos lugares p
 
 + **Proyeccion Planar o Azimutal**: Imaginene que tenemos una hoja y la colocamos sobre un balon de futbol de manera que solo haya un punto de toque en la esfera y la hoja se mantenga plana. Si vemos desed arriba lo que se observara un nivel alto de detalle de la tierra en el punto donde se da el toque entre ambos objetvos pero que se ira deformando conforme nos alejemos a los bordes. Esto es basicamente una proyeccion planar. Se consigue asignando un plano de observacion sobre la esfera que tenga un punto de orientacion principal. Esto generá una proyección en donde el mayor nivel de detalle se encuentra en el puntos y en las áreas mas cercanas deformandose conforme nos vamos alejando del punto focal.
 
-*imagen proyeccion 
+
 
 + **Proyección Cónica**: Se utiliza la figura de un cono para establcer la proyección. Basicamente consiste en ingresar la tierra dentro de un cono. hay multiples sonas de toque entre ambas formas. Esto es util para establecer proyecciones en latitutes altas del munto (los polos y zonas aledañas). El detalle se hace mayor con forme nos acercamos al vertice del cono y va deformandose si nos vamos acercando a su base.
 
@@ -123,6 +123,7 @@ Debemos tener muy en mente que toda proyección es valida para algunos lugares p
 
 ## Coordenadas proyectadas
 
+Las coordendas proyectadas surgen de interaccionar todo lo que hemos visto hasta el momento. 
 
 ## ¿Qué es escala de trabajo?
 
