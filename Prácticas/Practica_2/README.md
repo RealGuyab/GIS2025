@@ -90,11 +90,20 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
 
 ## Tipos de proyecciones
 
-### Proyección Cilindrica 
+Con todo lo que hemos visto hasta el momento se einterpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal osea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano por ejemplo una hoja. A esto se le llama proyecciones. Las podemos dividir en dos lñas que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contruccion geometrica para su conformación (en función de las cualidades proyectivas). 
 
-### Proyección Cónica
+### Proyecciones en funcion de las cualidades métricas
 
-### Proyeccion Planar o azimutal
++ **Proyecciones Conformes**:
++ **Proyecciones Equivalentes**:
++ **Proyecciones Equidistantes**:
++ **Proyeccion Afilácticas**:
+
+### Proyecciones en función de las cualidades proyectivas
+
++ Proyección Cónica
++ Proyeccion Planar o azimutal
++ Proyección cilíndrica
 
 ## Coordenadas proyectadas
 
