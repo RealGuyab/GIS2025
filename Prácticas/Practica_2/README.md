@@ -90,16 +90,17 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
 
 ## Tipos de proyecciones
 
-Con todo lo que hemos visto hasta el momento se einterpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal osea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano por ejemplo una hoja. A esto se le llama proyecciones. Las podemos dividir en dos lñas que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contruccion geometrica para su conformación (en función de las cualidades proyectivas). 
+Con todo lo que hemos visto hasta el momento se einterpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal osea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano por ejemplo una hoja. A esto se le llama proyecciones. Las podemos dividir en dos las que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contruccion geometrica para su conformación (en función de las cualidades proyectivas).
+Debemos tener m uy en mente que toda proyección es valida para algunos lugares pero deforma otros. Tal com lo vimos anteriormente con la página [The True Size](https://thetruesize.com/)
 
 ### Proyecciones en funcion de las cualidades métricas
 
 + **Proyecciones Conformes**: Una proyección conforme mantiener las ángulos que se forman entre dos lineas en la superficie.
 
   
-+ **Proyecciones Equivalentes**:
-+ **Proyecciones Equidistantes**:
-+ **Proyeccion Afilácticas**:
++ **Proyecciones Equivalentes**: Una proyección equivalente conserva la superficie del terreno. 
++ **Proyecciones Equidistantes**: En este tipo de proyección se mantiene la distancia entre dos puntos.
++ **Proyeccion Afilácticas**: N
 
 ### Proyecciones en función de las cualidades proyectivas
 
