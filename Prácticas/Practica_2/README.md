@@ -94,16 +94,18 @@ Con todo lo que hemos visto hasta el momento se einterpreta la tierra como una e
 
 ### Proyecciones en funcion de las cualidades métricas
 
-+ **Proyecciones Conformes**:
++ **Proyecciones Conformes**: Una proyección conforme mantiener las ángulos que se forman entre dos lineas en la superficie.
+
+  
 + **Proyecciones Equivalentes**:
 + **Proyecciones Equidistantes**:
 + **Proyeccion Afilácticas**:
 
 ### Proyecciones en función de las cualidades proyectivas
 
-+ Proyección Cónica
-+ Proyeccion Planar o azimutal
-+ Proyección cilíndrica
++ **Proyección Cónica**:
++ **Proyeccion Planar o Azimutal**:
++ **Proyección cilíndrica**:
 
 ## Coordenadas proyectadas
 
