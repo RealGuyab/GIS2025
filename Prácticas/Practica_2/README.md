@@ -91,24 +91,38 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
 ## Tipos de proyecciones
 
 Con todo lo que hemos visto hasta el momento se einterpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal osea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano por ejemplo una hoja. A esto se le llama proyecciones. Las podemos dividir en dos las que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contruccion geometrica para su conformación (en función de las cualidades proyectivas).
-Debemos tener m uy en mente que toda proyección es valida para algunos lugares pero deforma otros. Tal com lo vimos anteriormente con la página [The True Size](https://thetruesize.com/)
+Debemos tener muy en mente que toda proyección es valida para algunos lugares pero deforma otros. Tal com lo vimos anteriormente con la página [The True Size](https://thetruesize.com/) en donde este sistema permitia tener alto detalle de la zona ecuatorial del mundo pero se deformaba cuando nos acercabamos a los polos. 
 
 ### Proyecciones en funcion de las cualidades métricas
 
 + **Proyecciones Conformes**: Una proyección conforme mantiener las ángulos que se forman entre dos lineas en la superficie.
 
   
-+ **Proyecciones Equivalentes**: Una proyección equivalente conserva la superficie del terreno. 
++ **Proyecciones Equivalentes**: Una proyección equivalente conserva la superficie del terreno.
+
+  
 + **Proyecciones Equidistantes**: En este tipo de proyección se mantiene la distancia entre dos puntos.
-+ **Proyeccion Afilácticas**: N
+
+  
++ **Proyeccion Afilácticas**: Noo conserva ninguna propiedad interna del mapa pero mantienen una persepcion del aspécto general de la tierra teniendo muy bajas distorsiones.
+
 
 ### Proyecciones en función de las cualidades proyectivas
 
-+ **Proyección Cónica**:
-+ **Proyeccion Planar o Azimutal**:
-+ **Proyección cilíndrica**:
++ **Proyeccion Planar o Azimutal**: Imaginene que tenemos una hoja y la colocamos sobre un balon de futbol de manera que solo haya un punto de toque en la esfera y la hoja se mantenga plana. Si vemos desed arriba lo que se observara un nivel alto de detalle de la tierra en el punto donde se da el toque entre ambos objetvos pero que se ira deformando conforme nos alejemos a los bordes. Esto es basicamente una proyeccion planar. Se consigue asignando un plano de observacion sobre la esfera que tenga un punto de orientacion principal. Esto generá una proyección en donde el mayor nivel de detalle se encuentra en el puntos y en las áreas mas cercanas deformandose conforme nos vamos alejando del punto focal.
+
+*imagen proyeccion 
+
++ **Proyección Cónica**: Se utiliza la figura de un cono para establcer la proyección. Basicamente consiste en ingresar la tierra dentro de un cono. hay multiples sonas de toque entre ambas formas. Esto es util para establecer proyecciones en latitutes altas del munto (los polos y zonas aledañas). El detalle se hace mayor con forme nos acercamos al vertice del cono y va deformandose si nos vamos acercando a su base.
+
+
+
++ **Proyección cilíndrica**: las proyecciones cilindricas consisten en utilizar un cilintro e ingresar la esfera dentro de forma que quede suspendida en la mitad. Esta proyección es la más común y conocida. Esta guarda mucho nivel de detalle en la zona ecuatorial del mundo pero tiene deformaciones con forme nos acercamos a los polos. Es la misma proyección que podemos observar en la pagina [The True Size](https://thetruesize.com/). Esta proyecciíon asi mismo es la que se utiliza en el sistema UTM (Universal Transversal Mercator).
+  
+
 
 ## Coordenadas proyectadas
+
 
 ## ¿Qué es escala de trabajo?
 
