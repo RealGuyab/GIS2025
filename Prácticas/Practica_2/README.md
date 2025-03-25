@@ -1,11 +1,10 @@
-# Práctica N°2: Introducción a Qgis y desarrollo de mapas
+# Práctica N°2: Introducción a Qgis
 
 ## Competencias
 
 1. Conocer la plataforma Qgis
 2. Identificar las diferencias entre coordendas geograficas y proyectadas
 3. Reconocer los elementos minimos que deben estar presentes en un mapa
-4. Reconocer la plataforma de generacion de mapas de Qgis
 
 ## ¿Qué es una coordenada?
 
@@ -222,21 +221,57 @@ En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nue
 
 ![image](https://github.com/user-attachments/assets/2b1dd1c9-7f99-4ccb-92d9-17fae399ea77)
 
-___________________________________________________________________________________________________________________________________________
-
-## Descarga de datos y subida
-
-
-____________________________________________________________________________________________________________________________________________
-Actividad N°2 Descarga y seleccion de datos de trabajo
-
 ____________________________________________________________________________________________________________________________________________
 
-## Composición de Mapas
-____________________________________________________________________________________________________________________________________________
-Actividad N°3 Introduccion a la creación de mapas
+## Formatos compatibles con Qgis
+Existen multiples datos que son compatibles con Qgis que incluye información recolectada desde fuentes como drones, gps, fotos aereas, interpolados de malla, etc. 
+En esta etapa analizaremos dos de ellas los formatos vectoriales analizados bajo el formato tradicional Shape (.shp) y los fortamos rasterizados que corresponden principalmente a imagenes en multiples formatos aunque nos concentraremos en el formato TIFF (.tiff)
 
-____________________________________________________________________________________________________________________________________________
+Formatos Vectoriales: Los formatos vectoriales nos permiten generar limites en al información cosa que es importante para por ejempo analizar terrenos o predios privados. Este tipo de informacion se conoce como informacion discreta caracterizada por la presencia de un limite. En ese sentido las entidades geográficas que hemos aprendido a crear hasta el momento caen todas como informacion discreta y por lo tanto informacion vectorial.
+
+Formato Rasterizado: Los datos raster son datos que no presentan limites definidos en ninguna de sus categorias. A este tipo de datos se les conoce como datos continuos. La característica principal de este tipo de datos es la composición en forma de pixeles tal cual como una imagen del celular o de un televisor.  
+
+![image](https://github.com/user-attachments/assets/f509758a-4584-4c03-8fa6-8f21cd2bba0d)
+Fuente: https://volaya.github.io/libro-sig/chapters/Tipos_datos.html
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+## Actividad N°2 Descarga y selección de datos de trabajo
+
+En esta actividad descargaremos información de tipo vectorial y la trabajaremos para seleccionar algunas zonas sobre las que desarrollaremos un mapa. 
+
+### Descarga de datos
+1. Ingresar a la página https://www.geogpsperu.com/ esta pagina es de una empresa que se encarga de sistematizar la informacion de múltiples bases de datos y dejarla disponible para descargar
+2. En los menus de la derecha desplegar la página hasta que ubiquen un link que diga límite distrital y hacer clic allí
+   ![image](https://github.com/user-attachments/assets/aaa8e234-d29e-482c-b2ae-3d8ac670f3aa)
+
+3. Ubicar la opción de INEI censo de 2023 limite departamental y hacer clic en el link anexo a la base de datos. Los llevara a un drive de google descargar toda la carpeta como comprimido.
+4. Descomprimir el archivo en la carpeta de trabajo creada en el ejercicio anterior.
+
+### Subida de datos
+1. Si han descomprimido la carpeta correctamente encontrarán multiples elementos. Todos juntos hacen un solo formato shape si alguno llegara a faltar se perderia información o de plano ya no seria interpretable. Es por ello que descargamos el comprimido en lugar de archivos independientes
+2. En el panel de Navegador nos dirigmos a las carpeta que hemos creado y la abrimos haciendo clic en la flecha del costado. Debera aparecer la carpeta en donde descomprimimos y al abrirla encontraremos un elemento parecido al siguiente ![image](https://github.com/user-attachments/assets/5464c246-9167-41d0-847e-4998a3cb7eff). Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparece uno es por que todos colaboran estre si para dar orígen al formato final.
+
+3. Si hacemos doble clic el elemento que aparece podremos obtener la capa en un color aleatorio. No se preocupen si el color que les sale a su computadora es diferente al que encontramos en la imagen adjunta las siguientes clases analizaremos como cambiar los colores.
+
+![image](https://github.com/user-attachments/assets/d30f3ce6-45ed-492a-a55e-e10206e04a7e)
+ 
+#### Selección de datos
+
+1. Utilizaremos la barra de seleccion en la barra de utilidades. ![image](https://github.com/user-attachments/assets/1a3398ae-3b61-44fc-b483-cc3b3c14a52f)
+2. En caso la tengan desabilitada hay que aperturarla siguiendo el mismo procedimiento como habilitamos el Navegador en el ejercicio 1. El nombre deberan confirmar que este activo es el siguiente "Barra de Herramientas de Selección"
+   
+3. En el menú selección ubicaremos la siguiente opción ![image](https://github.com/user-attachments/assets/6d24b8b8-64c7-4747-a594-88655ca68a7d) Desplieguen la flecha del constado haciendo clic en la flecha apuntando hacia abajo y tendremos multiples opciones todas ellas nos permiten seleccionar de distintas formas pero siempre utilizando el cursos y el mouse. 
+
+![Captura de pantalla 2025-03-25 162717](https://github.com/user-attachments/assets/36241240-eb4a-4dff-b4da-38655126e3d7)
+
+* Seleccionar objeto(s) espacial(es) ![Captura de pantalla 2025-03-25 163628](https://github.com/user-attachments/assets/f00dc9fb-5b71-4a82-b41d-f7d911c3569d) Esto nos permite seleccionar elementos atravez de un cuadrado que se genera cuando hago clic y desplacemos el mouse.
+ 
+* Seleccionar objetos espaciales por poligonos ![Captura de pantalla 2025-03-25 163822](https://github.com/user-attachments/assets/8134539f-5bc5-4d41-9b96-ca3437850f85) Permite desarrollar selecciones a travez de generar un poligono. Quedará seleccionado todo lo que quede dentro o tocando el poligono que creamos. Cualquier selección se marcará en color amarillo.
+
+* Seleccionar objetos a mano alzada ![Captura de pantalla 2025-03-25 164201](https://github.com/user-attachments/assets/e87ea2a5-2cad-4077-9d5c-0a93def90e00) Esta opción nos permite generar un polígono de selección pero en comparación con el anterior se desarrolla como si fuera un trazo de lápiz de forma libre asi que no hay limites rectos. 
+
+* Seleccionar objetos espaciales por radio  ![Captura de pantalla 2025-03-25 164534](https://github.com/user-attachments/assets/93d83942-adcf-4436-bc1f-07a3163695df)  Esta opción permite generar un circulo de selección este se forma en dos etapas la primera es seleccion un punto central y luego desplazar el mouse generando un area circular de selección. Se puede establecer el radio definido en metros en incluyendo un numero en el recuadro de radio. 
 
 
-#Asignación
+___________________________________________________________________________________________
+# Asignación
+Descargar de la base de datos GEOGPS los limites provinciales y distritales 
