@@ -218,10 +218,10 @@ En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nue
 
 ![image](https://github.com/user-attachments/assets/2af95780-a9cb-4a4e-bbfd-9ae79d811f8c)
 
-6. Uan vez hecho ello regresaremos a la barra de configuracion en el menu web y desplegaremos nuevamente la opcion QuickMapServices alli veremos que hay multiples opciones de mapas desde Google hasta OpenStreetMaps esto se conoce como mapa base y permitira que visualicemos vistas satelitales al igual que en Google Earth Pro. Para este ejercicio haremos clic en google y seleccionaremos la opción Google Hybrid eso nos generar un mapa satelital que se mostrata en el panel de Capas. Les invitamos a que exploren el resto de los mapas base que trae este complemento.
+6. Una vez hecho ello regresaremos a la barra de configuracion en el menu web y desplegaremos nuevamente la opcion QuickMapServices alli veremos que hay multiples opciones de mapas desde Google hasta OpenStreetMaps esto se conoce como mapa base y permitira que visualicemos vistas satelitales al igual que en Google Earth Pro. Para este ejercicio haremos clic en google y seleccionaremos la opción Google Hybrid eso nos generar un mapa satelital que se mostrata en el panel de Capas. Les invitamos a que exploren el resto de los mapas base que trae este complemento.
 
 ![image](https://github.com/user-attachments/assets/2b1dd1c9-7f99-4ccb-92d9-17fae399ea77)
-![image](https://github.com/user-attachments/assets/a1136473-fdeb-43e9-8b69-d54bc4efe3fc)
+
 ___________________________________________________________________________________________________________________________________________
 
 ## Descarga de datos y subida
