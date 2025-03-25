@@ -127,17 +127,28 @@ Las coordendas proyectadas surgen de interaccionar todo lo que hemos visto hasta
 
 ### Sistema de coordendas UTM 
 
-El sistema de coordendas UTM se basa en el elipsoide y datum WGS84 y desarrolla una proyección cilindrica de la zona. Recuerdemos que el datum WGS84 hacia referencia a las coordenadas geográficas.
+El sistema de coordendas UTM se basa en el elipsoide y datum WGS84 y desarrolla una proyección cilindrica de la zona. Recuerdemos que el datum WGS84 hace referencia a las coordenadas geográficas.
 
-Resultado de esta interacción se forman 60 zonas cuya longitud es 6° dentro del elipse de referencia. La unidad con la que se trabajan estos datos ya no son  grados sino en su lugar son metros, este cambio de unidades es gracias a la proyección que ejecutamos, recuerden que al ejecutar una proyeccion estamos aplanando la esfera en una zona que es la que nos interesa. 
+Resultado de esta interacción se forman 60 zonas cuya longitud es 6° dentro del elipse de referencia. La unidad con la que se trabajan estos datos ya no son grados sino en su lugar son metros, este cambio de unidades es gracias a la proyección que ejecutamos, recuerden que al ejecutar una proyeccion estamos aplanando la esfera en una zona que es la que nos interesa. Estas zonas tienen una division marcada en el ecuador existiendo unas zonas norte y una sur,
+
+Asi mismo se caracteriza por que las coordendas latitud y longitud cambian a coordenda Norte/Sur (mN o mS) y coordenada Este (mE) respectivamente. Tambien desaparecen los paralelos y meridianos de referencia. 
+
+Este sistema de coordenadas trae mucho detalla a la zona de trabajo seleccionada pero se deforma el resto del mundo por lo que antes de configurar o cambiar las coordenadas de un area gregrafica seria bueno primero analizar en que zona se encuentra ubicada.
 
 
 
 ## ¿Qué es escala de trabajo?
 
-##¿Qué es y para que sirve un Mapa?
+El último concepto que abordaremos el dia de hoy es la escala. La escala es una forma de representar nuestro mundo en un espacio pequeño. El mundo real se ve en una escala de 1:1 es decir que todo guarda el tamaño que realmente tiene. Si por alguna razon todo se encogiera a la mitad con excepcion de la persona que esta leyendo esto la escala en la que vivirias seria 1:2 y si se siguiera encogiendo el numeoro iria aumentado. En este escenario, cada vez que la escala se haga mas grande la persona seria capaz cada ver de ver más zonas.+
+De este ejemplo se resaltan dos cosas.
+1. Con el numero se hace mas grande el area se hace cada vez mas pequeña
+2. Mientras mas pequeña el area mas elementos del mundo somos capacez de observar.
 
-### Relacion entre escala de trbajo y presentacion final
+![escala](https://github.com/user-attachments/assets/45ef8092-b7aa-44d6-bca4-26324cc3e5c1)
+
+En la imagen pueden ver la misma zona pero en diferentes escalas y al ingual que en nuestro ejemplo mientras más grande se hace el numero podemos observar cada vez mas detalles de la ciudad. Este elemento hay que tenerlo siempre presente poro que nos permitira establecer una tamnaño tamto de impresion como de detalle del mapa que querramos crear. 
+Asi pues para represntar una casa no se usaran escalas muy grandes y para representar una ciudad no se usaran escalas pequeñas.
+
 
 # Introducción al GIS con Qgis 
 
