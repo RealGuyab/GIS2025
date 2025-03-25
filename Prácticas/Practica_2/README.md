@@ -162,6 +162,8 @@ Habiendo definido todo lo anterior estamos listos para iniciar con el manejo de 
 
 ## Interfaz de trabajo en Qgis
 
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/qgis_visual.png" alt="ELIPSOIDE" width=450>
 
 ## Descarga de datos y subida
 
