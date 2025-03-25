@@ -152,7 +152,11 @@ Asi pues para represntar una casa no se usaran escalas muy grandes y para repres
 
 # Introducción al GIS con Qgis 
 
+Habiendo definido todo lo anterior estamos listos para iniciar con el manejo de la plataforma QGIS. Empezaremos analizando su interfaz el sistema de instalacion y luego crearemos nuestro primer mapa.
+
 ## Instalación de Qgis
+
+
 
 ## Interfaz de trabajo en Qgis
 
