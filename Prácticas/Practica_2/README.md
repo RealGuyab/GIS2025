@@ -196,9 +196,10 @@ En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nue
 
 ### Instalacióin de complementos (Complemento QuickMapServices)
 1. Nos dirigiremos a la barra de configuración y ubicamos la opcion complementos al hacer clic saldran dos opciones haremos clic en la primera "Administrar e instalar complementos..."
+
 ![image](https://github.com/user-attachments/assets/ce7f47c4-a035-4ba3-bb82-b5c9b22bee01)
 
-2. Esto nos aperturara una nueva ventana. Los complementos son como como aplicaciones de celular nos permiten tener mas opciones y desbloquear mas funcionalidades. En la ventana que nos salio hay 5 opciones a las izquierda
+3. Esto nos aperturara una nueva ventana. Los complementos son como como aplicaciones de celular nos permiten tener mas opciones y desbloquear mas funcionalidades. En la ventana que nos salio hay 5 opciones a las izquierda
    + Todos: Nos muestran todos los complmentos que estan disponibles para descargar e incluye los que ya tenga instalados en mi computadora. 
    + Instalado: Me muestra solo los complementos instalados en mi computadora
    + No instalado: Nos muestra los componentes que estan por instar en mi computadora 
@@ -207,13 +208,13 @@ En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nue
 
    Nos dirigiremos a la ventana de todos y aparecera un buscador alli colocar "QuickMapServices" ubicamos el complento con el mismo nombre y le damos clic. 
 
-3. En esta nueva ventana haremos clic en instalar complemento y dejamos que se instale.
+4. En esta nueva ventana haremos clic en instalar complemento y dejamos que se instale.
 ![image](https://github.com/user-attachments/assets/10ac69cb-5fd2-4c26-9d51-69a2d29fa868)
 
-4. Finalizada la descarga deberemos activar el complemento. Para ello regresaremos a la barra de configuración y ubicaremos la opción de "Web" alli encontraran la opcion QuickMapServices y debemos desplegar sus opciones ubicaremos la opcion de configuracion (Settings) y haremos clic alli. 
+5. Finalizada la descarga deberemos activar el complemento. Para ello regresaremos a la barra de configuración y ubicaremos la opción de "Web" alli encontraran la opcion QuickMapServices y debemos desplegar sus opciones ubicaremos la opcion de configuracion (Settings) y haremos clic alli. 
 ![image](https://github.com/user-attachments/assets/d21d26c0-4d8c-4ade-9ee5-5f950f0161b0)
 
-5. Se abrirá una nueva ventana y deremos ubicar la opcion More services y finalmente hacer clic en Get contributed pack. Esto se debe repetir en cada maquina en la que instalemos el complemento.
+6. Se abrirá una nueva ventana y deremos ubicar la opcion More services y finalmente hacer clic en Get contributed pack. Esto se debe repetir en cada maquina en la que instalemos el complemento.
 
 ![image](https://github.com/user-attachments/assets/2af95780-a9cb-4a4e-bbfd-9ae79d811f8c)
 
