@@ -172,7 +172,7 @@ La interfaz de Qgis se analiza en base a panales que pueden ubicarse a los costa
 + Navegador: El navegar es un elemtno que nos permite visualizar las carpetas que creamos. Es importante mantener el orden asi que procuren crear una carpeta por cara proyecto que tengan activo, asi mismo ordenar todos sus archivos para no tener ningun inconveniente luego.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a90e69d4-df6a-45ad-8420-260661746961" alt="ELIPSOIDE" width=300>
+  <img src="https://github.com/user-attachments/assets/a90e69d4-df6a-45ad-8420-260661746961" alt="ELIPSOIDE" width=100>
 
 ____________________________________________________________________________________________________________________________________________
 
