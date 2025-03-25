@@ -162,10 +162,52 @@ Habiendo definido todo lo anterior estamos listos para iniciar con el manejo de 
 
 ## Interfaz de trabajo en Qgis
 
+La interfaz de Qgis se analiza en base a panales que pueden ubicarse a los costados y barras que se ubican en la parte superior por defecto. Más adelante veremos que todo ello se puede modificar. 
+
++ Barra Configuración: Aqui tendremos una serie de menús que nos permitiran modificar, operar y analizar una serie de elementos que vayamos generando y creando. Mas adelante pondremos enfasis en una de estas opciones
++ Barra de Utilidades: En la barra de utilidades encontraremos iconos que nos permiten ejecutar acciones dentro del visor. Cada complemento adicional que instalemos nos dara una nueva bara de utilidades.
++ Menú de capas: Aquí apareceran todos los elementos que ingresemos al Mapa al igual que el Gogle Erath Pro. Exploraremos sobre la creación de entidades y formatos de trabajo. 
++ Visor Principal: Es el analogo al visor de Google Earth Pro sin embargo este esta en blanco, con forme vayamois subiendo capas apareceran cada vez mas elementos.
++ Caja de herramientas: La caja de herramientas es parte del panel lateral este panel lateral puede ser adaptado modificado o eliminado de acuerdo a las configuraciones individuales de cada uno de ustedes. La caja de herramientas no da todas las opciones de procesamiento que nos ofrece el programa, las multiples herramientas que tenemos aqui nos van a permitir hacer una serie de trabajos y obtener mas informacion de los terrenos bajo análisis.
++ Navegador: El navegar es un elemtno que nos permite visualizar las carpetas que creamos. Es importante mantener el orden asi que procuren crear una carpeta por cara proyecto que tengan activo, asi mismo ordenar todos sus archivos para no tener ningun inconveniente luego.
+
 <p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/qgis_visual.png" alt="ELIPSOIDE" width=450>
+  <img src="https://github.com/user-attachments/assets/a90e69d4-df6a-45ad-8420-260661746961" alt="ELIPSOIDE" width=450>
+
+____________________________________________________________________________________________________________________________________________
+
+## Actividad N°1 Configuración Inicial del Programa
+
+### Creación de carpetas
+1. Debemos verificar que el panel de Navegacion esta activo. Para ello haremos clic en cuaquiera de los lugares en blanco en las barras de utilidad y hacemois clic derecho debera salir una ventana con multiples opciones en las que debemos fijarnos que la opcion  ![image](https://github.com/user-attachments/assets/972e8261-a218-4ee2-a3f0-658f42540769) este activa como en la imagen.
+
+![image](https://github.com/user-attachments/assets/b2346583-5ba5-41ef-a545-4bd3afec83c1)
+
+2. Nos dirigimos al panel de Navegación y reconocemos que aparecen una serie de iconos con multiples elementos.  
+![image](https://github.com/user-attachments/assets/613bfdb9-cd2a-4511-9f1a-5560842dc051)
+En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nuetra carpeta de trabajo y la seguinda en una ventana con datos. Todo lo que observamos son los datos y tipos de archivos que puede leer el Qgis estas van desde servidores, formatos complejos de empaquetamiento de datos y mapas base descargados. Aqui tenemos que ubicar la opcion favoritos y darle clic derecho la unica opcion que saldra es "Añadir un directorio..." debemos dar clic a esa opción
+![image](https://github.com/user-attachments/assets/0b140b73-cc94-4cd8-b600-1688cc599dda)
+
+ 3. Al hacer clic nos saldra una ventana estilo buscador en donde debemos colocar una carpeta. Dentro del disco C crearemos una nueva carpeta que se llame "clases_sig" y dentro de ella la carpeta que se llame "Primera_clase" seleccionaremos esta ultima carpeta. Si todo salio bien la carpeta debera aparecer como una opcion debajo de Favoritos como se puede ver en la imagen.
+![image](https://github.com/user-attachments/assets/62ebee17-256f-4d99-a102-806f9d8c2e45)
+
+### Instalacióin de complementos (Complemento QuickMapServices)
+
+____________________________________________________________________________________________________________________________________________
 
 ## Descarga de datos y subida
 
-## Composición de Mapas
 
+____________________________________________________________________________________________________________________________________________
+Actividad N°2 Descarga y seleccion de datos de trabajo
+
+____________________________________________________________________________________________________________________________________________
+
+## Composición de Mapas
+____________________________________________________________________________________________________________________________________________
+Actividad N°3 Introduccion a la creación de mapas
+
+____________________________________________________________________________________________________________________________________________
+
+
+#Asignación
