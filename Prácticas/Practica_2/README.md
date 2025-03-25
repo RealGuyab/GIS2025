@@ -185,10 +185,13 @@ ________________________________________________________________________________
 
 2. Nos dirigimos al panel de Navegación y reconocemos que aparecen una serie de iconos con multiples elementos.  
 ![image](https://github.com/user-attachments/assets/613bfdb9-cd2a-4511-9f1a-5560842dc051)
+
 En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nuetra carpeta de trabajo y la seguinda en una ventana con datos. Todo lo que observamos son los datos y tipos de archivos que puede leer el Qgis estas van desde servidores, formatos complejos de empaquetamiento de datos y mapas base descargados. Aqui tenemos que ubicar la opcion favoritos y darle clic derecho la unica opcion que saldra es "Añadir un directorio..." debemos dar clic a esa opción
+
 ![image](https://github.com/user-attachments/assets/0b140b73-cc94-4cd8-b600-1688cc599dda)
 
- 3. Al hacer clic nos saldra una ventana estilo buscador en donde debemos colocar una carpeta. Dentro del disco C crearemos una nueva carpeta que se llame "clases_sig" y dentro de ella la carpeta que se llame "Primera_clase" seleccionaremos esta ultima carpeta. Si todo salio bien la carpeta debera aparecer como una opcion debajo de Favoritos como se puede ver en la imagen.
+ 4. Al hacer clic nos saldra una ventana estilo buscador en donde debemos colocar una carpeta. Dentro del disco C crearemos una nueva carpeta que se llame "clases_sig" y dentro de ella la carpeta que se llame "Primera_clase" seleccionaremos esta ultima carpeta. Si todo salio bien la carpeta debera aparecer como una opcion debajo de Favoritos como se puede ver en la imagen.
+
 ![image](https://github.com/user-attachments/assets/62ebee17-256f-4d99-a102-806f9d8c2e45)
 
 ### Instalacióin de complementos (Complemento QuickMapServices)
