@@ -157,7 +157,7 @@ Habiendo definido todo lo anterior estamos listos para iniciar con el manejo de 
 ## Instalación de Qgis
 
 * Ingresa a la sigueinte pagina https://qgis.org/download/
-* Dar link a <img src="https://github.com/user-attachments/assets/ff91cc12-de8b-4d13-b86a-671c0a557bb7" alt="ELIPSOIDE" width=450> y hacemos click a Long Term Version
+* Dar link a <img src="https://github.com/user-attachments/assets/ff91cc12-de8b-4d13-b86a-671c0a557bb7" alt="ELIPSOIDE" width=100> y hacemos click a Long Term Version
 * Al finalizar la descarga ejecutamos el programa que descargamos y eso nos permitira tener instalado el programa. 
 
 ## Interfaz de trabajo en Qgis
