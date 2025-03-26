@@ -98,16 +98,24 @@ Debemos tener en mente que toda proyección es valida para algunos lugares pero 
 ### Proyecciones en función de las cualidades métricas
 
 + **Proyecciones Conformes**: Una proyección conforme mantiene las ángulos que se forman entre dos líneas en la superficie.
-
+  
+<p align="center">
+<img  src = "https://github.com/user-attachments/assets/0d81d443-3dfc-4b97-9679-dca570cef6db" alt="conforme">
   
 + **Proyecciones Equivalentes**: Una proyección equivalente conserva la superficie del terreno.
 
+<p align="center">
+<img  src = "https://github.com/user-attachments/assets/e4462c82-0d2c-4d0f-925d-16ce50084a7a" alt="conforme">
   
 + **Proyecciones Equidistantes**: En este tipo de proyección se mantiene la distancia entre dos puntos.
 
-  
+<p align="center">
+<img  src = "https://github.com/user-attachments/assets/2285e583-cd33-4c97-b6ce-8773f0cffeb4" alt="conforme">
+
 + **Proyeccion Afilácticas**: No conserva ninguna propiedad interna del mapa pero mantienen una percepción del aspecto general de la tierra teniendo muy bajas distorsiones.
 
+<p align="center">
+<img  src = "https://github.com/user-attachments/assets/18b9e4d4-a14b-4fd5-9e55-b2a49ad8e104" alt="conforme">
 
 ### Proyecciones en función de las cualidades proyectivas
 
