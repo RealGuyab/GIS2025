@@ -252,7 +252,8 @@ Formato Rasterizado: Los datos raster son datos que no presentan límites defini
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f509758a-4584-4c03-8fa6-8f21cd2bba0d">
 Fuente: https://volaya.github.io/libro-sig/chapters/Tipos_datos.html
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+________________________________________________________________________________________________________________________________________________________________________
+
 ## Actividad N°2 Descarga y selección de datos de trabajo
 
 En esta actividad descargaremos información de tipo vectorial y la trabajaremos para seleccionar algunas zonas sobre las que desarrollaremos un mapa. 
