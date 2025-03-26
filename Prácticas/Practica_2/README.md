@@ -143,7 +143,7 @@ De este ejemplo se resaltan dos cosas.
 2. Mientras más pequeña el área más elementos del mundo somos capacez de observar.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/45ef8092-b7aa-44d6-bca4-26324cc3e5c1" alt="ELIPSOIDE" width=300>
+  <img src="https://github.com/user-attachments/assets/45ef8092-b7aa-44d6-bca4-26324cc3e5c1" alt="escalas">
 
 En la imagen pueden ver la misma zona pero en diferentes escalas y al igual que en nuestro ejemplo mientras más grande se hace el número podemos observar cada vez más detalles de la ciudad. Este elemento hay que tenerlo siempre presente por que nos permitirá establecer un tamaño tanto de impresión como de detalle del mapa que querramos crear. 
 Asi pues para representar una casa no se usaran escalas muy grandes y para representar una ciudad no se usaran escalas pequeñas.
