@@ -146,7 +146,7 @@ Así mismo, se caracteriza por que las coordendas latitud y longitud cambian a c
 Este sistema de coordenadas trae mucho detalle a la zona de trabajo seleccionada pero se deforma el resto del mundo por lo que antes de configurar o cambiar las coordenadas de un área geográfica seria bueno primero analizar en que zona se encuentra ubicada.
 
 <p align="center">
-  <img src = "https://github.com/user-attachments/assets/55460673-0dd2-4c0f-8392-7f7a1292ec56" alt="UTM">
+  <img src = "https://github.com/user-attachments/assets/55460673-0dd2-4c0f-8392-7f7a1292ec56" alt="UTM" width=800>
 
 ## ¿Qué es escala de trabajo?
 
