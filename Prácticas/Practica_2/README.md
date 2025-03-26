@@ -120,12 +120,7 @@ Debemos tener en mente que toda proyección es valida para algunos lugares pero 
 ### Proyecciones en función de las cualidades proyectivas
 
 + **Proyeccion Planar o Azimutal**: Imagine que tenemos una hoja y la colocamos sobre un balón de fútbol de manera que solo haya un punto de toque en la esfera y la hoja se mantenga plana. Si vemos desde arriba lo que se observará es un nivel alto de detalle de la tierra en el punto donde se da el toque entre ambos objetos pero que se ira deformando conforme nos alejemos a los bordes. Esto es básicamente una proyección planar. Se consigue asignando un plano de observación sobre la esfera que tenga un punto de orientación principal. Esto generará una proyección en donde el mayor nivel de detalle se encuentra en el punto y en las áreas más cercanas, deformandose conforme nos vamos alejando del punto focal.
-
-
 + **Proyección Cónica**: Se utiliza la figura de un cono para establcer la proyección. Básicamente consiste en ingresar la tierra dentro de un cono. Hay múltiples zonas de toque entre ambas formas. Esto es útil para establecer proyecciones en latitutes altas del mundo (los polos y zonas aledañas). El detalle se hace mayor conforme nos acercamos al vértice del cono y va deformandose si nos vamos acercando a su base.
-
-
-
 + **Proyección cilíndrica**: las proyecciones cilíndricas consisten en utilizar un cilindro e ingresar la esfera dentro de forma que quede suspendida en la mitad. Esta proyección es la más común y conocida. Esta guarda mucho nivel de detalle en la zona ecuatorial del mundo pero tiene deformaciones conforme nos acercamos a los polos. Es la misma proyección que podemos observar en la página [The True Size](https://thetruesize.com/). Esta proyección así mismo es la que se utiliza en el sistema UTM (Universal Transversal Mercator).
 
 <p align="center">
@@ -161,7 +156,6 @@ De este ejemplo se resaltan dos cosas.
 En la imagen pueden ver la misma zona pero en diferentes escalas y al igual que en nuestro ejemplo mientras más grande se hace el número podemos observar cada vez más detalles de la ciudad. Este elemento hay que tenerlo siempre presente por que nos permitirá establecer un tamaño tanto de impresión como de detalle del mapa que querramos crear. 
 Asi pues para representar una casa no se usaran escalas muy grandes y para representar una ciudad no se usaran escalas pequeñas.
 
-
 # Introducción al GIS con Qgis 
 
 Habiendo definido todo lo anterior estamos listos para iniciar con el manejo de la plataforma QGIS. Empezaremos analizando su interfaz el sistema de instalación y luego crearemos nuestro primer mapa.
@@ -184,7 +178,7 @@ La interfaz de Qgis se analiza en base a paneles que pueden ubicarse a los costa
 + Navegador: El navegar es un elemtno que nos permite visualizar las carpetas que creamos. Es importante mantener el orden asi que procuren crear una carpeta por cara proyecto que tengan activo, asi mismo ordenar todos sus archivos para no tener ningun inconveniente luego.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a90e69d4-df6a-45ad-8420-260661746961" alt="ELIPSOIDE" width=1000>
+  <img src="https://github.com/user-attachments/assets/0dc22040-6b64-4513-9db1-acb0e41adc88" alt="ELIPSOIDE" width=1000>
 
 ____________________________________________________________________________________________________________________________________________
 
