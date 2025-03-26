@@ -184,98 +184,120 @@ ________________________________________________________________________________
 ## Actividad N°1 Configuración Inicial del Programa
 
 ### Creación de carpetas
-1. Debemos verificar que el panel de Navegacion esta activo. Para ello haremos clic en cuaquiera de los lugares en blanco en las barras de utilidad y hacemois clic derecho debera salir una ventana con multiples opciones en las que debemos fijarnos que la opcion  ![image](https://github.com/user-attachments/assets/972e8261-a218-4ee2-a3f0-658f42540769) este activa como en la imagen.
+1. Debemos verificar que el panel de Navegación esta activo. Para ello haremos clic en cualquiera de los lugares en blanco en las barras de utilidad y hacemos clic derecho, deberá salir una ventana con múltiples opciones en las que debemos fijarnos que la opción  ![image](https://github.com/user-attachments/assets/972e8261-a218-4ee2-a3f0-658f42540769) este activa como en la imagen.
 
-![image](https://github.com/user-attachments/assets/b2346583-5ba5-41ef-a545-4bd3afec83c1)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2346583-5ba5-41ef-a545-4bd3afec83c1">
 
-2. Nos dirigimos al panel de Navegación y reconocemos que aparecen una serie de iconos con multiples elementos.  
-![image](https://github.com/user-attachments/assets/613bfdb9-cd2a-4511-9f1a-5560842dc051)
+2. Nos dirigimos al panel de Navegación y reconocemos que aparecen una serie de iconos con multiples elementos.
+   
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/613bfdb9-cd2a-4511-9f1a-5560842dc051">
 
-En el panel se distinguen dos zonas la primera es de carpetas aqui crearemos nuetra carpeta de trabajo y la seguinda en una ventana con datos. Todo lo que observamos son los datos y tipos de archivos que puede leer el Qgis estas van desde servidores, formatos complejos de empaquetamiento de datos y mapas base descargados. Aqui tenemos que ubicar la opcion favoritos y darle clic derecho la unica opcion que saldra es "Añadir un directorio..." debemos dar clic a esa opción
+En el panel se distinguen dos zonas, la primera es de carpetas, aquí crearemos nuestra carpeta de trabajo y la segunda es una ventana con datos. Todo lo que observamos son los datos y tipos de archivos que puede leer el Qgis. Estas van desde servidores, formatos complejos de empaquetamiento de datos y mapas base descargados, entre otros. Aquí tenemos que ubicar la opción favoritos y darle clic derecho la única opción que saldrá es "Añadir un directorio..." y debemos dar clic a esa opción.
 
-![image](https://github.com/user-attachments/assets/0b140b73-cc94-4cd8-b600-1688cc599dda)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0b140b73-cc94-4cd8-b600-1688cc599dda">
 
- 4. Al hacer clic nos saldra una ventana estilo buscador en donde debemos colocar una carpeta. Dentro del disco C crearemos una nueva carpeta que se llame "clases_sig" y dentro de ella la carpeta que se llame "Primera_clase" seleccionaremos esta ultima carpeta. Si todo salio bien la carpeta debera aparecer como una opcion debajo de Favoritos como se puede ver en la imagen.
+ 3. Al hacer clic nos saldrá una ventana estilo buscador en donde debemos colocar una carpeta. Dentro del disco C crearemos una nueva carpeta que se llame "clases_sig" y dentro de ella la carpeta que se llame "Primera_clase" seleccionaremos esta última carpeta. Si todo salio bien la carpeta deberá aparecer como una opción debajo de Favoritos, como se puede ver en la imagen.
 
-![image](https://github.com/user-attachments/assets/62ebee17-256f-4d99-a102-806f9d8c2e45)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/62ebee17-256f-4d99-a102-806f9d8c2e45">
 
 ### Instalacióin de complementos (Complemento QuickMapServices)
-1. Nos dirigiremos a la barra de configuración y ubicamos la opcion complementos al hacer clic saldran dos opciones haremos clic en la primera "Administrar e instalar complementos..."
+1. Nos dirigiremos a la barra de configuración y ubicamos la opción Complementos, al hacer clic saldrán dos opciones, haremos clic en la primera "Administrar e instalar complementos..."
 
-![image](https://github.com/user-attachments/assets/ce7f47c4-a035-4ba3-bb82-b5c9b22bee01)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce7f47c4-a035-4ba3-bb82-b5c9b22bee01">
 
-3. Esto nos aperturara una nueva ventana. Los complementos son como como aplicaciones de celular nos permiten tener mas opciones y desbloquear mas funcionalidades. En la ventana que nos salio hay 5 opciones a las izquierda
-   + Todos: Nos muestran todos los complmentos que estan disponibles para descargar e incluye los que ya tenga instalados en mi computadora. 
-   + Instalado: Me muestra solo los complementos instalados en mi computadora
-   + No instalado: Nos muestra los componentes que estan por instar en mi computadora 
-   + Instar a partir de ZIP: Es una opción que me permite instalar complementos en versiones antiguas. Tenr cuidado con esto por que puede ser una ventana tambien para instalar virus.
-   + Configuración: Opciones de configuracion de los complementos.
+2. Esto nos aperturará una nueva ventana. Los complementos son como aplicaciones de celular que nos permiten tener más opciones y desbloquear más funcionalidades. En la ventana que nos salió hay 5 opciones a la izquierda:
+   + Todos: Nos muestran todos los complementos que estan disponibles para descargar e incluye los que ya tenga instalados en mi computadora. 
+   + Instalado: Me muestra solo los complementos instalados en mi computadora.
+   + No instalado: Nos muestra los componentes que estan por instalar en mi computadora.
+   + Instalar a partir de ZIP: Es una opción que me permite instalar complementos en versiones antiguas. Tener cuidado de donde se descargan los archivos ya que pueden instalar virus.
+   + Configuración: Opciones de configuración de los complementos.
 
-   Nos dirigiremos a la ventana de todos y aparecera un buscador alli colocar "QuickMapServices" ubicamos el complento con el mismo nombre y le damos clic. 
+   Nos dirigiremos a la ventana de todos y aparecerá un buscador, allí colocar "QuickMapServices", ubicamos el complemento con el mismo nombre y le damos clic. 
 
-4. En esta nueva ventana haremos clic en instalar complemento y dejamos que se instale.
-![image](https://github.com/user-attachments/assets/10ac69cb-5fd2-4c26-9d51-69a2d29fa868)
+3. En esta nueva ventana haremos clic en instalar complemento y dejamos que se instale.
+   
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/10ac69cb-5fd2-4c26-9d51-69a2d29fa868">
 
-5. Finalizada la descarga deberemos activar el complemento. Para ello regresaremos a la barra de configuración y ubicaremos la opción de "Web" alli encontraran la opcion QuickMapServices y debemos desplegar sus opciones ubicaremos la opcion de configuracion (Settings) y haremos clic alli. 
-![image](https://github.com/user-attachments/assets/d21d26c0-4d8c-4ade-9ee5-5f950f0161b0)
+4. Finalizada la descarga deberemos activar el complemento. Para ello regresaremos a la barra de configuración y ubicaremos la opción de "Web" allí encontraran la opción QuickMapServices, debemos desplegar sus opciones y ubicaremos la opción de configuración (Settings) y haremos clic allí.
 
-6. Se abrirá una nueva ventana y deremos ubicar la opcion More services y finalmente hacer clic en Get contributed pack. Esto se debe repetir en cada maquina en la que instalemos el complemento.
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/d21d26c0-4d8c-4ade-9ee5-5f950f0161b0">
 
-![image](https://github.com/user-attachments/assets/2af95780-a9cb-4a4e-bbfd-9ae79d811f8c)
+5. Se abrirá una nueva ventana y deberemos ubicar la opción More services y finalmente hacer clic en Get contributed pack. Esto se debe repetir en cada máquina en la que instalemos el complemento.
 
-6. Una vez hecho ello regresaremos a la barra de configuracion en el menu web y desplegaremos nuevamente la opcion QuickMapServices alli veremos que hay multiples opciones de mapas desde Google hasta OpenStreetMaps esto se conoce como mapa base y permitira que visualicemos vistas satelitales al igual que en Google Earth Pro. Para este ejercicio haremos clic en google y seleccionaremos la opción Google Hybrid eso nos generar un mapa satelital que se mostrata en el panel de Capas. Les invitamos a que exploren el resto de los mapas base que trae este complemento.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2af95780-a9cb-4a4e-bbfd-9ae79d811f8c">
 
-![image](https://github.com/user-attachments/assets/2b1dd1c9-7f99-4ccb-92d9-17fae399ea77)
+6. Una vez hecho ello, regresaremos a la barra de configuración en el menú web y desplegaremos nuevamente la opción QuickMapServices allí veremos que hay múltiples opciones de mapas desde Google hasta OpenStreetMaps, esto se conoce como mapa base y permitirá que visualicemos vistas satelitales al igual que en Google Earth Pro. Para este ejercicio haremos clic en google y seleccionaremos la opción Google Hybrid, eso nos generará un mapa satelital que se mostrará en el panel de Capas. Les invitamos a que exploren el resto de los mapas base que trae este complemento.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b1dd1c9-7f99-4ccb-92d9-17fae399ea77">
 
 ____________________________________________________________________________________________________________________________________________
 
 ## Formatos compatibles con Qgis
-Existen multiples datos que son compatibles con Qgis que incluye información recolectada desde fuentes como drones, gps, fotos aereas, interpolados de malla, etc. 
-En esta etapa analizaremos dos de ellas los formatos vectoriales analizados bajo el formato tradicional Shape (.shp) y los fortamos rasterizados que corresponden principalmente a imagenes en multiples formatos aunque nos concentraremos en el formato TIFF (.tiff)
+Existen múltiples datos que son compatibles con Qgis que incluye información recolectada desde fuentes como drones, gps, fotos aéreas, interpolados de malla, etc. 
+En esta etapa analizaremos dos de ellas, los formatos vectoriales analizados bajo el formato tradicional Shape (.shp) y los formatos rasterizados que corresponden principalmente a imágenes en múltiples formatos aunque nos concentraremos en el formato TIFF (.tiff)
 
-Formatos Vectoriales: Los formatos vectoriales nos permiten generar limites en al información cosa que es importante para por ejempo analizar terrenos o predios privados. Este tipo de informacion se conoce como informacion discreta caracterizada por la presencia de un limite. En ese sentido las entidades geográficas que hemos aprendido a crear hasta el momento caen todas como informacion discreta y por lo tanto informacion vectorial.
+Formatos Vectoriales: Los formatos vectoriales nos permiten generar límites en la información, la cual es importante para, por ejemplo, analizar terrenos o predios privados. Este tipo de información se conoce como información discreta caracterizada por la presencia de un límite. En ese sentido, las entidades geográficas que hemos aprendido a crear hasta el momento son todas como información discreta y por lo tanto información vectorial.
 
-Formato Rasterizado: Los datos raster son datos que no presentan limites definidos en ninguna de sus categorias. A este tipo de datos se les conoce como datos continuos. La característica principal de este tipo de datos es la composición en forma de pixeles tal cual como una imagen del celular o de un televisor.  
+Formato Rasterizado: Los datos raster son datos que no presentan límites definidos en ninguna de sus categorías. A este tipo de datos se les conoce como datos continuos. La característica principal de este tipo de datos es la composición en forma de píxeles, tal cual como una imagen del celular o de un televisor.  
 
-![image](https://github.com/user-attachments/assets/f509758a-4584-4c03-8fa6-8f21cd2bba0d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f509758a-4584-4c03-8fa6-8f21cd2bba0d">
+
 Fuente: https://volaya.github.io/libro-sig/chapters/Tipos_datos.html
-____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
 ## Actividad N°2 Descarga y selección de datos de trabajo
 
 En esta actividad descargaremos información de tipo vectorial y la trabajaremos para seleccionar algunas zonas sobre las que desarrollaremos un mapa. 
 
 ### Descarga de datos
-1. Ingresar a la página https://www.geogpsperu.com/ esta pagina es de una empresa que se encarga de sistematizar la informacion de múltiples bases de datos y dejarla disponible para descargar
-2. En los menus de la derecha desplegar la página hasta que ubiquen un link que diga límite distrital y hacer clic allí
-   ![image](https://github.com/user-attachments/assets/aaa8e234-d29e-482c-b2ae-3d8ac670f3aa)
+1. Ingresar a la página https://www.geogpsperu.com/ esta página es de una empresa que se encarga de sistematizar la información de múltiples bases de datos y dejarla disponible para descargar
+2. En los menús de la derecha, desplegar la página hasta que ubiquen un link que diga límite distrital y hacer clic allí
 
-3. Ubicar la opción de INEI censo de 2023 limite departamental y hacer clic en el link anexo a la base de datos. Los llevara a un drive de google descargar toda la carpeta como comprimido.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aaa8e234-d29e-482c-b2ae-3d8ac670f3aa)>
+
+3. Ubicar la opción de INEI censo de 2023 límite departamental y hacer clic en el link anexo a la base de datos. Los llevará a un drive de google para descargar toda la carpeta como comprimido.
+   
 4. Descomprimir el archivo en la carpeta de trabajo creada en el ejercicio anterior.
 
 ### Subida de datos
-1. Si han descomprimido la carpeta correctamente encontrarán multiples elementos. Todos juntos hacen un solo formato shape si alguno llegara a faltar se perderia información o de plano ya no seria interpretable. Es por ello que descargamos el comprimido en lugar de archivos independientes
-2. En el panel de Navegador nos dirigmos a las carpeta que hemos creado y la abrimos haciendo clic en la flecha del costado. Debera aparecer la carpeta en donde descomprimimos y al abrirla encontraremos un elemento parecido al siguiente ![image](https://github.com/user-attachments/assets/5464c246-9167-41d0-847e-4998a3cb7eff). Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparece uno es por que todos colaboran estre si para dar orígen al formato final.
+1. Si han descomprimido la carpeta correctamente encontrarán múltiples elementos. Todos juntos hacen un solo formato shape si alguno llegara a faltar se perdería información o de plano ya no sería interpretable. Es por ello que descargamos el comprimido en lugar de archivos independientes.
+   
+2. En el panel de Navegador, nos dirigimos a la carpeta que hemos creado y la abrimos haciendo clic en la flecha del costado. Deberá aparecer la carpeta en donde descomprimimos y al abrirla encontraremos un elemento parecido al siguiente ![image](https://github.com/user-attachments/assets/5464c246-9167-41d0-847e-4998a3cb7eff). Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparece uno, es por que todos colaboran estre si para dar orígen al formato final.
 
-3. Si hacemos doble clic el elemento que aparece podremos obtener la capa en un color aleatorio. No se preocupen si el color que les sale a su computadora es diferente al que encontramos en la imagen adjunta las siguientes clases analizaremos como cambiar los colores.
+3. Si hacemos doble clic el elemento que aparece podremos obtener la capa en un color aleatorio. No se preocupen si el color que les sale a su computadora es diferente al que encontramos en la imagen adjunta, las siguientes clases analizaremos como cambiar los colores.
 
-![image](https://github.com/user-attachments/assets/d30f3ce6-45ed-492a-a55e-e10206e04a7e)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d30f3ce6-45ed-492a-a55e-e10206e04a7e">
  
 #### Selección de datos
 
-1. Utilizaremos la barra de seleccion en la barra de utilidades. ![image](https://github.com/user-attachments/assets/1a3398ae-3b61-44fc-b483-cc3b3c14a52f)
-2. En caso la tengan desabilitada hay que aperturarla siguiendo el mismo procedimiento como habilitamos el Navegador en el ejercicio 1. El nombre deberan confirmar que este activo es el siguiente "Barra de Herramientas de Selección"
+1. Utilizaremos la barra de selección en la barra de utilidades. ![image](https://github.com/user-attachments/assets/1a3398ae-3b61-44fc-b483-cc3b3c14a52f)
+
+2. En caso la tengan desabilitada, hay que aperturarla siguiendo el mismo procedimiento como habilitamos el Navegador en el ejercicio 1. El nombre que deberán confirmar que este activo es: "Barra de Herramientas de Selección".
    
-3. En el menú selección ubicaremos la siguiente opción ![image](https://github.com/user-attachments/assets/6d24b8b8-64c7-4747-a594-88655ca68a7d) Desplieguen la flecha del constado haciendo clic en la flecha apuntando hacia abajo y tendremos multiples opciones todas ellas nos permiten seleccionar de distintas formas pero siempre utilizando el cursos y el mouse. 
+3. En el menú selección ubicaremos la siguiente opción ![image](https://github.com/user-attachments/assets/6d24b8b8-64c7-4747-a594-88655ca68a7d) Desplieguen la flecha del costado haciendo clic en la flecha apuntando hacia abajo y tendremos múltiples opciones, todas ellas nos permiten seleccionar de distintas formas pero siempre utilizando el cursor y el mouse. 
 
-![Captura de pantalla 2025-03-25 162717](https://github.com/user-attachments/assets/36241240-eb4a-4dff-b4da-38655126e3d7)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/36241240-eb4a-4dff-b4da-38655126e3d7">
 
-* Seleccionar objeto(s) espacial(es) ![Captura de pantalla 2025-03-25 163628](https://github.com/user-attachments/assets/f00dc9fb-5b71-4a82-b41d-f7d911c3569d) Esto nos permite seleccionar elementos atravez de un cuadrado que se genera cuando hago clic y desplacemos el mouse.
+* Seleccionar objeto(s) espacial(es) ![Captura de pantalla 2025-03-25 163628](https://github.com/user-attachments/assets/f00dc9fb-5b71-4a82-b41d-f7d911c3569d) Esto nos permite seleccionar elementos a través de un cuadrado que se genera cuando hago clic y desplacemos el mouse.
  
-* Seleccionar objetos espaciales por poligonos ![Captura de pantalla 2025-03-25 163822](https://github.com/user-attachments/assets/8134539f-5bc5-4d41-9b96-ca3437850f85) Permite desarrollar selecciones a travez de generar un poligono. Quedará seleccionado todo lo que quede dentro o tocando el poligono que creamos. Cualquier selección se marcará en color amarillo.
+* Seleccionar objetos espaciales por poligonos ![Captura de pantalla 2025-03-25 163822](https://github.com/user-attachments/assets/8134539f-5bc5-4d41-9b96-ca3437850f85) Permite desarrollar selecciones a través de generar un polígono. Quedará seleccionado todo lo que quede dentro o tocando el polígono que creamos. Cualquier selección se marcará en color amarillo.
 
-* Seleccionar objetos a mano alzada ![Captura de pantalla 2025-03-25 164201](https://github.com/user-attachments/assets/e87ea2a5-2cad-4077-9d5c-0a93def90e00) Esta opción nos permite generar un polígono de selección pero en comparación con el anterior se desarrolla como si fuera un trazo de lápiz de forma libre asi que no hay limites rectos. 
+* Seleccionar objetos a mano alzada ![Captura de pantalla 2025-03-25 164201](https://github.com/user-attachments/assets/e87ea2a5-2cad-4077-9d5c-0a93def90e00) Esta opción nos permite generar un polígono de selección pero en comparación con el anterior, se desarrolla como si fuera un trazo de lápiz de forma libre así que no hay límites rectos. 
 
-* Seleccionar objetos espaciales por radio  ![Captura de pantalla 2025-03-25 164534](https://github.com/user-attachments/assets/93d83942-adcf-4436-bc1f-07a3163695df)  Esta opción permite generar un circulo de selección este se forma en dos etapas la primera es seleccion un punto central y luego desplazar el mouse generando un area circular de selección. Se puede establecer el radio definido en metros en incluyendo un numero en el recuadro de radio. 
+* Seleccionar objetos espaciales por radio  ![Captura de pantalla 2025-03-25 164534](https://github.com/user-attachments/assets/93d83942-adcf-4436-bc1f-07a3163695df)  Esta opción permite generar un círculo de selección, este se forma en dos etapas la primera es seleccionando un punto central y luego desplazar el mouse generando un área circular de selección. Se puede establecer el radio definido en metros en incluyendo un número en el recuadro de radio. 
 
 
 ___________________________________________________________________________________________
@@ -300,3 +322,4 @@ Cada item se evaluara en un puntaje de acuerdo con la siguiente tabla
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/abb8fb0d-faef-4c23-a5a4-bbb9a552fe77" alt="ELIPSOIDE"> 
+
