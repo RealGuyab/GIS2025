@@ -127,8 +127,9 @@ Debemos tener en mente que toda proyección es valida para algunos lugares pero 
 
 
 + **Proyección cilíndrica**: las proyecciones cilíndricas consisten en utilizar un cilindro e ingresar la esfera dentro de forma que quede suspendida en la mitad. Esta proyección es la más común y conocida. Esta guarda mucho nivel de detalle en la zona ecuatorial del mundo pero tiene deformaciones conforme nos acercamos a los polos. Es la misma proyección que podemos observar en la página [The True Size](https://thetruesize.com/). Esta proyección así mismo es la que se utiliza en el sistema UTM (Universal Transversal Mercator).
-  
 
+<p align="center">
+  <img src = "https://github.com/user-attachments/assets/cb3ff661-012c-4e47-a118-bfc45eeca0a1" alt="Proyección">
 
 ## Coordenadas proyectadas
 
