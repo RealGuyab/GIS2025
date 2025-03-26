@@ -39,6 +39,13 @@ Los modelos que analizaremos en este apartado serán principalmente dos:
   
 Esto nos permitirá entender algunos elementos adicionales como los datum o las proyecciones. Todo esto se estudia en la Geodecia, que es la ciencia que permite ubicar cosas en la Tierra con mucha precisión. La información que se coloca en la página servirá como un inicio si alguno estuviera interesado en tomar mayor detalle espero que esto le sirva como punto de partida.  
 
+### ¿Qué es un geoide?
+
+Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma técnica, un geoide corresponde a medir como la tierra se modela en base a la atracción de la gravedad en los múltiples puntos del planeta y se mide en metros sobre el nivel del mar. De forma más simple, imaginen que estamos cubriendo la Tierra con agua y eliminamos la acción de las mareas o corrientes. En ese sentido el agua se orientaría de acuerdo con la gravedad de los sitios. Y como la gravedad depende de la materia que tenga el cuerpo se orientaría más alto en las zonas más altas de la tierra (con más materia) como en zonas de montañas y más baja en las zonas bajas (donde hay menos materia). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aún no llegamos a incluir el detalle de las alturas al 100%.
+
+<p align="center">
+  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE" width=450>
+
 ## ¿Qué es un elipsoide?
 
 Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta, esta forma de representar la tierra es una representación artística que no coincide con la forma real de la tierra. Si tuvieramos que ser mas precisos sobre su forma real sin incluir todavia valles, montañas, etc. estariamos hablando de una esfera que se encuentra achatada en los polos (esfera oblata), si reducimos aún más la complejidad o nos fijamos solo en los bordes, la figura resultante es una elipse. 
@@ -54,14 +61,6 @@ Se tienen dos tipos de elipsoides:
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/ajuste_elipsoide.jpg" alt="ELIPSOIDE" width=300>
-
-### ¿Qué es un geoide?
-
-Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma técnica, un geoide corresponde a medir como la tierra se modela en base a la atracción de la gravedad en los múltiples puntos del planeta y se mide en metros sobre el nivel del mar. De forma más simple, imaginen que estamos cubriendo la Tierra con agua y eliminamos la acción de las mareas o corrientes. En ese sentido el agua se orientaría de acuerdo con la gravedad de los sitios. Y como la gravedad depende de la materia que tenga el cuerpo se orientaría más alto en las zonas más altas de la tierra (con más materia) como en zonas de montañas y más baja en las zonas bajas (donde hay menos materia). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aún no llegamos a incluir el detalle de las alturas al 100%.
-
-<p align="center">
-  <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE" width=450>
-
 
 ### ¿Cómo se relaciona todo esto? (Definición de DATUM)
 
