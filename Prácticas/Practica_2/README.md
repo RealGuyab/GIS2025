@@ -2,36 +2,36 @@
 
 ## Competencias
 
-1. Conocer la plataforma Qgis
-2. Identificar las diferencias entre coordendas geograficas y proyectadas
-3. Reconocer los elementos minimos que deben estar presentes en un mapa
+1. Conocer la plataforma Qgis.
+2. Identificar las diferencias entre coordendas geograficas y proyectadas.
+3. Reconocer los elementos minimos que deben estar presentes en un mapa.
 
 
 ## ¿Qué es una coordenada?
 
-Las coordenadas como lo vimos anteriormente son números que nos indican la posición de un elemento en el espacio. Haciendo recuerdo hablamos de dos sistemas de coordenadas. 
+Las coordenadas como lo vimos anteriormente son números que nos indican la posición de un elemento en el espacio. Haciendo recuerdo, hablamos de dos sistemas de coordenadas: 
 
 + Las coordenadas Geográficas
 + Las coordenadas Proyectadas
 
-La sesión anterior definímos lo que es una coordenada geográfica y como es que se interpreta en base a los múltiples formatos que presenta Google Earth Pro. En esta sesión nos enfocaremos en la definición de las coordenadas Proyectadas principalmente pero abordaremos conceptos que también se aplican a las coordenadas geográficas. A continuacion, analizaremos algunos conceptos previos que permitirán dar más detalle y un contexto a lo que es una coordenada. 
+En la sesión anterior definímos lo que es una coordenada geográfica y cómo es que se interpreta en base a los múltiples formatos que presenta Google Earth Pro. En esta sesión nos enfocaremos principalmente en la definición de las coordenadas proyectadas, pero abordaremos conceptos que también se aplican a las coordenadas geográficas. A continuacion, analizaremos algunos conceptos previos que permitirán dar más detalle y contexto de lo que es una coordenada. 
 
 ## ¿Cuál es la verdadera forma de la tierra?
 
-Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es bien conocido que la forma de la Tierra es esférica y ello se determinó hace mucho tiempo atrás, esto fue propuesto en la antigua Grecia aproximadamente en el año 240 A.C y fue Eratóstenes, un matemático, quien con un simple experimento (utilizando palos y sombras) pudo medir la circunferencia con una muy buena precisión. Pero cuando hablamos de una esfera el contexto pude ser un poco ambiguo. 
-Existen múltiples tipos de esfera, esferas perfectas, esferoides, elipsoides, etc.
+Todos alguna vez en nuestra vida nos hemos hecho esa pregunta. Es sabido que la forma de la Tierra es esférica, esto se determinó hace mucho tiempo. Esto fue propuesto en la antigua Grecia, aproximadamente en el año 240 A.C, y fue Eratóstenes, un matemático, quien con un simple experimento (utilizando palos y sombras) pudo medir la circunferencia de la tierra con una muy buena precisión. Sin embargo, cuando hablamos de una esfera el contexto pude ser un poco ambiguo. 
+Existen múltiples tipos de esfera, tales como: esferas perfectas, esferoides, elipsoides, etc.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/esferas.png" alt="TIPOS ESFERAS" width=550>
 
 ## Generalización de la forma de la tierra
 
-La superficie de la tierra es algo muy irregular. Se tienen montañas, valles, cañones, ríos, etc. Todos estos elementos son muy difícil de modelar tomando en cuenta que en la mayoría de mapas o modelos de la tierra o se dispone únicamente de una superficie plana como una hoja o una pantalla. Es por ello que se desarrollan modelos con un mayor grado de simplificación. A esto le llamaremos generalización de los modelos de la tierra.
+La superficie de la tierra es algo muy irregular. Se tienen montañas, valles, cañones, ríos, etc. Todos estos elementos son muy difíciles de modelar, tomando en cuenta que en la mayoría de mapas o modelos de la tierra se dispone únicamente de una superficie plana como una hoja o una pantalla. Es por esto que se desarrollan modelos con un mayor grado de simplificación. A esto le llamaremos generalización de los modelos de la tierra.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/nivel_generalizacion.png" alt="TIPOS ESFERAS" width=300>
 
-Como pueden observar en la imagen, conforme vamos bajando en la misma encontramos diversos modelos. Estos modelos van perdiendo detalle si tomamos en cuenta la superficie inicial de la tierra. Sin embargo, nos permiten desarrollar cálculos matemáticos más precisos y de ellos generar herramientas como las coordenadas o sistemas de posicionamiento. 
+Como pueden observar en la imagen, conforme vamos bajando, encontramos diversos modelos. Estos modelos van perdiendo detalle si tomamos en cuenta la superficie inicial de la tierra. Sin embargo, nos permiten desarrollar cálculos matemáticos más precisos y a partir de ellos generar herramientas como las coordenadas o sistemas de posicionamiento. 
 
 Los modelos que analizaremos en este apartado serán principalmente dos:
 + Elipsoides
@@ -41,85 +41,85 @@ Esto nos permitirá entender algunos elementos adicionales como los datum o las 
 
 ### ¿Qué es un geoide?
 
-Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma técnica, un geoide corresponde a medir como la tierra se modela en base a la atracción de la gravedad en los múltiples puntos del planeta y se mide en metros sobre el nivel del mar. De forma más simple, imaginen que estamos cubriendo la Tierra con agua y eliminamos la acción de las mareas o corrientes. En ese sentido el agua se orientaría de acuerdo con la gravedad de los sitios. Y como la gravedad depende de la materia que tenga el cuerpo se orientaría más alto en las zonas más altas de la tierra (con más materia) como en zonas de montañas y más baja en las zonas bajas (donde hay menos materia). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aún no llegamos a incluir el detalle de las alturas al 100%.
+Como vimos en los dos apartados anteriores la tierra es una superficie compleja de modelar y el elipse resulta quitando mucho detalle. Por eso es que se desarrolla el modelo de geoide. De forma técnica, un geoide corresponde a medir cómo la tierra se modela en base a la atracción de la gravedad en la superficie del planeta y se mide en metros sobre el nivel del mar. De forma más simple, imaginen que estamos cubriendo la Tierra con agua y eliminamos la acción de las mareas o corrientes. En ese sentido el agua se orientaría de acuerdo con la gravedad de los sitios. Como la gravedad depende de la materia que tenga el cuerpo se orientaría más alto en las zonas más altas de la tierra como en zonas de montañas (con más materia) y más bajo en las zonas bajas (donde hay menos materia). Esto resulta en un modelo que permite estimar las alturas con mayor detalle que el elipsoide, permitiendo ver las tendecias de altitud que se da en la superficie del planeta. Pero aún no llegamos a incluir el detalle de las alturas al 100%.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/Geoid.jpg" alt="ELIPSOIDE" width=450>
 
 ## ¿Qué es un elipsoide?
 
-Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta, esta forma de representar la tierra es una representación artística que no coincide con la forma real de la tierra. Si tuvieramos que ser mas precisos sobre su forma real sin incluir todavia valles, montañas, etc. estariamos hablando de una esfera que se encuentra achatada en los polos (esfera oblata), si reducimos aún más la complejidad o nos fijamos solo en los bordes, la figura resultante es una elipse. 
+Todos hemos visto el modelo más comun de la tierra, en donde se muestra una esfera completamente perfecta. Esta forma de representar la tierra es una artística, ya que no coincide con su forma real. Si tuvieramos que ser más precisos sin incluir todavia valles, montañas, etc. estariamos hablando de una esfera que se encuentra achatada en los polos (esfera oblata), si reducimos aún más la complejidad o nos fijamos solo en los bordes, la figura resultante sería una elipse. 
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/ESFERA_OBLATA.png" alt="ELIPSOIDE" width=600>
 
-El elipsoide surge entonces de esta idea de representar la tierra de forma más precisa. Sintetizando la idea, un elipsoide es una superficie homogénea (sin perturbaciones) que engloba toda la tierra y la aproxima hacia una esfera. Se le conoce como la forma matemática de la Tierra por que mediante la aplicación del cálculo se puede llegar a la misma forma que hemos interpretado de forma visual. Este elipse da origen principalmente a las coordenadas Geográficas que como vimos la clase anterior asumen la tierra como una esfera o en este caso una semiesfera. 
-Lamentablemente, el elipse no es preciso en todos los lugares de la tierra. Como hemos hecho una simplificación y la tierra tiene ciertas deformidades superficiales la línea que se establace como límite del elipsoide puede quedar por debajo o sobre el terreno, a esto se le conoce como ondulación geoidal. Esto se corrige luego con algunos elementos adicionales que veremos más adelante. Existen múltiples elipsoides, desarrollaremos hasta el momento algunos más precisos en algunas zonas. 
+El elipsoide surge de esta idea de representar la tierra de forma más precisa. Sintetizando la idea, un elipsoide es una superficie homogénea (sin perturbaciones) que engloba toda la tierra y la aproxima hacia una esfera. Se le conoce como la forma matemática de la Tierra, por que mediante la aplicación de cálculos se puede llegar a la misma forma que hemos interpretado de forma visual. Este elipse da origen principalmente a las coordenadas geográficas que, como vimos la clase anterior, asumen la tierra como una esfera o, en este caso, una semiesfera. 
+Lamentablemente, el elipse no es preciso en todos los lugares de la tierra. Como hemos hecho una simplificación y la tierra tiene ciertas deformidades superficiales la línea que se establace como límite del elipsoide puede quedar por debajo o sobre el terreno, a esto se le conoce como ondulación geoidal. Esto se corrige posteriormente con algunos elementos adicionales que veremos más adelante. Existen múltiples elipsoides, desarrollaremos hasta el momento, algunos más precisos en algunas zonas. 
 Se tienen dos tipos de elipsoides: 
-* Elipsoides globales. Tienen la función principal de resumir la forma de la tierra, normalmente se desarrollan coincidiendo el centro del elipse con el centro real de la tierra.
-* Elipsoides locales. Tienen el objetivo de dar alto detalle en una zona definida de la tierra. Es decir mover la elipse de manera que coincida sin estar por encima o por debajo de alguna zona de interes.
+* Elipsoides globales: tienen la función principal de resumir la forma de la tierra, normalmente se desarrollan coincidiendo el centro del elipse con el centro real de la tierra.
+* Elipsoides locales: tienen el objetivo de dar alto detalle en una zona definida de la tierra. Es decir mover la elipse de manera que coincida sin estar por encima o por debajo de alguna zona de interes.
 
 <p align="center">
   <img src="https://github.com/RealGuyab/Qgis/blob/main/Pr%C3%A1cticas/Practica_2/imagenes/ajuste_elipsoide.jpg" alt="ELIPSOIDE" width=300>
 
 ### ¿Cómo se relaciona todo esto? (Definición de DATUM)
 
-Recodermos alguna información esencial 
-+ El geoide tiene mayor detalle de la altura de la tierra y patrones de altitud y depresión en la superficie
-+ El elipsoide permite resumir un área completa pero a veces puede quedar debajo o por encima del terreno.
+Recodermos información esencial 
++ El geoide tiene mayor detalle de la altura de la tierra, patrones de altitud y depresiones en la superficie.
++ El elipsoide permite resumir un área completa, pero a veces puede quedar debajo o por encima del terreno.
 + Deben existir puntos en donde el elipsoide y el geoide coincidan.
 
-Entonces, tenemos dos elementos, el elipsoide que nos da el marco de referencia en donde podemos establecer las coordenadas y el geoide que nos permite conocer la forma de la Tierra. Para relacionar ambos contextos debemos tener un elemento que permita interconectarlos y allí es donde cuadra el datum.
-De forma simple, el datum es un elemento matemático que permite situar a un elipsoide y hacerlo coincidir de la mejor forma posible con el geoide. Para ello, se necesita encontrar puntos del elipsoide que coincidan casi perfectamente con el geoide y luego aplicar modificaciones que pueden ser traslaciones, rotaciones, etc. Esto da como resultado un elemento grillado tal como lo vimos la vez pasada cuando analizamos la regla en Google Earth Pro.
+Entonces, tenemos dos elementos: el elipsoide que nos da el marco de referencia en donde podemos establecer las coordenadas y el geoide que nos permite conocer la forma de la Tierra. Para relacionar ambos contextos debemos tener un elemento que permita interconectarlos, allí es donde cuadra el DATUM.
+De forma simple, el DATUM es un elemento matemático que permite situar a un elipsoide y hacerlo coincidir de la mejor forma posible con el geoide. Para ello, se necesita encontrar puntos del elipsoide que coincidan casi perfectamente con el geoide y, luego, aplicar modificaciones que pueden ser traslaciones, rotaciones, etc. Esto da como resultado un elemento grillado, tal como lo vimos la vez pasada cuando analizamos la regla en Google Earth Pro.
 
-Interaccionando estos tres elementos tenemos lo que se conoce como Sistema de Coordenadas de Referencia (SRC) de momento la definición alcanza para detallar las coordenadas geográficas, para poder analizar las coordenadas proyectadas aún debemos hablar de proyecciones. 
+La interacción de estos tres elementos  se conoce como Sistema de Coordenadas de Referencia (SRC), de momento la definición alcanza para detallar las coordenadas geográficas, para poder analizar las coordenadas proyectadas aún debemos hablar de proyecciones. 
 
-### Información adicional de Datum
+### Información adicional de DATUM
 
-El datum de forma muy generalizada funciona como un pegamento que une un elipsoide y un geoide dandole un contexto. Pero cuidado, por que existen múltiples elipsoides y datum. Y los resultados finales también son diferentes. Por lo que, si queremos cambiar de un sistema de coordenadas a otro, las ubicaciones seran diferentes puesto que pueden haber sido creados con elementos distintos entre sí. Asi que tengan mucho cuidado en que sistema de coordenas se trabaja y esto incluye a todos los elementos que se vayan a proyectar o crear dentro de un mapa. Puesto que pueden haber errores grandes al momento de subir información creada en diferentes elipsoides o datum y este error puede ser de hasta 50 metros por lo que es algo que tenemos que tener mucho en mente. 
-Para finalizar tenemos dos tipos de datum, horizontales y verticales. 
-  + Los **Datum horizontales** tienen por finalidad corregir el elipsoide de forma lateral
+El DATUM de forma muy generalizada funciona como un pegamento que une un elipsoide y un geoide, dandole un contexto. Pero cuidado, porque existen múltiples elipsoides y datum. Y los resultados finales también son diferentes. Por lo que, si queremos cambiar de un sistema de coordenadas a otro, las ubicaciones seran diferentes puesto que pueden haber sido creados con elementos distintos entre sí. Asi que tengan mucho cuidado en que sistema de coordenas se trabaja y esto incluye a todos los elementos que se vayan a proyectar o crear dentro de un mapa. Puesto que pueden haber errores grandes al momento de subir información creada en diferentes elipsoides o datum y este error puede ser de hasta 50 metros, por lo que es algo que tenemos que tener mucho en mente. 
+Para finalizar tenemos dos tipos de DATUM: horizontales y verticales. 
+  + Los **Datum horizontales** tienen por finalidad corregir el elipsoide de forma lateral.
   + Los **Datum verticales** incluyen un elemento adicional que es la altitud. Entonces tenemos también coordenadas que modelan elementos 3D en un espacio tridimensional.
 
- Otra forma de categorizar los datum es en base al ámbito de correción que tiene dos clasificaciones, datum locales y datum mundiales.
+ Otra forma de categorizar los DATUM es en base al ámbito de correción que tiene dos clasificaciones: datum locales y datum mundiales.
  
-  + Los **Datum Locales** tienen un ambito de acción local y normalmente se usa para tener una alta definición y que el elipsoide cuadre de muy buena manera en una área muy localizada como un continente o un país. Por ejemplo, el PASD56 (Provisional South American Datum 1956) es un sistema que fue muy utilizado en latinoamérica durante el siglo XX debido a su presición en la zona de América del Sur sin embargo, si se quisiera usar este datum para zonas como Europa se tendría un error muy grande debido a la deformación del elipsoide para esta zona. 
-  + Los **Datum Mundiales** tiene un ámbito de estudio global. Principalmente estos datum usan el centro del mundo como punto de referencia por lo que se establece un elipse bastante preciso para casi todo el mundo pero ojo que aún hay errores a nivel local. El más conocido es el datum WGS84 (World Geodesic System 1984). este lo usaremos constantemente durante el curso.
+  + Los **Datum locales** tienen un ambito de acción local y normalmente se usa para tener una alta definición y que el elipsoide cuadre de muy buena manera en una área muy localizada, como un continente o un país. Por ejemplo, el PASD56 (Provisional South American Datum 1956) es un sistema que fue muy utilizado en latinoamérica durante el siglo XX debido a su presición en la zona de América del Sur. Sin embargo, si se quisiera usar este datum para zonas como Europa se tendría un error muy grande debido a la deformación del elipsoide para esta zona. 
+  + Los **Datum mundiales** tiene un ámbito de estudio global. Principalmente estos datum usan el centro del mundo como punto de referencia, por lo que se establece un elipse bastante precisa para casi todo el mundo, pero ojo que aún hay errores a nivel local. El más conocido es el DATUM WGS84 (World Geodesic System 1984). Este lo usaremos constantemente durante el curso.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e5063edf-afb1-458b-96e5-877a961a02be" alt="ELIPSOIDE" width=450>
 
 ## Tipos de proyecciones
 
-Con todo lo que hemos visto hasta el momento se interpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal o sea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano. Por ejemplo, una hoja. A esto se le llama proyecciones. Las podemos dividir en dos, las que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contrucción geométrica para su conformación (en función de las cualidades proyectivas).
-Debemos tener en mente que toda proyección es valida para algunos lugares pero deforma otros. Tal como lo vimos anteriormente con la página [The True Size](https://thetruesize.com/) en donde este sistema permitia tener alto detalle de la zona ecuatorial del mundo pero se deformaba cuando nos acercabamos a los polos. 
+Con todo lo que hemos visto hasta el momento se interpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal, o sea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano. Por ejemplo, una hoja. A esto se le llama proyecciones. Las podemos dividir en dos: las que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contrucción geométrica para su conformación (en función de las cualidades proyectivas).
+Debemos tener en mente que toda proyección es valida para algunos lugares, pero deforma otros. Tal como lo vimos anteriormente con la página [The True Size](https://thetruesize.com/) en donde este sistema permitia tener alto detalle de la zona ecuatorial del mundo, pero se deformaba cuando nos acercabamos a los polos. 
 
 ### Proyecciones en función de las cualidades métricas
 
-+ **Proyecciones Conformes**: Una proyección conforme mantiene las ángulos que se forman entre dos líneas en la superficie.
++ **Proyecciones conformes**: una proyección conforme mantiene los ángulos que se forman entre dos líneas en la superficie.
   
 <p align="center">
 <img  src = "https://github.com/user-attachments/assets/0d81d443-3dfc-4b97-9679-dca570cef6db" alt="conforme">
   
-+ **Proyecciones Equivalentes**: Una proyección equivalente conserva la superficie del terreno.
++ **Proyecciones equivalentes**: una proyección equivalente conserva la superficie del terreno.
 
 <p align="center">
 <img  src = "https://github.com/user-attachments/assets/e4462c82-0d2c-4d0f-925d-16ce50084a7a" alt="conforme">
   
-+ **Proyecciones Equidistantes**: En este tipo de proyección se mantiene la distancia entre dos puntos.
++ **Proyecciones equidistantes**: en este tipo de proyección se mantiene la distancia entre dos puntos.
 
 <p align="center">
 <img  src = "https://github.com/user-attachments/assets/2285e583-cd33-4c97-b6ce-8773f0cffeb4" alt="conforme">
 
-+ **Proyeccion Afilácticas**: No conserva ninguna propiedad interna del mapa pero mantienen una percepción del aspecto general de la tierra teniendo muy bajas distorsiones.
++ **Proyeccion afilácticas**: no conserva ninguna propiedad interna del mapa, pero mantiene una percepción del aspecto general de la tierra teniendo muy bajas distorsiones.
 
 <p align="center">
 <img  src = "https://github.com/user-attachments/assets/18b9e4d4-a14b-4fd5-9e55-b2a49ad8e104" alt="conforme">
 
 ### Proyecciones en función de las cualidades proyectivas
 
-+ **Proyeccion Planar o Azimutal**: Imagine que tenemos una hoja y la colocamos sobre un balón de fútbol de manera que solo haya un punto de toque en la esfera y la hoja se mantenga plana. Si vemos desde arriba lo que se observará es un nivel alto de detalle de la tierra en el punto donde se da el toque entre ambos objetos pero que se ira deformando conforme nos alejemos a los bordes. Esto es básicamente una proyección planar. Se consigue asignando un plano de observación sobre la esfera que tenga un punto de orientación principal. Esto generará una proyección en donde el mayor nivel de detalle se encuentra en el punto y en las áreas más cercanas, deformandose conforme nos vamos alejando del punto focal.
-+ **Proyección Cónica**: Se utiliza la figura de un cono para establcer la proyección. Básicamente consiste en ingresar la tierra dentro de un cono. Hay múltiples zonas de toque entre ambas formas. Esto es útil para establecer proyecciones en latitutes altas del mundo (los polos y zonas aledañas). El detalle se hace mayor conforme nos acercamos al vértice del cono y va deformandose si nos vamos acercando a su base.
++ **Proyeccion planar o azimutal**: imagine que tenemos una hoja y la colocamos sobre un balón de fútbol de manera que solo haya un punto de toque en la esfera y la hoja se mantenga plana. Si vemos desde arriba lo que se observará es un nivel alto de detalle de la tierra en el punto donde se da el toque entre ambos objetos, pero que se ira deformando conforme nos alejemos a los bordes. Esto es básicamente una proyección planar. Se consigue asignando un plano de observación sobre la esfera que tenga un punto de orientación principal. Esto generará una proyección en donde el mayor nivel de detalle se encuentra en el punto y en las áreas más cercanas, deformandose conforme nos vamos alejando del punto focal.
++ **Proyección cónica**: se utiliza la figura de un cono para establcer la proyección. Básicamente consiste en ingresar la tierra dentro de un cono. Hay múltiples zonas de toque entre ambas formas. Esto es útil para establecer proyecciones en latitutes altas del mundo (los polos y zonas aledañas). El detalle se hace mayor conforme nos acercamos al vértice del cono y va deformandose si nos vamos acercando a su base.
 + **Proyección cilíndrica**: las proyecciones cilíndricas consisten en utilizar un cilindro e ingresar la esfera dentro de forma que quede suspendida en la mitad. Esta proyección es la más común y conocida. Esta guarda mucho nivel de detalle en la zona ecuatorial del mundo pero tiene deformaciones conforme nos acercamos a los polos. Es la misma proyección que podemos observar en la página [The True Size](https://thetruesize.com/). Esta proyección así mismo es la que se utiliza en el sistema UTM (Universal Transversal Mercator).
 
 <p align="center">
