@@ -87,6 +87,9 @@ Para finalizar tenemos dos tipos de datum, horizontales y verticales.
   + Los **Datum Locales** tienen un ambito de acción local y normalmente se usa para tener una alta definición y que el elipsoide cuadre de muy buena manera en una área muy localizada como un continente o un país. Por ejemplo, el PASD56 (Provisional South American Datum 1956) es un sistema que fue muy utilizado en latinoamérica durante el siglo XX debido a su presición en la zona de América del Sur sin embargo, si se quisiera usar este datum para zonas como Europa se tendría un error muy grande debido a la deformación del elipsoide para esta zona. 
   + Los **Datum Mundiales** tiene un ámbito de estudio global. Principalmente estos datum usan el centro del mundo como punto de referencia por lo que se establece un elipse bastante preciso para casi todo el mundo pero ojo que aún hay errores a nivel local. El más conocido es el datum WGS84 (World Geodesic System 1984). este lo usaremos constantemente durante el curso.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e5063edf-afb1-458b-96e5-877a961a02be" alt="ELIPSOIDE" width=450>
+
 ## Tipos de proyecciones
 
 Con todo lo que hemos visto hasta el momento se interpreta la tierra como una esfera. Sin embargo, para algunos trabajos es necesario generar un plano horizontal o sea intentar deformar la esfera de manera que mantenga algunas propiedades en un plano. Por ejemplo, una hoja. A esto se le llama proyecciones. Las podemos dividir en dos, las que mantienen alguna propiedad dentro del terreno (en función de las cualidades métricas) y las que utilizan alguna contrucción geométrica para su conformación (en función de las cualidades proyectivas).
