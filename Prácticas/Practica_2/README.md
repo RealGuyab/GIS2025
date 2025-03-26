@@ -280,4 +280,23 @@ En esta actividad descargaremos información de tipo vectorial y la trabajaremos
 
 ___________________________________________________________________________________________
 # Asignación
-Descargar de la base de datos GEOGPS los limites provinciales y distritales 
+
+1. Descargar de la base de datos GEOGPS los límites provinciales y distritales
+2. Escoger 2 departamentos y con ayuda de las herramientas de selección de Qgis aislar todas las provincias de los dos departamentos y presentarlas en capturas individuales.
+3. Escoger 3 provincias y con la herramienta seleccionar de Qgis aislar todos los distritos usando la base de datos de limites provinciales presentarlas en el informe como     capturas.
+   
+## Formato de presentación del informe
+Para esta tarea la presentación del informe sera cumpliendo con los siguientes apartados.
+
+1. Objetivos
+2. Marco teórico
+3. Metodología
+4. Resultados
+5. Discusion
+6. Conclusiones
+7. Bibliografia (formato APA)
+
+Cada item se evaluara en un puntaje de acuerdo con la siguiente tabla
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/abb8fb0d-faef-4c23-a5a4-bbb9a552fe77" alt="ELIPSOIDE"> 
