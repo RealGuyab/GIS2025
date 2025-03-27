@@ -273,7 +273,10 @@ En esta actividad descargaremos información de tipo vectorial y la trabajaremos
 ### Subida de datos
 1. Si han descomprimido la carpeta correctamente encontrarán múltiples elementos. Todos juntos hacen un solo formato shape si alguno llegara a faltar se perdería información o de plano ya no sería interpretable. Es por ello que descargamos el comprimido en lugar de archivos independientes.
    
-2. En el panel de Navegador, nos dirigimos a la carpeta que hemos creado y la abrimos haciendo clic en la flecha del costado. Deberá aparecer la carpeta en donde descomprimimos y al abrirla encontraremos un elemento parecido al siguiente ![image](https://github.com/user-attachments/assets/5464c246-9167-41d0-847e-4998a3cb7eff). Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparece uno, es por que todos colaboran estre si para dar orígen al formato final.
+2. En el panel de Navegador, nos dirigimos a la carpeta que hemos creado y la abrimos haciendo clic en la flecha del costado. Deberá aparecer la carpeta en donde descomprimimos y al abrirla encontraremos un elemento parecido al siguiente
+![image](https://github.com/user-attachments/assets/5464c246-9167-41d0-847e-4998a3cb7eff).
+
+Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparece uno, es por que todos colaboran estre si para dar orígen al formato final.
 
 3. Si hacemos doble clic el elemento que aparece podremos obtener la capa en un color aleatorio. No se preocupen si el color que les sale a su computadora es diferente al que encontramos en la imagen adjunta, las siguientes clases analizaremos como cambiar los colores.
 
