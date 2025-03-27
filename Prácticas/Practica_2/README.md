@@ -264,7 +264,7 @@ En esta actividad descargaremos información de tipo vectorial y la trabajaremos
 2. En los menús de la derecha, desplegar la página hasta que ubiquen un link que diga límite distrital y hacer clic allí
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/aaa8e234-d29e-482c-b2ae-3d8ac670f3aa)>
+  <img src="https://github.com/user-attachments/assets/aaa8e234-d29e-482c-b2ae-3d8ac670f3aa">
 
 3. Ubicar la opción de INEI censo de 2023 límite departamental y hacer clic en el link anexo a la base de datos. Los llevará a un drive de google para descargar toda la carpeta como comprimido.
    
