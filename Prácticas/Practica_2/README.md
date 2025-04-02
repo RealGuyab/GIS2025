@@ -309,7 +309,15 @@ para obtener este elementos ubicaremos dentro del menú de selección el siguien
 
 **IMPORTANTE**: Un campo es una columna dentro de la tabla de atributos. 
 
+Si trabajamos con la capa de limites departamentales debera salir un recuadro como el siguiente 
 
+![image](https://github.com/user-attachments/assets/571eb009-ddc0-4dd5-a878-ac2678ce8fe0)
+
+Fijense que el nombre de los elementos en el recuadro son los mismos a cabezales de las tablas de atributos 
+
+![Captura de pantalla 2025-04-02 173531](https://github.com/user-attachments/assets/9ae8f70c-008a-46b9-b169-f062b8f086fc)
+
+Para utilizar este elemento tenemos que buscar el nombre de lo que estmaos bucando y el campo de trabajo y dar clic en aceptar
 
 
 ___________________________________________________________________________________________
