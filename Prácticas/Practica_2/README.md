@@ -302,6 +302,15 @@ Este archivo es un archivo shp. Notaran que de todos los archivos solo me aparec
 
 * Seleccionar objetos espaciales por radio  ![Captura de pantalla 2025-03-25 164534](https://github.com/user-attachments/assets/93d83942-adcf-4436-bc1f-07a3163695df)  Esta opción permite generar un círculo de selección, este se forma en dos etapas la primera es seleccionando un punto central y luego desplazar el mouse generando un área circular de selección. Se puede establecer el radio definido en metros en incluyendo un número en el recuadro de radio. 
 
+### Selección por objeto de valor
+
+La seleción por objeto de valor nos va a permitir utilizar los datos de las tablas de atributos de cualquier elemento para seleccionar cosas de forma simple y muy direccionada.
+para obtener este elementos ubicaremos dentro del menú de selección el siguiente ícono ![image](https://github.com/user-attachments/assets/8bc3461d-cca7-4ee7-a160-94c211008418) al hacer un clic se desplegara un nuevo menu que contendra la informacion de los campos de la tabla de atributos.
+
+**IMPORTANTE**: Un campo es una columna dentro de la tabla de atributos. 
+
+
+
 
 ___________________________________________________________________________________________
 # Asignación
