@@ -37,10 +37,19 @@ El resultado deberá mostrarse igual a lo siguiente
 
 ### Reconocimiento de datos en la imagen
 
-* Lo primero que salta a la vista es que la imagen que subimos a Qgis se representa sin ningún tipo de deformación y aparentemente esta ubicada. Sin embargo, podemos darnos cuenta que esta carece de coordenadas y lo podemos demostrar de forma práctica colocando un mapa base.
+Lo primero que salta a la vista es que la imagen que subimos a Qgis se representa sin ningún tipo de deformación y aparentemente esta ubicada. Sin embargo, podemos darnos cuenta que esta carece de coordenadas y lo podemos demostrar de forma práctica colocando un mapa base. 
 
 <p align="center">
 <img  src = https://github.com/user-attachments/assets/18b0d0e6-7457-4274-ae74-e327d3cbedd2 width=500>
+
+Como se muestra en la imagen pueden observar que no existe una ubicación concreta e incluso la imagen ingresada es más grande que un mapa base. Esto se produce por un error en la proyección en resumen no tienen ningún sistema de coordenadas asignado lo que hace que sea imposible de ubicarse ni tener un espacio en los mapas.  
+Otro elemento que nos indica que no existe una coordenada es el logo que sale al costado del nombre de la capa. 
+
+<p align="center">
+<img  src =https://github.com/user-attachments/assets/3f3e34e2-b61a-438a-9c8b-06752c9a8cf0>
+
+La presencia de este logo ![image](https://github.com/user-attachments/assets/9ded266d-5cf6-4364-8c39-0930b5483f31) nos indica que la capa no presenta ningun sistema de coordenadas. 
+
 
 
 
