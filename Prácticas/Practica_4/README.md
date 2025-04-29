@@ -35,6 +35,15 @@ El resultado deberá mostrarse igual a lo siguiente
 <p align="center">
 <img  src = https://github.com/user-attachments/assets/0e798a05-e526-48d2-99be-56d12bceb416 alt="resultado_raster"> 
 
+### Reconocimiento de datos en la imagen
+
+* Lo primero que salta a la vista es que la imagen que subimos a Qgis se representa sin ningún tipo de deformación y aparentemente esta ubicada. Sin embargo, podemos darnos cuenta que esta carece de coordenadas y lo podemos demostrar de forma práctica colocando un mapa base.
+
+<p align="center">
+<img  src = https://github.com/user-attachments/assets/18b0d0e6-7457-4274-ae74-e327d3cbedd2>
+
+
+
 
 
 
