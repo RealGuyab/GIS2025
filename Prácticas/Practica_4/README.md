@@ -32,6 +32,9 @@ Para este ejercicio utilizaremos un mapa de Arequipa del año 1905 entraido de [
 
 El resultado deberá mostrarse igual a lo siguiente 
 
+<p align="center">
+<img  src = https://github.com/user-attachments/assets/0e798a05-e526-48d2-99be-56d12bceb416 alt="resultado_raster"> 
+
 
 
 
