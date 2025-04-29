@@ -21,7 +21,7 @@ Primero lo que se debe lograr es la digitalizacion de los elementos mas antiguos
 Para este ejercicio utilizaremos un mapa de Arequipa del año 1905 disponible en el siguiente link [descarga de mapa](https://www.facebook.com/photo/?fbid=1542811802691634&set=a.1542810076025140). 
 
 <p align="center">
-<img  src = "https://github.com/user-attachments/assets/eea121a3-40fd-4895-b0f8-5f0753213b8c" alt="conforme" wigth=500>
+<img  src = "https://github.com/user-attachments/assets/eea121a3-40fd-4895-b0f8-5f0753213b8c" alt="conforme" width=800>
 
 
 
