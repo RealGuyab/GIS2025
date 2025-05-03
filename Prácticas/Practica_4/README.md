@@ -7,13 +7,17 @@
 
 ## Importancia de los Sistemas de Coordenadas
 
+Como vimos previamente los Sistemas de Coordenadas nos indican la posicion de algún lugar en la tierra. Para poder cartografiar algo tenemos que ser concientes de las coordenadas con las que estamos trabajando. En caso tengamos coordenadas diferentes se tendran problemas para trabajar y esto nos obligara a transformar y homogenizar todo. 
+Desde este momento hay que tener cuidado con la asignacion de coordenadas tanto del proyecto de Qgis como de cada una de las capas que subamos. En la actividad 1 estableceremos los criterios para ejecutar la georreferenciacion de un plano construido en 1905. 
+
+### Actividad 1: Configuracion de coordenadas de trabajo
+
+
+
 ## Datos Raster 
 
-## ¿Que es Georreferenciar?
 
-
-
-### Actividad 1: Digitalización de mapas antiguos
+### Actividad 2: Digitalización de mapas antiguos
 
 Los mapas a escala antiguos son una fuente de información importante principalmente para analizar cambios en elementos que con el tiempo se han ido ampliando o desapareciendo. En el ejemplo que abordaremos el dia de hoy analizaremos su uso en el análisis de la evoluación urbana de la ciudad de Arequipa. 
 Primero lo que se debe lograr es la digitalizacion de los elementos mas antiguos de la ciudad esta digitalización puede consistir en un escaneo o una foto. Lo mas importante es que este procedimiento no haga ninguna modificación en el aspecto del mapa o plano (no modifique la altura, ni el ancho). En caso esta modificacion se de los resultados saldrán dudosos. 
@@ -49,6 +53,14 @@ Otro elemento que nos indica que no existe una coordenada es el logo que sale al
 <img  src =https://github.com/user-attachments/assets/3f3e34e2-b61a-438a-9c8b-06752c9a8cf0>
 
 La presencia de este logo ![image](https://github.com/user-attachments/assets/9ded266d-5cf6-4364-8c39-0930b5483f31) nos indica que la capa no presenta ningun sistema de coordenadas. 
+
+
+## ¿Que es Georreferenciar?
+
+
+
+
+
 
 
 
