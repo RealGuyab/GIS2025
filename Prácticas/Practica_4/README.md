@@ -14,6 +14,7 @@ Desde este momento hay que tener cuidado con la asignacion de coordenadas tanto 
 
 
 
+
 ## Datos Raster 
 
 
@@ -61,7 +62,7 @@ La presencia de este logo ![image](https://github.com/user-attachments/assets/9d
 
 
 
-
+## Asignación
 
 
 
