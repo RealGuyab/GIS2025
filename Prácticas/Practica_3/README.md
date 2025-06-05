@@ -43,7 +43,7 @@ ________________________________________________________________________________
 | WGS 84 / UTM zone 19S | 32719 | Proyectadas | Coordenadas proyectadas que se utilizan principalmente para la zona Sur. Desde la ciudad de Mollendo en Arequipa hasta Tacna. Visualizar la imagen para comprender mejor su espacio de aplicación. |
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/839a422a-3940-45cf-bd5e-6e104726ab82" alt="aplicacion de zonas UTM" width=500>
+  <img src="https://github.com/user-attachments/assets/839a422a-3940-45cf-bd5e-6e104726ab82" alt="aplicacion de zonas UTM" width=400>
 </p>
 <p align="center">Imagen 2: Zonas de UTM que aplican a Perú </p> 
 
