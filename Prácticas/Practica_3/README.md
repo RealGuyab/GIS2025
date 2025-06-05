@@ -24,8 +24,9 @@ IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectado
 1. Ingresar al menu ![image](https://github.com/user-attachments/assets/6eca5937-7bd8-4b91-9a9b-983b09e47663) >> ![image](https://github.com/user-attachments/assets/0a913eaa-ddb3-44a5-9151-9b0cd84786a3)
  y ubicamos la seccion SRC. El resultado debe ser el siguiente.
 
-![image](https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0)
-Imagen N°1: Resultado de paso 1
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0" alt="Ubicaciuon cato">
+</p>
 
 2. sad
 3. 
