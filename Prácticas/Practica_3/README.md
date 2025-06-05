@@ -21,7 +21,7 @@ IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectado
 
 ### Actividad N°1: Configuración de coordenadas del proyecto principal de Qgis
 
-1. Ingresar al menu   <img src="https://github.com/user-attachments/assets/6eca5937-7bd8-4b91-9a9b-983b09e47663" alt="Ubicaciuon cato" width=50> >> <img src="https://github.com/user-attachments/assets/0a913eaa-ddb3-44a5-9151-9b0cd84786a3" alt="Ubicaciuon cato" width=100>
+1. Ingresar al menu   <img src="https://github.com/user-attachments/assets/6eca5937-7bd8-4b91-9a9b-983b09e47663" alt="Ubicaciuon cato" width=70> >> <img src="https://github.com/user-attachments/assets/0a913eaa-ddb3-44a5-9151-9b0cd84786a3" alt="Ubicaciuon cato" width=100>
  y ubicamos la seccion SRC. El resultado debe ser el siguiente.
 
 <p align="center">
