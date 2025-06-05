@@ -12,8 +12,8 @@ La primera etapa para el desarrollo de cualquier base de datos es definir el sis
 
 Antes de iniciar debemos hacer una diferencia entre los tipos de coordenadas que se pueden configurar en Qgis.
 
-1. Coordenadas del proyecto: Las coordenadas del proyecto correpondes a la configuración general de Qgis. Estas coordenadas modificaran la forma de presentación de los mapas base pero no de las capas vectoriales o raster que hayamos incluido. Para acceder a esta configuración de coordenadas se hace a través de las configuraciones generales de Qgis y son mas simples de modificar de uno a otro. 
-2. Coordendas de las capas: Cada capa tiene un propio sistema de coordenadas que puede ser igual o diferente al que se configura como coordenadas de proyectos. Estas coordenadas se establecen al momento de crear cada una de las capas. Para modificar este sistema de coordendas en la mayoria de casos es necesario generar nuevas capas.
+* Coordenadas del proyecto: Las coordenadas del proyecto correpondes a la configuración general de Qgis. Estas coordenadas modificaran la forma de presentación de los mapas base pero no de las capas vectoriales o raster que hayamos incluido. Para acceder a esta configuración de coordenadas se hace a través de las configuraciones generales de Qgis y son mas simples de modificar de uno a otro. 
+* Coordendas de las capas: Cada capa tiene un propio sistema de coordenadas que puede ser igual o diferente al que se configura como coordenadas de proyectos. Estas coordenadas se establecen al momento de crear cada una de las capas. Para modificar este sistema de coordendas en la mayoria de casos es necesario generar nuevas capas.
 
 En esta primera actividad estableceremos las coordenadas del proyecto al sistema de coordendas proyectadas WGS 84/UTM 19S que aplican para la zona de estudio. Sin embargo, no todos los proyectos se deben configurar a este mismo sistema ya que este depende de la zona en donde se desarrolla nuestro proyecto. Si tienen alguna duda sobre los diferentes sistemas de coordenadas lo invitamos a leer la parte teoria de las practica N°1 y N°2. 
 
