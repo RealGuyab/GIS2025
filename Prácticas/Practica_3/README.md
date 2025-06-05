@@ -28,6 +28,9 @@ IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectado
   <img src="https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0" alt="Ubicaciuon cato" width=700>
 </p>
 
+<p align="center">Imagen 1: Interfaz de SRC de Qgis</p> 
+
+
 2. sad
 3. 
 
