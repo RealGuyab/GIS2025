@@ -27,11 +27,10 @@ ________________________________________________________________________________
  y ubicamos la seccion SRC. El resultado debe ser el siguiente.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0" alt="Ubicaciuon cato" width=700>
+  <img src="https://github.com/user-attachments/assets/ce80155b-4aae-4337-9509-286cf5a5277e" alt="Ubicaciuon cato" width=700>
 </p>
 
 <p align="center">Imagen 1: Interfaz de SRC de Qgis</p> 
-
 
 2. sad
 3. 
