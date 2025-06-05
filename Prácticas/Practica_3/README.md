@@ -19,6 +19,8 @@ En esta primera actividad estableceremos las coordenadas del proyecto al sistema
 
 IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectados y coordenadas geográficas. La coordendas geograficas en Qgis normalmente son **WGS 84 (EPGS: 4326)** y las coordendas proyectadas dependen de la zona de estudio y del sistema de proyección que hayan establecido. 
 
+_________________________________________________________________________________________________________________________________________________________________________________
+
 ### Actividad N°1: Configuración de coordenadas del proyecto principal de Qgis
 
 1. Ingresar al menu   <img src="https://github.com/user-attachments/assets/6eca5937-7bd8-4b91-9a9b-983b09e47663" alt="Ubicaciuon cato" width=70> >> <img src="https://github.com/user-attachments/assets/0a913eaa-ddb3-44a5-9151-9b0cd84786a3" alt="Ubicaciuon cato" width=100>
@@ -33,6 +35,8 @@ IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectado
 
 2. sad
 3. 
+
+_________________________________________________________________________________________________________________________________________________________________________________
 
 ## Creación de elementos vectoriales
 
