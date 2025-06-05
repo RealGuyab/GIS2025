@@ -34,9 +34,11 @@ ________________________________________________________________________________
 
 2.  Para configurar las coordenadas debemos ubicar la barra de buscador y escribir el nombre del sistema que necesitemos. Para que esto funcione existen dos formas la primera es escribir el nombre de la coordenada respestando espacios, caracteres y puntuación de ser necesario. La segunda es colocar el numero identificador de la coordenada o el EPGS. Este número es unico para cada uno de los sistemas de coordendas es decir que no se puede repetir y funciona para identificar. Con forme nosotros vayamos ingresando elementos en la barra de buscador las opciones en el menu de coordenadas predeterminadas iran cambiando. Cuando se termine de digitar debera a aprecer alli nuestra coordenada si eso no ocurre deberemos revisar la forma en la que escribimos la coordenada. A continuacion se les presenta una tabla con coordendas más utilizadas para el Perú tanto en coordenadas geograficas como proyectadas.
 
+<p align="center">
 | Coordenada | EPGS | Tipo | Descripción |
 | :---: | :---: | :---: | :--- |
 | WGS 84 | 4326 | Geográfica |    |
+</p>
  
 4.  
 5. 
