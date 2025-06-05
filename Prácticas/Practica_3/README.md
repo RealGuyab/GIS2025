@@ -34,12 +34,19 @@ ________________________________________________________________________________
 
 2.  Para configurar las coordenadas debemos ubicar la barra de buscador y escribir el nombre del sistema que necesitemos. Para que esto funcione existen dos formas la primera es escribir el nombre de la coordenada respestando espacios, caracteres y puntuación de ser necesario. La segunda es colocar el numero identificador de la coordenada o el EPGS. Este número es unico para cada uno de los sistemas de coordendas es decir que no se puede repetir y funciona para identificar. Con forme nosotros vayamos ingresando elementos en la barra de buscador las opciones en el menu de coordenadas predeterminadas iran cambiando. Cuando se termine de digitar debera a aprecer alli nuestra coordenada si eso no ocurre deberemos revisar la forma en la que escribimos la coordenada. A continuacion se les presenta una tabla con coordendas más utilizadas para el Perú tanto en coordenadas geograficas como proyectadas.
 
-<p align="center">
+
 | Coordenada | EPGS | Tipo | Descripción |
 | :---: | :---: | :---: | :--- |
-| WGS 84 | 4326 | Geográfica |    |
+| WGS 84 | 4326 | Geográfica | Este sistema de coordenadas se aplica para el trabajar con coordenadas cuando un proyecto tiene coordendas en multiples segmentos UTM. El sistema que se configura por defecto para Qgis es Grados decimales. Por elemplo -71.25652 o -25.58623. Su aplicación es a nivel mundial por lo que cualquier parte del mundo puede ser representada con este sistema de coordenadas. |
+| WGS 84 / UTM zone 17S | 32719 | Proyectadas | Son coordenadas proyectadas planares que utilizan como base las zona norte de Perú principalmente hasta aproximadamente la parte sur de Ancash y la perpendicular que se forma. Visualizar la imagen para comprender mejor su espacio de aplicación. |
+| WGS 84 / UTM zone 18S | 32719 | Proyectadas | Coordenadas proyectadas que se utilizan para la zona central de Perú desde la parte sur de Ancash hasta la ciudad de Mollendo en Arequipa. Visualizar la imagen para comprender mejor su espacio de aplicación. |
+| WGS 84 / UTM zone 19S | 32719 | Proyectadas | Coordenadas proyectadas que se utilizan principalmente para la zona Sur. Desde la ciudad de Mollendo en Arequipa hasta Tacna. Visualizar la imagen para comprender mejor su espacio de aplicación. |
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/839a422a-3940-45cf-bd5e-6e104726ab82" alt="aplicacion de zonas UTM" width=300>
 </p>
- 
+<p align="center">Imagen 2: Zonas de UTM que aplican a Perú </p> 
+
 4.  
 5. 
 
