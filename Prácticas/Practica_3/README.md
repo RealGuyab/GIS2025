@@ -25,7 +25,7 @@ IMPORTANTE. Reconocer la diferencia entre los sistemas de coordenadas proyectado
  y ubicamos la seccion SRC. El resultado debe ser el siguiente.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0" alt="Ubicaciuon cato">
+  <img src="https://github.com/user-attachments/assets/2f6e90a8-33d0-4b21-915d-4ad3a44c8aa0" alt="Ubicaciuon cato" width=200>
 </p>
 
 2. sad
