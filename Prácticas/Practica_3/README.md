@@ -65,13 +65,28 @@ ________________________________________________________________________________
 
 ## Creación de elementos vectoriales
 
+Los elementos vectoriales son una de las formas que tenemos para representar elementos dentro de un Sistema de Informacion Geográfica. La principal caracteristica de un elemento vectorial corresponde a que presentan limites definidos. Es decir, es es facil reconocer su ubicación puntual. Asi como, para el caso represetaciones de áreas, limites fisicos claros. Estos resultan siendo uno de los elementos mas utilizados en los GIS actualmente. 
+Algunos de los usos más representativos de este tipo de archivos se encuetra en los levantamientos catastrales de ciudades, en limites de areas naturales protegidas y delimitaciones de áreas agrícolas.
+
+<<<<Ingresar imagen de elementos vectoriales
+
+Existen principalmente 3 tipos de elementos vectoriales que se diferencian entre sí por su uso. Sin embargo estos no son exclueyentes ente si. Podemos utilizar tanto poligonos puntos o lineas para representar un mismo lugar. Se describiran los principales usos de cada elemento.
+
++ **Puntos**: Se utiliza cuando lo que nos interesa resaltar es la posición especifica de algún lugar o elemento que querramos representar. La información que podemos obtener de una cartografia de tipo puntos son sus coordenadas.
++ **Líneas**: Se utiliza cuando lo que nos interesa reconocer es la distancia que se recorre de un punto a otro. Normalmente se utiliza para elementos lineales como carreteras, rios, rutas, etc. En este tipo de datos podemos calcular su longitud. 
++ **Polígonos**: Se usan cuando se necesita establecer un límite dentro de un objeto que tiene un área definida. La información que se puede obtener de este tipo de cartografias se puede obtener tanto el el área como el perímetro
 
 
-### Creación de Puntos
-### Creación de lineas 
-### Creación de Poligonos
 
-### Edicion basica de elementos vectoriales
+<<<<< Ingresar imagen de puntos poligonos y lineas 
+
+### Actividad N°2: Creación de capas vecoriales
+
+### Actividad N°2: Creación de Puntos
+### Actividad N°3: Creación de Líneas 
+### Actividad N°4: Creación de Polígonos
+
+### Edicion básica de elementos vectoriales
 
 ## Complementar seleccion por localización 
 
