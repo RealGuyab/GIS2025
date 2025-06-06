@@ -49,9 +49,17 @@ ________________________________________________________________________________
 
 Para este ejercicio se seleccionará las coordendas WGS 84 / zone 19S
 
-3.  
-4. 
+3. Una vez que hayamos terminado de digitar el sistema de coordenadas nos dirigiremos a la zona de coordendas predeterminadas y selecionaremos el sistema que corresponde como se muestra en la imagen anexa.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/31bb21e5-6a59-474c-8942-eec4fde14005" alt="aplicacion de zonas UTM" width=400>
+</p>
+
+5. Una vez selecionada la coordenada verificamos como en la zona de previsualización cambiará mostrando la zona de interés dentro de una zona roja. Verificamos que corresponda a la zona 19S y damos clic en aceptar con ello el Qgis esta configurado a este nuevo sistema de coordendas.
+   
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b49efec-ed79-43da-a9a2-4842448649e2" alt="aplicacion de zonas UTM" width=400>
+</p>
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## Creación de elementos vectoriales
