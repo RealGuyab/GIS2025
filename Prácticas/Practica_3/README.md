@@ -60,6 +60,7 @@ Para este ejercicio se seleccionará las coordendas WGS 84 / zone 19S
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4b49efec-ed79-43da-a9a2-4842448649e2" alt="aplicacion de zonas UTM" width=500>
 </p>
+
 _________________________________________________________________________________________________________________________________________________________________________________
 
 ## Creación de elementos vectoriales
