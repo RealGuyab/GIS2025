@@ -76,11 +76,13 @@ Existen principalmente 3 tipos de elementos vectoriales que se diferencian entre
 + **Líneas**: Se utiliza cuando lo que nos interesa reconocer es la distancia que se recorre de un punto a otro. Normalmente se utiliza para elementos lineales como carreteras, rios, rutas, etc. En este tipo de datos podemos calcular su longitud. 
 + **Polígonos**: Se usan cuando se necesita establecer un límite dentro de un objeto que tiene un área definida. La información que se puede obtener de este tipo de cartografias se puede obtener tanto el el área como el perímetro
 
-
+Existen multiples formatos de guardado y compresion de archivos vectoriales. El que se abordará en esta guia son los archivos shape o .shp. Los datos Shape funciona de forma colectiva lo que quiere decir que se necesitan de algunos archivos adicionales para que puedan ser exportadas o enviadas de un usuario a otro. Esto se abordara a mayor detalle en la actividad N°2. 
 
 <<<<< Ingresar imagen de puntos poligonos y lineas 
 
-### Actividad N°2: Creación de capas vecoriales
+### Actividad N°2: Creación de capas vectoriales
+
+1. Para crear capas vectoriales 
 
 ### Actividad N°2: Creación de Puntos
 ### Actividad N°3: Creación de Líneas 
