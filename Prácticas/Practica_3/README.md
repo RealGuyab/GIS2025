@@ -80,9 +80,26 @@ Existen multiples formatos de guardado y compresion de archivos vectoriales. El 
 
 <<<<< Ingresar imagen de puntos poligonos y lineas 
 
-### Actividad N°2: Creación de capas vectoriales
+### Actividad N°2: Creación de capas vectoriales tipo shape
 
-1. Para crear capas vectoriales 
+1. Para crear capas vectoriales debemos hacer clic en nueva capa de archivo shape ![image](https://github.com/user-attachments/assets/610030b9-345f-472a-b640-4d1bb9787e6d) que se encuentra ubicado en la barra de herramientas.
+2. Esto habilitará una nueva ventana.
+ 
+![edicion_capas](https://github.com/user-attachments/assets/641cd129-f1c4-4f49-a2b7-8d1ce6b1c7be)
+
+Este nuevo menu cuenta con tres zonas de configuración. 
+
+a. La zona de configuración general de la capa: Aqui podremos ubicar un nombre y un lugar de guardado haciendo clic en este icono ![image](https://github.com/user-attachments/assets/67ac6630-49d9-4e9f-9671-b90c3e2037f0) se aperturará un buscador y alli podremos incluir la carpeta de destino donde queremos que se guarde nuestra nueva capa. 
+La segunda opción corresponde a la codificación en donde se encuentra por de fecto el sistema en el que sera encriptada la capa. En la mayoria de los casos la codificación deberia salir UTF-8. En caso esto no se diera puede quedarse por defecto con el que se encuentre. La diferencia que se encuentra entre un sistema de codificacion de capas y otro radica en que tipos de caracteres se puden escribir. Es decir es como el tipo de letra en un word. 
+Tipo de geometría en esta zona se puede establecer el tipo de geometría al que queremos configurar para nuestra capa. Existen tres opciones se abordará cada una mas adelante. 
+Por ultimo tenemos la herramientas dimensiones adicionales, aqui podemos establecer valores como alturas, etc en caso querramos configurar una capa 3D.
+Y finalmente en el recuadro inferior se encuentra el sistema de coordenadas. Cada capa tendrá su propio sistema de coordenadas que puede ser el mismo o diferente al que consiguyramos anteriormente en el Qgis. 
+
+b. Zona de configuración de tabla de atributos: Aqui podremos crear los campos de recolección de datos para las capas. Esta información es el nucleo principal de cualquier capa. Por que nos permiten representar datos relevantes teniendo en cuenta un segmento espacial. Se abordara en la siguiente práctica la importancia de un manejo correcto de una tabla de atributos. Pero es importante reconocer a este punto que una capa no es solamente un dibujo sino que viene anexa con informacion que mas adelante utilizaremos para obtener productos o nuevos análisis. 
+
+c. Previsualización de nuevos campos: 
+
+
 
 ### Actividad N°2: Creación de Puntos
 ### Actividad N°3: Creación de Líneas 
