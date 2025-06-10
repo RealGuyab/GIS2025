@@ -95,10 +95,9 @@ Tipo de geometría en esta zona se puede establecer el tipo de geometría al que
 Por ultimo tenemos la herramientas dimensiones adicionales, aqui podemos establecer valores como alturas, etc en caso querramos configurar una capa 3D.
 Y finalmente en el recuadro inferior se encuentra el sistema de coordenadas. Cada capa tendrá su propio sistema de coordenadas que puede ser el mismo o diferente al que consiguyramos anteriormente en el Qgis. 
 
-b. Zona de configuración de tabla de atributos: Aqui podremos crear los campos de recolección de datos para las capas. Esta información es el nucleo principal de cualquier capa. Por que nos permiten representar datos relevantes teniendo en cuenta un segmento espacial. Se abordara en la siguiente práctica la importancia de un manejo correcto de una tabla de atributos. Pero es importante reconocer a este punto que una capa no es solamente un dibujo sino que viene anexa con informacion que mas adelante utilizaremos para obtener productos o nuevos análisis. 
+b. Zona de configuración de tabla de atributos: Aqui podremos crear los campos de recolección de datos para las capas. Esta información es el nucleo principal de cualquier capa. Por que nos permiten representar datos relevantes teniendo en cuenta un segmento espacial. La tabla de atributos asemeja un libro de excel pero tiene sus particularidades. Se abordará en la siguiente práctica la importancia de un manejo correcto de una tabla de atributos. Pero es importante reconocer a este punto que una capa no es solamente un dibujo sino que viene anexa con informacion que mas adelante utilizaremos para obtener productos o nuevos análisis. 
 
-c. Previsualización de nuevos campos: 
-
+c. Previsualización de nuevos campos: Aqui se visualizan el nombre y la forma de codificación de cada uno de los campos que creemos, la logitud en caracteres que puede entrar en cada celda y en algunos casos los decimales (precisión) que haya para cada campo. 
 
 
 ### Actividad N°2: Creación de Puntos
