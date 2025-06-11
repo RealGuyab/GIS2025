@@ -83,12 +83,9 @@ Diferencia entre elementos raster y vector
 
 ## Creación de elementos vectoriales
 
-Los elementos vectoriales son una de las formas que tenemos para representar elementos dentro de un Sistema de Informacion Geográfica. La principal caracteristica de un elemento vectorial corresponde a que presentan limites definidos. Es decir, es es facil reconocer su ubicación puntual. Asi como, para el caso represetaciones de áreas, limites fisicos claros. Estos resultan siendo uno de los elementos mas utilizados en los GIS actualmente. 
-Algunos de los usos más representativos de este tipo de archivos se encuetra en los levantamientos catastrales de ciudades, en limites de areas naturales protegidas y delimitaciones de áreas agrícolas.
+Los elementos vectoriales como vimos previamente se caracterizan por establcer limites deifinos en las elemtnos que dibujamos dentro de cada capa. En este sentido es facil reconocer su ubicación puntual, el area que comprenden o los transector o caminos que se recorre en cada geometria. Para aplicaciones donde los limites son importantes este tipo de cartografía es crucial. Algunos de los usos más representativos de este tipo de archivos se encuetra en los levantamientos catastrales de ciudades, en limites de areas naturales protegidas, delimitaciones de áreas agrícolas, ubicacion de puntos de muestreo, discriminacion de carreteras o rios.
 
-<<<<Ingresar imagen de elementos vectoriales
-
-Existen principalmente 3 tipos de elementos vectoriales que se diferencian entre sí por su uso. Sin embargo estos no son exclueyentes ente si. Podemos utilizar tanto poligonos puntos o lineas para representar un mismo lugar. Se describiran los principales usos de cada elemento.
+Existen principalmente 3 tipos de elementos vectoriales que se diferencian entre sí por su uso. Sin embargo estos no son exclueyentes por lo que un mismo objeto en la realidad puede tener multiples formas de representación. Es decir, podemos utilizar tanto poligonos, puntos o lineas para representar un mismo lugar. A continuación se describen los principales usos y caracteristicas de cada elemento vectorial.
 
 + **Puntos**: Se utiliza cuando lo que nos interesa resaltar es la posición especifica de algún lugar o elemento que querramos representar. La información que podemos obtener de una cartografia de tipo puntos son sus coordenadas.
 + **Líneas**: Se utiliza cuando lo que nos interesa reconocer es la distancia que se recorre de un punto a otro. Normalmente se utiliza para elementos lineales como carreteras, rios, rutas, etc. En este tipo de datos podemos calcular su longitud. 
@@ -96,7 +93,9 @@ Existen principalmente 3 tipos de elementos vectoriales que se diferencian entre
 
 Existen multiples formatos de guardado y compresion de archivos vectoriales. El que se abordará en esta guia son los archivos shape o .shp. Los datos Shape funciona de forma colectiva lo que quiere decir que se necesitan de algunos archivos adicionales para que puedan ser exportadas o enviadas de un usuario a otro. Esto se abordara a mayor detalle en la actividad N°2. 
 
-<<<<< Ingresar imagen de puntos poligonos y lineas 
+![image](https://github.com/user-attachments/assets/415edeab-7ce6-4d9c-b51b-d12064c8d589)
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ### Actividad N°2: Creación de capas vectoriales tipo shape
 
@@ -134,7 +133,13 @@ Si los colores de los iconos de cada capa son diferentes a los mostrados en la i
 
 ![Captura de pantalla 2025-06-11 141822](https://github.com/user-attachments/assets/2995ebc9-59d2-4f5f-9d92-90e0bf428e11)
 
-### Actividad N°3: Creacion de elementos dentro de las capas vectoriales}
+8. Dentro de esta misma ventana encontraremos un hipevinculo en la subdivicion que dice general. Si hacemos clic nos llevara a la carpeta donde hemos guardado nuestra capa.  Notaremos que al ingresar se encontraran multiples archivos con el todos estos archivos componene una capa si se quisiera expotar se tendría que comprimir todos los archivos y enviarlos debidoa que si llegara a faltar alguno la capa no se podria aperturar. Estos son los archivos sidecar.
+   
+![Captura de pantalla 2025-06-11 141822](https://github.com/user-attachments/assets/bd3a1a33-b8bf-4142-9d36-558b3fca5414)
+
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+### Actividad N°3: Creacion de elementos dentro de las capas vectoriales
 
 
 
