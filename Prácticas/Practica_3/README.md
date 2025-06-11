@@ -91,13 +91,24 @@ Existen multiples formatos de guardado y compresion de archivos vectoriales. El 
 
 ![edicion_capas](https://github.com/user-attachments/assets/641cd129-f1c4-4f49-a2b7-8d1ce6b1c7be)
 
-3. Hasta aqui se ha visto la gran mayoria del menú de de configuracionde capas este se repetirá en las actividades siguientes indicando las configuraciones especiales para cada una de las capas. 
+3. Hasta aqui se ha visto la gran mayoria del menú de de configuracion de capas este se repetirá en las actividades siguientes indicando las configuraciones especiales para cada una de las capas. De esta forma podemos avanzar a la siguiente actividad-
+
+# Cartografía y representacion de elementos en mapas
+
+## Capas de tipo Punto
+
+
 
 ### Actividad N°2: Creación y edicion de capas de puntos
 
 1. 
 
+## Capas de tipo Línea
+
 ### Actividad N°3: Creación de Líneas 
+
+## Capas de tipo Polígono
+
 ### Actividad N°4: Creación de Polígonos
 
 ### Edicion básica de elementos vectoriales
