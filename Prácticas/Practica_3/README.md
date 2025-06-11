@@ -126,25 +126,19 @@ Se debera repetir estos pasos para las capas de poligosnos y lineas recodar que 
 
 Si los colores de los iconos de cada capa son diferentes a los mostrados en la imagen no se preocupen, estos se asignan de forma aleatoria por lo tanto es poco probable que tengan exactamente los mismos que se muestran en el ejemplo. 
 
-6. Verificaremos si los parametros de las capas haciendo clic derecho sobre alguna de ellas dirigiendonos al menu  
+6. Verificaremos si los parametros de las capas haciendo clic derecho sobre alguna de ellas dirigiendonos al menu propiedades
+
+![image](https://github.com/user-attachments/assets/7a24deda-613e-49e5-b5ba-a2e62884a3c4)
+  
+7. Esto aperturará una nueva ventana con multiples opciones nos diriremos a la que dice informacion y verificaremos que el sistema de coordenadas este configurado en 19s. 
+
+![Captura de pantalla 2025-06-11 141822](https://github.com/user-attachments/assets/2995ebc9-59d2-4f5f-9d92-90e0bf428e11)
+
+### Actividad N°3: Creacion de elementos dentro de las capas vectoriales}
 
 
 
 
 
-
-
-## Capas de tipo Punto
-
-
-
-### Actividad N°2: Edicion de entidades vectoriales
-1. 
-
-
-
-### Edicion básica de elementos vectoriales
-
-## Complementar seleccion por localización 
 
 
