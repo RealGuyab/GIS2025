@@ -63,6 +63,24 @@ Para este ejercicio se seleccionará las coordendas WGS 84 / zone 19S
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
+# Cartografía y representacion de elementos en mapas
+
+La cartografia es una actividad que consiste en la digitalización de los elementos que nosotros podemos observar desde un mapa base, algun mapa georreferenciado o coordenadas de la via real. Normalmente se utiliza para describir de mejor medida un lugar y poder obtenerdatos que de otra forma no seria posible. Un ejemplo de un tipo de cartografia correponden a los mapas catastrales de ciudades en donde cada una de las cuadras o lotes se transforman. 
+
+![image](https://github.com/user-attachments/assets/e7a86321-d85f-4bbf-b4ee-f3720e3449ba)
+Cartografía catastral
+
+## Diferencia entre datos Raster y Vectores
+
+Hay dos grupos de datos muy utilizados para aplicaciones en GIS y estos son los datos de tipo Raster y Vector. Cada uno de ellos tiene su popia utilidad definida con esto quiero decir que ninguno es mejor que otro sino que sus funciones son diferentes. 
+
+* Los datos de tipo **RASTER** son datos continuos y no presentan límites fisicos concretos. Normalmente estan estructurados a trabes de una malla de datos lo que comunmente conocemos como pixeles. Los rasteer normalmente se trabajan en formato TIFF, GeoTIFF, ASCII, JPEG, etc. Como habran podido ver algunos de estos formatos son los mismos para fotografias. Y es común utilizar raster al hacer analisis usando algunos tipos de imágenes satelitales. 
+
+* Los datos de tipo **VECTOR** son datos en donde se demuestra un límite difinido. Es decir existe una linea fisica de separa un elemento del otro. Estos datos son muy utilies para representar informacion discreta es decir que los limites nos indican algo. Por ejemplo una casa, una carretera, un rio, etc. A veces se utiliza informacion de tipo raster y se vuelve en vector para organizar mejor los datos y al mismo tiempo tener limites entre las cosas que observamos en una imagen Raster. Tal como se muestra en la imagen anexa. 
+
+![raster_vector](https://github.com/user-attachments/assets/0ec22f03-8a4c-41c8-9c53-e05c7329a04d)
+Diferencia entre elementos raster y vector
+
 ## Creación de elementos vectoriales
 
 Los elementos vectoriales son una de las formas que tenemos para representar elementos dentro de un Sistema de Informacion Geográfica. La principal caracteristica de un elemento vectorial corresponde a que presentan limites definidos. Es decir, es es facil reconocer su ubicación puntual. Asi como, para el caso represetaciones de áreas, limites fisicos claros. Estos resultan siendo uno de los elementos mas utilizados en los GIS actualmente. 
@@ -82,8 +100,9 @@ Existen multiples formatos de guardado y compresion de archivos vectoriales. El 
 
 ### Actividad N°2: Creación de capas vectoriales tipo shape
 
-1. Para crear capas vectoriales debemos hacer clic en nueva capa de archivo shape ![image](https://github.com/user-attachments/assets/610030b9-345f-472a-b640-4d1bb9787e6d) que se encuentra ubicado en la barra de herramientas.
-2. Esto habilitará una nueva ventana que cuenta con tres zonas de configuración. 
+1. Crearemos una nueva carpeta en nuestro buscador con el nombre de "Elementos_vectoriales" y procederemos a aperturar el Qgis
+2. Para crear capas vectoriales dentro de Qgis debemos hacer clic en nueva capa de archivo shape ![image](https://github.com/user-attachments/assets/610030b9-345f-472a-b640-4d1bb9787e6d) que se encuentra ubicado en la barra de herramientas.
+3. Esto habilitará una nueva ventana que cuenta con tres zonas de configuración. 
 
 + **Zona de configuración general de nueva capa**: Aqui podremos ubicar un nombre y un lugar de guardado haciendo clic en este icono ![image](https://github.com/user-attachments/assets/67ac6630-49d9-4e9f-9671-b90c3e2037f0) se aperturará un buscador y alli podremos incluir la carpeta de destino donde queremos que se guarde nuestra nueva capa. La segunda opción corresponde a la codificación en donde se encuentra por defecto de encriptación de la capa. En la mayoria de los casos la codificación deberia salir UTF-8. Si esto no se diera puede quedarse por defecto con el que se encuentre. La diferencia que se encuentra en que tipos de caracteres se puden escribir. Es decir es como el tipo de letra en un word. En tipo de geometría se puede establecer la geometría al que queremos configurar para nuestra capa. Existen cuadro opciones (puntos, líneas, poligonos y multipunto) se abordará cada una más adelante. Como siguiente opción de configuracion se tiene la herramientas dimensiones adicionales, aquí podemos establecer valores como alturas, etc en caso querramos configurar una capa 3D.Y finalmente en el recuadro inferior se encuentra el sistema de coordenadas este debe configurarse cada vez que se cree una nueva capa debido a que tendrá su propio sistema de coordenadas que puede ser el mismo o diferente al que configuramos anteriormente en el Qgis.
 + **Zona de configuración de tabla de atributos**: Aqui podremos crear los campos de recolección de datos para las capas. Esta información es el nucleo principal de cualquier capa. Por que nos permiten representar datos relevantes teniendo en cuenta un segmento espacial. La tabla de atributos asemeja un libro de excel pero tiene sus particularidades. Se abordará en la siguiente práctica la importancia de un manejo correcto de una tabla de atributos. Pero es importante reconocer a este punto que una capa no es solamente un dibujo sino que viene anexa con informacion que mas adelante utilizaremos para obtener productos o nuevos análisis. 
@@ -91,25 +110,38 @@ Existen multiples formatos de guardado y compresion de archivos vectoriales. El 
 
 ![edicion_capas](https://github.com/user-attachments/assets/641cd129-f1c4-4f49-a2b7-8d1ce6b1c7be)
 
-3. Hasta aqui se ha visto la gran mayoria del menú de de configuracion de capas este se repetirá en las actividades siguientes indicando las configuraciones especiales para cada una de las capas. De esta forma podemos avanzar a la siguiente actividad-
+4. Crearemos tres capas una para puntos y se debera repetir el ejercicio para poligonos y lineas (lo unico que debera cambiar es el tipo de geometria)
 
-# Cartografía y representacion de elementos en mapas
+   * En nombre de archivo ubicaremos la carpeta que creamos en el punto 1, y asignaremos un nombre de acuerdo a la cartografia que deseamos es decir como haremos una capa de puntos tendremos que asignarle el nombre de puntos, a la etapa de líneas se le asignan líneas y a polígonos se le pondrá polígonos
+   * En codificación del archivo intentaremos que se mantenga en UTF-8
+   * Para tipo de archivo desplegaremos la lista y asignaremos el valor de punto tener en cuenta que hay dos tipos multipuntos y punto para este ejercicio solamente nos concentraremos en el valor de punto
+   * Tenemos que asegurarnos que las coordenadas de trabajo estén configuradas en 19S por lo tanto modificar modificar las coordenadas de acuerdo a lo visto en la actividad N°1.
+   * De momento no se asignará ningún valor para la tabla de atributos con esto hemos finalizado la modificación de datos simplemente darle a aceptar.
+
+Se debera repetir estos pasos para las capas de poligosnos y lineas recodar que solo se esta cambiando el tipo de dato el resto de valores, para este ejercicio, quedan iguales. Sin embargo, tener cuidado con las coordenadas de trabajo. 
+
+5. Al momento en que le damos aceptar se genera una nueva A capa en el menú de capas de Cullis el resultado luego de haber creado las 3 capas Deberá hacer algo parecido a esto
+
+ ![image](https://github.com/user-attachments/assets/ed7b1991-2bbe-4492-870c-7018a4d234a8)
+
+Si los colores de los iconos de cada capa son diferentes a los mostrados en la imagen no se preocupen, estos se asignan de forma aleatoria por lo tanto es poco probable que tengan exactamente los mismos que se muestran en el ejemplo. 
+
+6. Verificaremos si los parametros de las capas haciendo clic derecho sobre alguna de ellas dirigiendonos al menu  
+
+
+
+
+
+
 
 ## Capas de tipo Punto
 
 
 
-### Actividad N°2: Creación y edicion de capas de puntos
-
+### Actividad N°2: Edicion de entidades vectoriales
 1. 
 
-## Capas de tipo Línea
 
-### Actividad N°3: Creación de Líneas 
-
-## Capas de tipo Polígono
-
-### Actividad N°4: Creación de Polígonos
 
 ### Edicion básica de elementos vectoriales
 
